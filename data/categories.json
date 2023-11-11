@@ -2,98 +2,278 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <2> but was: <1>",
+      "children" : [ {
+        "name" : "diseaseTests()",
+        "uid" : "cd80af0d24745fc2",
+        "parentUid" : "fe0fa5d3154d937123e8f77faa76f1f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699695554092,
+          "stop" : 1699695611709,
+          "duration" : 57617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe0fa5d3154d937123e8f77faa76f1f5"
+    }, {
+      "name" : "Element not found: By.xpath: //android.widget.EditText[contains(@resource-id, \"ru.sogaz.app.stage:id/input_password\")]",
+      "children" : [ {
+        "name" : "recoveryPass()",
+        "uid" : "43ccd89579c2943",
+        "parentUid" : "7ea30b5fdf70ea5a29b9858bf5864ad4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699697023876,
+          "stop" : 1699697069566,
+          "duration" : 45690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ea30b5fdf70ea5a29b9858bf5864ad4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //androidx.appcompat.widget.LinearLayoutCompat[1] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "sliderNavigationTests()",
-        "uid" : "2e0d35e755989018",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "name" : "analyzesTests()",
+        "uid" : "df8bd336fb133073",
+        "parentUid" : "fa1b1bd3af99d3614f1476063f3f49bb",
         "status" : "broken",
         "time" : {
-          "start" : 1699691422952,
-          "stop" : 1699691494491,
-          "duration" : 71539
+          "start" : 1699695756684,
+          "stop" : 1699695833493,
+          "duration" : 76809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa1b1bd3af99d3614f1476063f3f49bb"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/image (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 2b5db0d2-174e-42b0-8b44-d6c50456f8db",
+      "children" : [ {
+        "name" : "sliderNavigationTests()",
+        "uid" : "a5f35b443a5a0c17",
+        "parentUid" : "58f559e0db92fff3bd6b0b05c605bfbf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699695833498,
+          "stop" : 1699696034446,
+          "duration" : 200948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58f559e0db92fff3bd6b0b05c605bfbf"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.LinearLayout[@resource-id=\"ru.sogaz.app.stage:id/calculator\"]/android.widget.TextView (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "sectionsAndModalsTests()",
+        "uid" : "35d024d107e078e",
+        "parentUid" : "0fba226b345540fb9e434970afec34bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696034450,
+          "stop" : 1699696116972,
+          "duration" : 82522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0fba226b345540fb9e434970afec34bf"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "exitFromQuestionnaire()",
+        "uid" : "3e1ed88d110d95c5",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696116976,
+          "stop" : 1699696181318,
+          "duration" : 64342
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "sectionsAndModalsTests()",
-        "uid" : "d9a8876c887dc706",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1699691494578,
-          "stop" : 1699691563540,
-          "duration" : 68962
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeTable/XCUIElementTypeCell (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
         "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "7468ea4b80068450",
-        "parentUid" : "af4b4995e381c791397f60c96092719d",
+        "uid" : "49c42a74db80ca5a",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1699691741800,
-          "stop" : 1699691943230,
-          "duration" : 201430
+          "start" : 1699696181321,
+          "stop" : 1699696245353,
+          "duration" : 64032
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "af4b4995e381c791397f60c96092719d"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeCollectionView)[2]/XCUIElementTypeCell (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
+      }, {
+        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+        "uid" : "3f7a3279cfbbd5ae",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696245410,
+          "stop" : 1699696313906,
+          "duration" : 68496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigatingThroughQuestionnaireScreens()",
+        "uid" : "a50c307e8fe8f372",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696313909,
+          "stop" : 1699696379254,
+          "duration" : 65345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+        "uid" : "42b2dc3f612c6517",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696379257,
+          "stop" : 1699696442201,
+          "duration" : 62944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+        "uid" : "5dc89c9af557aabb",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696442204,
+          "stop" : 1699696511575,
+          "duration" : 69371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "85bad4168d397574",
-        "parentUid" : "e9a9b3894ecd250474b2c7bdc11f1272",
+        "uid" : "bd60bcf4219a07fa",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1699692654468,
-          "stop" : 1699692873068,
-          "duration" : 218600
+          "start" : 1699696511578,
+          "stop" : 1699696592216,
+          "duration" : 80638
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "e9a9b3894ecd250474b2c7bdc11f1272"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Выйти из опроса\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
+      }, {
         "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "c6646af1d0b7e1ac",
-        "parentUid" : "b9ee1cf7eb775cad578a7da82f3a7048",
+        "uid" : "f44d286bb4ce9a0a",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1699693491027,
-          "stop" : 1699693652801,
-          "duration" : 161774
+          "start" : 1699696830318,
+          "stop" : 1699696895369,
+          "duration" : 65051
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b9ee1cf7eb775cad578a7da82f3a7048"
+      "uid" : "0f5af47d1f874975e68f857ba40d7a6b"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1092:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "goBackToSymptomsSelectionPage()",
+        "uid" : "ace5f6d53542818d",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696592221,
+          "stop" : 1699696616875,
+          "duration" : 24654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cad920926e5128598702d9640bec24ce"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 9b9a51a4-6177-4c53-aef6-779d8a1f7b0e\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
+      "children" : [ {
+        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
+        "uid" : "209aebaf854bce1e",
+        "parentUid" : "21e8abad915223488fbe5fcd60edfa8c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696682410,
+          "stop" : 1699696688440,
+          "duration" : 6030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21e8abad915223488fbe5fcd60edfa8c"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "questionnaireOpensForAdultPatient()",
+        "uid" : "d7bc8e352e6b6f70",
+        "parentUid" : "bc46bddb3268c64bea220ec9549fcfa2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696688442,
+          "stop" : 1699696763142,
+          "duration" : 74700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
+        "uid" : "ef7b00f8ff321e50",
+        "parentUid" : "bc46bddb3268c64bea220ec9549fcfa2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699696764182,
+          "stop" : 1699696830316,
+          "duration" : 66134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc46bddb3268c64bea220ec9549fcfa2"
     }, {
       "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: RemoteWebDriver",
       "children" : [ {
         "name" : "ConsultationTest",
-        "uid" : "198233b639b70bc8",
+        "uid" : "a5ac1a899d3947fe",
         "parentUid" : "5948fba9bba54a834036eb26e44dc543",
         "status" : "broken",
         "time" : {
-          "start" : 1699693945668,
-          "stop" : 1699693945668,
+          "start" : 1699697069575,
+          "stop" : 1699697069575,
           "duration" : 0
         },
         "flaky" : false,
