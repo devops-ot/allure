@@ -1,43 +1,4 @@
 {
-  "60ad711f96ae91af8fa840af672238e2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b9bf0f2c39483584",
-      "status" : "broken",
-      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n ru.sogaz.app.stage/ru.sogaz.app.feature_splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n ru.sogaz.app.stage/ru.sogaz.app.feature_splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1092:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "time" : {
-        "start" : 1699961958439,
-        "stop" : 1699962067915,
-        "duration" : 109476
-      }
-    } ]
-  },
-  "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6bffee4c84f37982",
-      "status" : "passed",
-      "time" : {
-        "start" : 1699957575975,
-        "stop" : 1699957667672,
-        "duration" : 91697
-      }
-    } ]
-  },
   "ba6a924fce26128c6ee2510e73e8a21d" : {
     "statistic" : {
       "failed" : 0,
@@ -48,13 +9,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2a01f462cbe58b33",
+      "uid" : "84b0d5d41a9bb45e",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699960642738,
-        "stop" : 1699960939067,
-        "duration" : 296329
+        "start" : 1699964865851,
+        "stop" : 1699964926666,
+        "duration" : 60815
+      }
+    } ]
+  },
+  "60ad711f96ae91af8fa840af672238e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26cd060b434734f5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699965397421,
+        "stop" : 1699965455089,
+        "duration" : 57668
+      }
+    } ]
+  },
+  "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a280d98720804da6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699963306317,
+        "stop" : 1699963434018,
+        "duration" : 127701
       }
     } ]
   },
@@ -68,33 +69,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7f648683962f3ca",
+      "uid" : "940fbc0938f59b71",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699961575873,
-        "stop" : 1699961616233,
-        "duration" : 40360
-      }
-    } ]
-  },
-  "1861d2113478472056474c95422ed11b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6b2742ee82b9c023",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1699960515093,
-        "stop" : 1699960580427,
-        "duration" : 65334
+        "start" : 1699965160008,
+        "stop" : 1699965225301,
+        "duration" : 65293
       }
     } ]
   },
@@ -108,13 +89,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "639824577afb658e",
+      "uid" : "2a36c061876c8c53",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699959832095,
-        "stop" : 1699959999556,
-        "duration" : 167461
+        "start" : 1699964226550,
+        "stop" : 1699964311856,
+        "duration" : 85306
+      }
+    } ]
+  },
+  "1861d2113478472056474c95422ed11b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2e0465f4ec0cdd1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699964740819,
+        "stop" : 1699964797362,
+        "duration" : 56543
       }
     } ]
   },
@@ -128,13 +129,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1f9fdc3f9db477c0",
+      "uid" : "b768e821082ef993",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.LinearLayout[@resource-id=\"ru.sogaz.app.stage:id/calculator\"]/android.widget.TextView (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699959455571,
-        "stop" : 1699959549878,
-        "duration" : 94307
+        "start" : 1699964110333,
+        "stop" : 1699964169479,
+        "duration" : 59146
       }
     } ]
   },
@@ -148,13 +149,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a40d0eeeb071c08b",
+      "uid" : "2cce891f3f222170",
       "status" : "broken",
-      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n ru.sogaz.app.stage/ru.sogaz.app.feature_splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n ru.sogaz.app.stage/ru.sogaz.app.feature_splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1092:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699958973573,
-        "stop" : 1699959076334,
-        "duration" : 102761
+        "start" : 1699963955175,
+        "stop" : 1699964011556,
+        "duration" : 56381
       }
     } ]
   },
@@ -168,13 +169,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7342ba6b353ead54",
+      "uid" : "a70391f83cd07ff2",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699961916576,
-        "stop" : 1699961958436,
-        "duration" : 41860
+        "start" : 1699965340699,
+        "stop" : 1699965397407,
+        "duration" : 56708
       }
     } ]
   },
@@ -188,32 +189,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "80fefab2b5a8bb74",
+      "uid" : "491609e044885083",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962521450,
-        "stop" : 1699962613749,
-        "duration" : 92299
+        "start" : 1699965802795,
+        "stop" : 1699965859475,
+        "duration" : 56680
       }
     } ]
   },
   "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a8f5f4ae433fe0e3",
-      "status" : "passed",
+      "uid" : "238a7d88b86fc5d5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699958318747,
-        "stop" : 1699958450433,
-        "duration" : 131686
+        "start" : 1699963772535,
+        "stop" : 1699963829289,
+        "duration" : 56754
       }
     } ]
   },
@@ -227,32 +229,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1223c2b8845ab0c",
+      "uid" : "e014fe423a8b3748",
       "status" : "broken",
-      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 599bbfd3-9a62-4b5f-a7a2-ae28574f2569\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962680528,
-        "stop" : 1699962686431,
-        "duration" : 5903
-      }
-    } ]
-  },
-  "f67134439d58a9cfb24d3a9c728841eb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3488b3e22b3d76ea",
-      "status" : "passed",
-      "time" : {
-        "start" : 1699958154649,
-        "stop" : 1699958318745,
-        "duration" : 164096
+        "start" : 1699965869727,
+        "stop" : 1699965930381,
+        "duration" : 60654
       }
     } ]
   },
@@ -266,36 +249,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46fe13657ce13286",
+      "uid" : "39927011a86adf9d",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962073789,
-        "stop" : 1699962120347,
-        "duration" : 46558
+        "start" : 1699965511189,
+        "stop" : 1699965567332,
+        "duration" : 56143
       }
     } ]
   },
   "91a94f66aeb0558dc939814d48ff7247" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b642328453c0b09f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1699961151639,
-        "stop" : 1699961302937,
-        "duration" : 151298
-      }
-    } ]
-  },
-  "43654123208c6e7a3c356c0133360b1a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -305,13 +269,72 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5bf4145992ae4ef7",
+      "uid" : "49029656cb38f51a",
       "status" : "broken",
-      "statusDetails" : "KeyCharacterMap.getEvents is unable to synthesize KeyEvent sequence out of '1052' key code. Consider applying a patch to UiAutomator2 server code or try to synthesize the necessary key event(s) for it manually\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c1c033de-d22a-434b-a389-c57d72e7d85e",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699961302941,
-        "stop" : 1699961575871,
-        "duration" : 272930
+        "start" : 1699965039790,
+        "stop" : 1699965096030,
+        "duration" : 56240
+      }
+    } ]
+  },
+  "f67134439d58a9cfb24d3a9c728841eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dea3c9cdff3f04fe",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699963639606,
+        "stop" : 1699963772525,
+        "duration" : 132919
+      }
+    } ]
+  },
+  "43654123208c6e7a3c356c0133360b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3078e87aab410d69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699965096045,
+        "stop" : 1699965159998,
+        "duration" : 63953
+      }
+    } ]
+  },
+  "67290ec330cbe4f448f8e0796f878d36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37e7e9e51d255241",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699963899300,
+        "stop" : 1699963955164,
+        "duration" : 55864
       }
     } ]
   },
@@ -325,52 +348,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "719beeed92094ce",
+      "uid" : "bd2a4e44e8fcb23",
       "status" : "broken",
-      "statusDetails" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' is not linked to the same object in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: e0b8300d-0ad6-4276-b60a-726be5985b23",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699960184155,
-        "stop" : 1699960285347,
-        "duration" : 101192
-      }
-    } ]
-  },
-  "67290ec330cbe4f448f8e0796f878d36" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1aae2bd904bbfe3c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1699958788606,
-        "stop" : 1699958973568,
-        "duration" : 184962
-      }
-    } ]
-  },
-  "c951c31819658f382621e69b41c736d5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f424b9e065b0fc9c",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1699957531480,
-        "stop" : 1699957575921,
-        "duration" : 44441
+        "start" : 1699964428436,
+        "stop" : 1699964485633,
+        "duration" : 57197
       }
     } ]
   },
@@ -384,89 +368,113 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9702ffc095ddb859",
+      "uid" : "e901b91f74c8bd35",
       "status" : "broken",
-      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a3e37b5a-e83a-49f3-bf2d-6d3e0ab00713\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962067916,
-        "stop" : 1699962073786,
-        "duration" : 5870
+        "start" : 1699965455098,
+        "stop" : 1699965511182,
+        "duration" : 56084
+      }
+    } ]
+  },
+  "c951c31819658f382621e69b41c736d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d764c33e56a84f60",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699963151242,
+        "stop" : 1699963306232,
+        "duration" : 154990
       }
     } ]
   },
   "26bac62248ca4bd68ebe8c33827f49f7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b59d47346beeeb5c",
-      "status" : "passed",
+      "uid" : "9a7c52446953aed7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699957918342,
-        "stop" : 1699958154646,
-        "duration" : 236304
+        "start" : 1699963583394,
+        "stop" : 1699963639600,
+        "duration" : 56206
       }
     } ]
   },
   "a14515df15238203fd036a7eacddc2f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3ad8fa1fe436cf3a",
-      "status" : "passed",
+      "uid" : "279feddd6bb92ff0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962686435,
-        "stop" : 1699962754280,
-        "duration" : 67845
+        "start" : 1699965930392,
+        "stop" : 1699965986558,
+        "duration" : 56166
       }
     } ]
   },
   "8b25fd7bd9ed845d19081ee0799ea118" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba9b36be441245e4",
-      "status" : "passed",
+      "uid" : "842ba64497bc63fd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699958545438,
-        "stop" : 1699958788603,
-        "duration" : 243165
+        "start" : 1699963829298,
+        "stop" : 1699963899290,
+        "duration" : 69992
       }
     } ]
   },
   "5e94fe62b62986319f169be63613673" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd3dbd10edcd3277",
-      "status" : "passed",
+      "uid" : "8d747dea6ede16fa",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699957667864,
-        "stop" : 1699957849389,
-        "duration" : 181525
+        "start" : 1699963434033,
+        "stop" : 1699963490933,
+        "duration" : 56900
       }
     } ]
   },
@@ -480,13 +488,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87e16634a96e101d",
+      "uid" : "bb49a72a3635fa03",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699959999559,
-        "stop" : 1699960065312,
-        "duration" : 65753
+        "start" : 1699964312051,
+        "stop" : 1699964368332,
+        "duration" : 56281
       }
     } ]
   },
@@ -500,13 +508,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c391f2fc30753290",
+      "uid" : "1c69814f184b42dc",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699959549883,
-        "stop" : 1699959832092,
-        "duration" : 282209
+        "start" : 1699964169494,
+        "stop" : 1699964226540,
+        "duration" : 57046
       }
     } ]
   },
@@ -520,13 +528,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "79f6c8d2e9f9bf7f",
+      "uid" : "3fe78b96494bdaf9",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699961616235,
-        "stop" : 1699961728102,
-        "duration" : 111867
+        "start" : 1699965225311,
+        "stop" : 1699965283820,
+        "duration" : 58509
       }
     } ]
   },
@@ -540,13 +548,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba804a151c396af9",
+      "uid" : "5a4b85eb05e0df58",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699960285350,
-        "stop" : 1699960350821,
-        "duration" : 65471
+        "start" : 1699964485645,
+        "stop" : 1699964620166,
+        "duration" : 134521
       }
     } ]
   },
@@ -560,13 +568,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43853ec141c3896c",
+      "uid" : "47e0ec0ea1589901",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699960065314,
-        "stop" : 1699960184152,
-        "duration" : 118838
+        "start" : 1699964368341,
+        "stop" : 1699964428429,
+        "duration" : 60088
       }
     } ]
   },
@@ -580,13 +588,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4d5630ca93abd4",
+      "uid" : "c8b7d053c732182a",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962120349,
-        "stop" : 1699962168193,
-        "duration" : 47844
+        "start" : 1699965567340,
+        "stop" : 1699965623716,
+        "duration" : 56376
       }
     } ]
   },
@@ -600,13 +608,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca8e83b0e203c5ed",
+      "uid" : "2f8ed5f856970542",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962214820,
-        "stop" : 1699962513075,
-        "duration" : 298255
+        "start" : 1699965686798,
+        "stop" : 1699965745193,
+        "duration" : 58395
       }
     } ]
   },
@@ -620,13 +628,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d52a5fae19d06e95",
+      "uid" : "542ff3ed626972a9",
       "status" : "broken",
-      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c07492cd-f46b-4216-a527-7d3cdc3ccfce\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962514208,
-        "stop" : 1699962521447,
-        "duration" : 7239
+        "start" : 1699965745410,
+        "stop" : 1699965802784,
+        "duration" : 57374
       }
     } ]
   },
@@ -640,32 +648,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96ab89caba6d79ec",
+      "uid" : "15024f362f7768c5",
       "status" : "failed",
-      "statusDetails" : "Element not found: By.xpath: //android.widget.EditText[contains(@resource-id, \"ru.sogaz.app.stage:id/input_password\")]",
+      "statusDetails" : "Element By.className: XCUIElementTypeTextField is not equals to: artur.antonov@overteam.ru",
       "time" : {
-        "start" : 1699962614918,
-        "stop" : 1699962679184,
-        "duration" : 64266
+        "start" : 1699965859489,
+        "stop" : 1699965869692,
+        "duration" : 10203
       }
     } ]
   },
   "8c176700601bd05c1972864a7d482183" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e3aefeba451d037e",
-      "status" : "passed",
+      "uid" : "592273d93f16da9b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699957849538,
-        "stop" : 1699957918339,
-        "duration" : 68801
+        "start" : 1699963490943,
+        "stop" : 1699963583054,
+        "duration" : 92111
       }
     } ]
   },
@@ -679,13 +688,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38c1186957f477a",
+      "uid" : "b339c86d0baa8b8b",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699961728104,
-        "stop" : 1699961915340,
-        "duration" : 187236
+        "start" : 1699965284139,
+        "stop" : 1699965340690,
+        "duration" : 56551
       }
     } ]
   },
@@ -699,12 +708,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "32366459b3d58226",
+      "uid" : "e8f23ac58c6b6e67",
       "status" : "broken",
       "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: RemoteWebDriver",
       "time" : {
-        "start" : 1699962680518,
-        "stop" : 1699962680518,
+        "start" : 1699965869723,
+        "stop" : 1699965869723,
         "duration" : 0
       }
     } ]
@@ -719,32 +728,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aa0465f04e90a5ba",
+      "uid" : "bd39c9754ce38f45",
       "status" : "broken",
-      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: timeout of 240000ms exceeded\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 4027c179-c8f3-4a7d-a3fb-3a3d86bbf17e\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699959076338,
-        "stop" : 1699959454433,
-        "duration" : 378095
+        "start" : 1699964011572,
+        "stop" : 1699964110322,
+        "duration" : 98750
       }
     } ]
   },
   "2ebd030ead2202f2de6f1bad7e5cfed6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e6924aee41e9f55",
-      "status" : "passed",
+      "uid" : "4177482408e4dbab",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699960580430,
-        "stop" : 1699960642736,
-        "duration" : 62306
+        "start" : 1699964797371,
+        "stop" : 1699964865842,
+        "duration" : 68471
       }
     } ]
   },
@@ -758,13 +768,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "adb669703f0c0486",
+      "uid" : "984814e9a5952725",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699962168196,
-        "stop" : 1699962214665,
-        "duration" : 46469
+        "start" : 1699965623725,
+        "stop" : 1699965686789,
+        "duration" : 63064
       }
     } ]
   },
@@ -778,33 +788,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae9ea3dc5345529a",
+      "uid" : "fee3e1c80f02351d",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699961047245,
-        "stop" : 1699961150956,
-        "duration" : 103711
-      }
-    } ]
-  },
-  "68b47b537cfcf9d4ef3daef0137ef71f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cd8f0cacb827b8ec",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1699960939072,
-        "stop" : 1699961047243,
-        "duration" : 108171
+        "start" : 1699964983262,
+        "stop" : 1699965039781,
+        "duration" : 56519
       }
     } ]
   },
@@ -818,13 +808,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d699d47ecdb419a",
+      "uid" : "e02d3f01a0fe3972",
       "status" : "broken",
-      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 529b1bb4-cb1a-41c0-b738-1faf3eaaa5dc\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1699960350823,
-        "stop" : 1699960514280,
-        "duration" : 163457
+        "start" : 1699964620175,
+        "stop" : 1699964740627,
+        "duration" : 120452
+      }
+    } ]
+  },
+  "68b47b537cfcf9d4ef3daef0137ef71f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26d8f2a109af4d47",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699964926674,
+        "stop" : 1699964983252,
+        "duration" : 56578
       }
     } ]
   }
