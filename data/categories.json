@@ -4,59 +4,63 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for number of elements found by By.xpath: //XCUIElementTypeImage to be more than \"1\". Current number: \"1\" (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: a608a677-c7ea-4c2b-9ac6-66e5816e98d3",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "doctorConclusionTests()",
-        "uid" : "474e59d685dcd4c2",
-        "parentUid" : "d58fa050b3fcd2dc17e6d312e924ef56",
+        "name" : "addInsuranceAV()",
+        "uid" : "e40a46898dc258f7",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1701287878833,
-          "stop" : 1701288178507,
-          "duration" : 299674
+          "start" : 1701302249010,
+          "stop" : 1701302290586,
+          "duration" : 41576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceCV()",
+        "uid" : "94e1fed10ea3470",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701302296565,
+          "stop" : 1701302338318,
+          "duration" : 41753
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d58fa050b3fcd2dc17e6d312e924ef56"
+      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: db37e936-f757-44c5-a0a9-93dc7677c420\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
+      "children" : [ {
+        "name" : "addInsuranceAM()",
+        "uid" : "9d3fdf4a08f9216f",
+        "parentUid" : "105106bb5ce8e423d52f64726a0d1f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701302290590,
+          "stop" : 1701302296563,
+          "duration" : 5973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "105106bb5ce8e423d52f64726a0d1f31"
     }, {
       "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
       "children" : [ {
-        "name" : "sliderNavigationTests()",
-        "uid" : "bfcc42a4c21babeb",
+        "name" : "checkup59()",
+        "uid" : "2eb5a0850da14c87",
         "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
         "status" : "broken",
         "time" : {
-          "start" : 1701289227087,
-          "stop" : 1701289281525,
-          "duration" : 54438
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sectionsAndModalsTests()",
-        "uid" : "9b48295cf9b25908",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701289281541,
-          "stop" : 1701289332167,
-          "duration" : 50626
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "ednaChatTests()",
-        "uid" : "e574afd0caf67bce",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701291573722,
-          "stop" : 1701291637255,
-          "duration" : 63533
+          "start" : 1701302420371,
+          "stop" : 1701302489354,
+          "duration" : 68983
         },
         "flaky" : false,
         "newFailed" : false,
@@ -64,177 +68,43 @@
       } ],
       "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: //XCUIElementTypeStaticText[@name=\"Регистрация\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: (//android.widget.TextView[contains(@text,\".pdf\")])[1] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "addInsuranceAV()",
-        "uid" : "754b4dcf852b8de3",
-        "parentUid" : "b91f0bff7e2944ba4a4f9078699f3a44",
+        "name" : "ednaChatTests()",
+        "uid" : "7d03266566b4abd1",
+        "parentUid" : "993133c474192ca2009ebfa352e4ab5d",
         "status" : "broken",
         "time" : {
-          "start" : 1701291280796,
-          "stop" : 1701291347519,
-          "duration" : 66723
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "77c1ac9a77a30da1",
-        "parentUid" : "b91f0bff7e2944ba4a4f9078699f3a44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701291347701,
-          "stop" : 1701291415987,
-          "duration" : 68286
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceCV()",
-        "uid" : "2969288c4eca5d64",
-        "parentUid" : "b91f0bff7e2944ba4a4f9078699f3a44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701291416000,
-          "stop" : 1701291485055,
-          "duration" : 69055
+          "start" : 1701302489357,
+          "stop" : 1701302584233,
+          "duration" : 94876
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b91f0bff7e2944ba4a4f9078699f3a44"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(@name, 'Онлайн- диангостика')] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "checkup18()",
-        "uid" : "e542d71460fd1b3b",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701291637472,
-          "stop" : 1701291750439,
-          "duration" : 112967
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup27()",
-        "uid" : "17e43ba8d88f6be6",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701291750460,
-          "stop" : 1701291860990,
-          "duration" : 110530
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup28()",
-        "uid" : "5c0670f9343cc6dc",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701291861159,
-          "stop" : 1701291972752,
-          "duration" : 111593
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup40()",
-        "uid" : "635f4d596ad7bc3",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701291972766,
-          "stop" : 1701292083938,
-          "duration" : 111172
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup41()",
-        "uid" : "7a8c79acbf7fb6d0",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701292084097,
-          "stop" : 1701292195104,
-          "duration" : 111007
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup50()",
-        "uid" : "5224c6aa492c8492",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701292195125,
-          "stop" : 1701292305346,
-          "duration" : 110221
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup51()",
-        "uid" : "a2025c0c966bc72",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701292305510,
-          "stop" : 1701292414516,
-          "duration" : 109006
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup59()",
-        "uid" : "29fa60f41f9119c5",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701292414533,
-          "stop" : 1701292524747,
-          "duration" : 110214
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "34ebc9eca8aed255d2895bcb9e2ac8b4"
+      "uid" : "993133c474192ca2009ebfa352e4ab5d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found: By.id: Данные о заболевании добавлены",
+      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные о заболевании добавлены\"]",
       "children" : [ {
         "name" : "diseaseTests()",
-        "uid" : "2e75042e27a7967f",
-        "parentUid" : "68c2ca1261b38eee68a8734cd5d9e02f",
+        "uid" : "39ef137fb94b3f88",
+        "parentUid" : "a4938c085bb0a55691dc35d689c2c781",
         "status" : "failed",
         "time" : {
-          "start" : 1701288618282,
-          "stop" : 1701288733653,
-          "duration" : 115371
+          "start" : 1701302338322,
+          "stop" : 1701302420241,
+          "duration" : 81919
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "68c2ca1261b38eee68a8734cd5d9e02f"
+      "uid" : "a4938c085bb0a55691dc35d689c2c781"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
