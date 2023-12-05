@@ -4,685 +4,529 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 9364448f-5b6b-441a-8385-6e5cc9ab409f is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 9364448f-5b6b-441a-8385-6e5cc9ab409f is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "a()",
-        "uid" : "19b19398da5f10c6",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "name" : "questionnaireOpensForAdultPatient()",
+        "uid" : "615fee0382da5a1e",
+        "parentUid" : "12dc2713ff18f0ad394bafe9d378190e",
         "status" : "broken",
         "time" : {
-          "start" : 1701416195373,
-          "stop" : 1701416322262,
-          "duration" : 126889
+          "start" : 1701736368767,
+          "stop" : 1701736375479,
+          "duration" : 6712
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "exitFromQuestionnaire()",
-        "uid" : "b946a9b394a88828",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701417996296,
-          "stop" : 1701418101527,
-          "duration" : 105231
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "58b9bada87e6c23e",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701418101545,
-          "stop" : 1701418202372,
-          "duration" : 100827
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
-        "uid" : "b0d50b57a87fa8ad",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701418202391,
-          "stop" : 1701418310670,
-          "duration" : 108279
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigatingThroughQuestionnaireScreens()",
-        "uid" : "fbe038a188cc7d1d",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701418310693,
-          "stop" : 1701418414335,
-          "duration" : 103642
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
-        "uid" : "83db6193fb52587a",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701418414353,
-          "stop" : 1701418519849,
-          "duration" : 105496
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
-        "uid" : "a1fd8912b75f1eec",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701418523634,
-          "stop" : 1701418627040,
-          "duration" : 103406
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "12dc2713ff18f0ad394bafe9d378190e"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by c6d70357-a2be-44f8-a03c-f0e5abf4a71c is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by c6d70357-a2be-44f8-a03c-f0e5abf4a71c is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
         "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "4e83297257253646",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "uid" : "5b5d44b591a68b28",
+        "parentUid" : "cb72c1813d13b291bcbbf64bf555f957",
         "status" : "broken",
         "time" : {
-          "start" : 1701418627056,
-          "stop" : 1701418773353,
-          "duration" : 146297
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "6460993e60f9e580",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701419390740,
-          "stop" : 1701419501691,
-          "duration" : 110951
+          "start" : 1701736375483,
+          "stop" : 1701736382175,
+          "duration" : 6692
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a747bae42ce134c5181d2fa21396d1df"
+      "uid" : "cb72c1813d13b291bcbbf64bf555f957"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeTable/XCUIElementTypeCell (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "analyzesTests()",
-        "uid" : "5d437c35bec7f82e",
-        "parentUid" : "af4b4995e381c791397f60c96092719d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701417694984,
-          "stop" : 1701417865753,
-          "duration" : 170769
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "af4b4995e381c791397f60c96092719d"
-    }, {
-      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
-      "children" : [ {
-        "name" : "sliderNavigationTests()",
-        "uid" : "a4b9beddc446a815",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701417865777,
-          "stop" : 1701417939725,
-          "duration" : 73948
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sectionsAndModalsTests()",
-        "uid" : "60ce6000ccbaa802",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701417939741,
-          "stop" : 1701417996280,
-          "duration" : 56539
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "ednaChatTests()",
-        "uid" : "f169401a1b049ae5",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701419947993,
-          "stop" : 1701420102124,
-          "duration" : 154131
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "goBackToSymptomsSelectionPage()",
-        "uid" : "ef1a6d8801711206",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701418774730,
-          "stop" : 1701418822375,
-          "duration" : 47645
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAV()",
-        "uid" : "2c1fcf2778de535b",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701419680719,
-          "stop" : 1701419759500,
-          "duration" : 78781
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "f016b843958fb3ff",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701419760150,
-          "stop" : 1701419856612,
-          "duration" : 96462
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete()",
-        "uid" : "7173c7928f36aeb8",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701419878618,
-          "stop" : 1701419947977,
-          "duration" : 69359
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup59()",
-        "uid" : "7d9410febf4e4947",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701421190182,
-          "stop" : 1701421363555,
-          "duration" : 173373
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "90f53dfd111086032dd0191c38369f31"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 2c63f50f-7b0c-43f4-ac19-718e518d6ba8 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 2c63f50f-7b0c-43f4-ac19-718e518d6ba8 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
-        "uid" : "5ef781c0d9591121",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
+        "uid" : "8b2649ba488245bc",
+        "parentUid" : "0e20cb0b650a20fd5466d6664f6f8c44",
         "status" : "broken",
         "time" : {
-          "start" : 1701419070559,
-          "stop" : 1701419177333,
-          "duration" : 106774
+          "start" : 1701736382179,
+          "stop" : 1701736388891,
+          "duration" : 6712
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "questionnaireOpensForAdultPatient()",
-        "uid" : "f346a051c655dac0",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
+      } ],
+      "uid" : "0e20cb0b650a20fd5466d6664f6f8c44"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 2a54bc41-fd90-450e-af05-aedecd8e9366 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 2a54bc41-fd90-450e-af05-aedecd8e9366 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+        "uid" : "1e3bb291a34f7cfd",
+        "parentUid" : "b94740545e7d594903a5d636c28f5b44",
         "status" : "broken",
         "time" : {
-          "start" : 1701419177354,
-          "stop" : 1701419287656,
-          "duration" : 110302
+          "start" : 1701736388894,
+          "stop" : 1701736395577,
+          "duration" : 6683
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "b94740545e7d594903a5d636c28f5b44"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 234e273a-2434-48e6-bd1c-72f18d60921d is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 234e273a-2434-48e6-bd1c-72f18d60921d is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+        "uid" : "22bede51a835e2da",
+        "parentUid" : "64f248487451ed5e21eac1ba3acd3cd1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736395580,
+          "stop" : 1701736402225,
+          "duration" : 6645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64f248487451ed5e21eac1ba3acd3cd1"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 35dccd1e-b2db-40a1-8386-4937a4de47dc is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 35dccd1e-b2db-40a1-8386-4937a4de47dc is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "exitFromQuestionnaire()",
+        "uid" : "5d1a13b3bc6c1300",
+        "parentUid" : "adf44427508a9663d49e5ad73a1965f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736402229,
+          "stop" : 1701736408897,
+          "duration" : 6668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "adf44427508a9663d49e5ad73a1965f1"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 9772ed07-ef26-49eb-852b-0a71a6327a99 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 9772ed07-ef26-49eb-852b-0a71a6327a99 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "goBackToSymptomsSelectionPage()",
+        "uid" : "9f02fd52ba6bb557",
+        "parentUid" : "54158d34279d39824cf95b99b6691c2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736461209,
+          "stop" : 1701736468042,
+          "duration" : 6833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54158d34279d39824cf95b99b6691c2c"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 90f62357-4e6a-497f-857f-4f489a0c7a0d is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 90f62357-4e6a-497f-857f-4f489a0c7a0d is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
+        "uid" : "afd969d9d2292cb6",
+        "parentUid" : "c72ef0cd403db79cb598b36ab6905b04",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736468061,
+          "stop" : 1701736474717,
+          "duration" : 6656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c72ef0cd403db79cb598b36ab6905b04"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 61d8fe18-ebb0-4497-840f-86c41593b673 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 61d8fe18-ebb0-4497-840f-86c41593b673 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+        "uid" : "cc83e1839079bb9e",
+        "parentUid" : "36b298ca88b64fcb7b8b8d0376b4901a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736474720,
+          "stop" : 1701736481495,
+          "duration" : 6775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36b298ca88b64fcb7b8b8d0376b4901a"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 65259f32-18f2-4705-aa1b-cb0caf2bf681 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 65259f32-18f2-4705-aa1b-cb0caf2bf681 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
+        "uid" : "ee1f4ad8c5fb3d74",
+        "parentUid" : "fb495376c9947b9d1f592c59474ab898",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736481497,
+          "stop" : 1701736488091,
+          "duration" : 6594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb495376c9947b9d1f592c59474ab898"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 32db7b1a-d6d2-4cc9-b400-adf66214b6f3 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 32db7b1a-d6d2-4cc9-b400-adf66214b6f3 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
         "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
-        "uid" : "f4115dff74df7b86",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
+        "uid" : "1df09f77824bb1ee",
+        "parentUid" : "2c9c636809187ce0bc19fd92771f25a5",
         "status" : "broken",
         "time" : {
-          "start" : 1701419287675,
-          "stop" : 1701419390721,
-          "duration" : 103046
+          "start" : 1701736488096,
+          "stop" : 1701736494681,
+          "duration" : 6585
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "specializationDeterminedForOnlineConsultation()",
-        "uid" : "bce22e2b599e4d43",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
+      } ],
+      "uid" : "2c9c636809187ce0bc19fd92771f25a5"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 9705d223-fd6a-4685-a154-4a739142db6d is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 9705d223-fd6a-4685-a154-4a739142db6d is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+        "uid" : "fc18e31040e00ae",
+        "parentUid" : "f125f2b830b2b1a6314594e80185996f",
         "status" : "broken",
         "time" : {
-          "start" : 1701419501710,
-          "stop" : 1701419612087,
-          "duration" : 110377
+          "start" : 1701736494684,
+          "stop" : 1701736501356,
+          "duration" : 6672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f125f2b830b2b1a6314594e80185996f"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n ru.sogaz.app.stage/ru.sogaz.app.feature_splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n ru.sogaz.app.stage/ru.sogaz.app.feature_splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1092:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "navigatingThroughQuestionnaireScreens()",
+        "uid" : "fe2de0c6122388bb",
+        "parentUid" : "e06c921baf6ffbdbb223f960fb1bd5cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736501359,
+          "stop" : 1701736543004,
+          "duration" : 41645
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "d9d2b6191f3b21d3",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
+        "uid" : "e8da5d9d6ee3ee6c",
+        "parentUid" : "e06c921baf6ffbdbb223f960fb1bd5cb",
         "status" : "broken",
         "time" : {
-          "start" : 1701421697780,
-          "stop" : 1701421926377,
-          "duration" : 228597
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "f4de2c8b0884ce8e",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701421926395,
-          "stop" : 1701422186157,
-          "duration" : 259762
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "e30e65f675664705",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701422186177,
-          "stop" : 1701422381100,
-          "duration" : 194923
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "2a67b5ae5af84793",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701422381131,
-          "stop" : 1701422484233,
-          "duration" : 103102
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithAudio()",
-        "uid" : "4ae0defb691fc881",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701422484250,
-          "stop" : 1701422631833,
-          "duration" : 147583
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithVideo()",
-        "uid" : "a956058aa5bc8f57",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701422631851,
-          "stop" : 1701422839904,
-          "duration" : 208053
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "3027c31e17c11e24",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701422839931,
-          "stop" : 1701423151166,
-          "duration" : 311235
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "21283885e339e36c",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701423151184,
-          "stop" : 1701423311302,
-          "duration" : 160118
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithChat()",
-        "uid" : "318af1c2068ba665",
-        "parentUid" : "c03d58c9791119933a96b34fbf8234ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701423748146,
-          "stop" : 1701423847006,
-          "duration" : 98860
+          "start" : 1701736666073,
+          "stop" : 1701736743874,
+          "duration" : 77801
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c03d58c9791119933a96b34fbf8234ff"
+      "uid" : "e06c921baf6ffbdbb223f960fb1bd5cb"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"4 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by e7970fcf-2237-4383-a7d9-8124bf46af56 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by e7970fcf-2237-4383-a7d9-8124bf46af56 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "registration()",
-        "uid" : "7913733302362c16",
-        "parentUid" : "1967aa390876dcd824c8e2d732e0d326",
+        "name" : "specializationDeterminedForOnlineConsultation()",
+        "uid" : "46a020fa0671231a",
+        "parentUid" : "661af72d9ad433f95ed6e5045c06b86e",
         "status" : "broken",
         "time" : {
-          "start" : 1701419612111,
-          "stop" : 1701419680293,
-          "duration" : 68182
+          "start" : 1701736544168,
+          "stop" : 1701736550913,
+          "duration" : 6745
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1967aa390876dcd824c8e2d732e0d326"
+      "uid" : "661af72d9ad433f95ed6e5045c06b86e"
     }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "addInsuranceCV()",
-        "uid" : "243568d5b68ae333",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701419857599,
-          "stop" : 1701419878607,
-          "duration" : 21008
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "add87b84395d1f73b808eb965195cd71"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(@name, 'Онлайн- диангостика')] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "checkup18()",
-        "uid" : "40ceebc80d57611a",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701420102146,
-          "stop" : 1701420228931,
-          "duration" : 126785
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup28()",
-        "uid" : "db3b5545667667e",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701420344772,
-          "stop" : 1701420530093,
-          "duration" : 185321
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup40()",
-        "uid" : "1798c1bbb5575345",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701420530111,
-          "stop" : 1701420716496,
-          "duration" : 186385
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup41()",
-        "uid" : "8e48617ea2d4a83f",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701420716515,
-          "stop" : 1701420874832,
-          "duration" : 158317
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup50()",
-        "uid" : "f083a3de26a56239",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701420874850,
-          "stop" : 1701421035361,
-          "duration" : 160511
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup51()",
-        "uid" : "9868cbd4bb265b3d",
-        "parentUid" : "34ebc9eca8aed255d2895bcb9e2ac8b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701421035380,
-          "stop" : 1701421190165,
-          "duration" : 154785
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "34ebc9eca8aed255d2895bcb9e2ac8b4"
-    }, {
-      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 29bffd86-6c8c-4c85-8db1-975ff41bba71\n*** Element info: {Using=-ios predicate string, value=type == \"XCUIElementTypeTextField\"}",
-      "children" : [ {
-        "name" : "checkup27()",
-        "uid" : "b970a62d68504ab9",
-        "parentUid" : "f20c57ad7f4a09be86b724897c133aec",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701420228954,
-          "stop" : 1701420344560,
-          "duration" : 115606
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f20c57ad7f4a09be86b724897c133aec"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "8501e74c55245214",
-        "parentUid" : "29afcce707eda6c65c2420871caef768",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701423353235,
-          "stop" : 1701423495572,
-          "duration" : 142337
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "29afcce707eda6c65c2420871caef768"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Error Domain=XCTDaemonErrorDomain Code=21 \"Unable to send string '<redacted>', only one gesture can be performed at a time.\" UserInfo={NSLocalizedDescription=Unable to send string '<redacted>', only one gesture can be performed at a time.}\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 8fadf1c7-c464-43aa-b941-377b2c667f4f",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "2ab0af87cdc2976c",
-        "parentUid" : "ba81110495f1ff89267fdfa17e398e52",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701423495592,
-          "stop" : 1701423747974,
-          "duration" : 252382
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ba81110495f1ff89267fdfa17e398e52"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: timeout of 240000ms exceeded\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 08f43bd1-807d-4d5d-be2a-4a8fdb001d31",
-      "children" : [ {
-        "name" : "authorization()",
-        "uid" : "5dc9618f101a4c1",
-        "parentUid" : "e6c1150b4997d8e9ce22004524dd50d3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1701423847052,
-          "stop" : 1701424124537,
-          "duration" : 277485
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e6c1150b4997d8e9ce22004524dd50d3"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found with locator: By.id: Терапевт",
-      "children" : [ {
-        "name" : "doctorConclusionTests()",
-        "uid" : "bf6ccc28c939f485",
-        "parentUid" : "d652e87cf025997292fb40f0d9217fde",
-        "status" : "failed",
-        "time" : {
-          "start" : 1701416444116,
-          "stop" : 1701416868296,
-          "duration" : 424180
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d652e87cf025997292fb40f0d9217fde"
-    }, {
-      "name" : "Element not found: By.id: Данные о заболевании добавлены",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by ee34c129-d6e4-4eda-83b6-c3d52fb5165a is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by ee34c129-d6e4-4eda-83b6-c3d52fb5165a is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "diseaseTests()",
-        "uid" : "b5d05afec1c32d39",
-        "parentUid" : "68c2ca1261b38eee68a8734cd5d9e02f",
-        "status" : "failed",
+        "uid" : "2d62c97f5940ca86",
+        "parentUid" : "ed5b278c86548e13e944b60307ad888b",
+        "status" : "broken",
         "time" : {
-          "start" : 1701417329928,
-          "stop" : 1701417445642,
-          "duration" : 115714
+          "start" : 1701736550919,
+          "stop" : 1701736557605,
+          "duration" : 6686
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "68c2ca1261b38eee68a8734cd5d9e02f"
+      "uid" : "ed5b278c86548e13e944b60307ad888b"
     }, {
-      "name" : "expected: <0> but was: <1>",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 83d24ce1-4830-4438-9ea3-635e3bba29e8 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 83d24ce1-4830-4438-9ea3-635e3bba29e8 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "injuryTests()",
-        "uid" : "346a9f296116e896",
-        "parentUid" : "c2b9bedd41385f41d640815158ed2d6d",
-        "status" : "failed",
+        "name" : "analyzesTests()",
+        "uid" : "5efdc8f6f9886d66",
+        "parentUid" : "6babc9c4e173efb2692530b696f9a5b6",
+        "status" : "broken",
         "time" : {
-          "start" : 1701417445666,
-          "stop" : 1701417567991,
-          "duration" : 122325
+          "start" : 1701736557609,
+          "stop" : 1701736564225,
+          "duration" : 6616
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c2b9bedd41385f41d640815158ed2d6d"
+      "uid" : "6babc9c4e173efb2692530b696f9a5b6"
     }, {
-      "name" : "Element not found with locator: By.xpath: //XCUIElementTypeSearchField[@name=\"Название или адрес клиники\"]",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 50aa9aa3-90a2-4c8e-b69d-31f56050a69b is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 50aa9aa3-90a2-4c8e-b69d-31f56050a69b is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
-        "uid" : "2236eb1760da4437",
-        "parentUid" : "483eb7c655ff7f68b73de0ce8fea5686",
-        "status" : "failed",
+        "name" : "doctorConclusionTests()",
+        "uid" : "62cc9e2a2c21a281",
+        "parentUid" : "ec97c0dd5ca8fe3d1e5cb3a0d4cef9b1",
+        "status" : "broken",
         "time" : {
-          "start" : 1701418822766,
-          "stop" : 1701419070542,
-          "duration" : 247776
+          "start" : 1701736564228,
+          "stop" : 1701736570823,
+          "duration" : 6595
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "483eb7c655ff7f68b73de0ce8fea5686"
+      "uid" : "ec97c0dd5ca8fe3d1e5cb3a0d4cef9b1"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 33752c0d-8d22-464d-aa24-07e88172bb62 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 33752c0d-8d22-464d-aa24-07e88172bb62 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "71a01de1378fbdcc",
+        "parentUid" : "92b7157bb8b43ad14695b4f206a86d29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736570826,
+          "stop" : 1701736577515,
+          "duration" : 6689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92b7157bb8b43ad14695b4f206a86d29"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 83d0a86d-0477-42c7-b2c0-57f4cf2a2b3f is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 83d0a86d-0477-42c7-b2c0-57f4cf2a2b3f is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "12089d90961a29b8",
+        "parentUid" : "a2719404a20e6a4f007bc208f748c3b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736577518,
+          "stop" : 1701736584093,
+          "duration" : 6575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2719404a20e6a4f007bc208f748c3b6"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1092:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "8c5d90bcff56a2b4",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736584096,
+          "stop" : 1701736624736,
+          "duration" : 40640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cad920926e5128598702d9640bec24ce"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 35c53361-288c-4464-8db0-15e6c71f2d5b is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 35c53361-288c-4464-8db0-15e6c71f2d5b is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzesWithChat()",
+        "uid" : "60bdeb8bae3f2625",
+        "parentUid" : "d3118670fb37dde79542e1c4cffc43d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736625969,
+          "stop" : 1701736632694,
+          "duration" : 6725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3118670fb37dde79542e1c4cffc43d7"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by e8ef5bc0-8fec-4242-bbf9-3a166ce7f00a is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by e8ef5bc0-8fec-4242-bbf9-3a166ce7f00a is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "b4b4470220b338f0",
+        "parentUid" : "2f3879ba2f24bf5bfb3b518cb9bdf767",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736632699,
+          "stop" : 1701736639408,
+          "duration" : 6709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f3879ba2f24bf5bfb3b518cb9bdf767"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 35a36db6-d17b-4282-a1fc-86ec0ce0810a is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 35a36db6-d17b-4282-a1fc-86ec0ce0810a is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingReadmissionWithVideo()",
+        "uid" : "2238c7cba7d257d2",
+        "parentUid" : "53a2c63f1734a65f5b09975d2f6fe532",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736639411,
+          "stop" : 1701736646120,
+          "duration" : 6709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53a2c63f1734a65f5b09975d2f6fe532"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by dc753201-8dd2-42ac-bbde-720c5e7179a2 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by dc753201-8dd2-42ac-bbde-720c5e7179a2 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingReadmissionWithChat()",
+        "uid" : "a29919b6448e3c69",
+        "parentUid" : "1688215e93ff0ac1e04bfcd3229ada1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736646123,
+          "stop" : 1701736652701,
+          "duration" : 6578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1688215e93ff0ac1e04bfcd3229ada1b"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by baf49f1d-51bd-4acf-b7d7-239e3bc42eb5 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by baf49f1d-51bd-4acf-b7d7-239e3bc42eb5 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "2c193dd095a5c1c5",
+        "parentUid" : "f97aaf823d070b4e20180922b90710f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736652704,
+          "stop" : 1701736659351,
+          "duration" : 6647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f97aaf823d070b4e20180922b90710f9"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by ada927ec-fa40-4abd-b2c4-0be2c82e4ed3 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by ada927ec-fa40-4abd-b2c4-0be2c82e4ed3 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzesWithAudio()",
+        "uid" : "154d0e0870297da8",
+        "parentUid" : "eff9a80e0aaa4a9221d263ef75322849",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736659354,
+          "stop" : 1701736666071,
+          "duration" : 6717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eff9a80e0aaa4a9221d263ef75322849"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by fbee79c3-6a27-412c-bd5e-69dbfd539cce is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by fbee79c3-6a27-412c-bd5e-69dbfd539cce is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "2b6432faa6d7a1fb",
+        "parentUid" : "f1f8fd43b8fe4e68bb87e4f7b0f1d595",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736744922,
+          "stop" : 1701736751635,
+          "duration" : 6713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1f8fd43b8fe4e68bb87e4f7b0f1d595"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 73c52085-32e9-4087-9ace-3fe14079c92c is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 73c52085-32e9-4087-9ace-3fe14079c92c is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "a()",
+        "uid" : "a622899d6c4d8eda",
+        "parentUid" : "012d99d3de8e8f16848a366e7b29202a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736751638,
+          "stop" : 1701736758362,
+          "duration" : 6724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "012d99d3de8e8f16848a366e7b29202a"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 3cd4ed8d-6358-4120-ab20-c5c843d81100 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 3cd4ed8d-6358-4120-ab20-c5c843d81100 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "checkup28()",
+        "uid" : "e1df7ca79240110b",
+        "parentUid" : "d86aac6786c0b78e880a061a5f2e4b4e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736758366,
+          "stop" : 1701736765107,
+          "duration" : 6741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d86aac6786c0b78e880a061a5f2e4b4e"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 1639ba09-9e07-4940-9a88-a1d4fd3ec3a7 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 1639ba09-9e07-4940-9a88-a1d4fd3ec3a7 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "ednaChatTests()",
+        "uid" : "e9452142846b1460",
+        "parentUid" : "cdb8f13dcf180c12572f8db601f3450b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701736765111,
+          "stop" : 1701736771841,
+          "duration" : 6730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cdb8f13dcf180c12572f8db601f3450b"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
