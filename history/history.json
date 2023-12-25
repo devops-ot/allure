@@ -1,23 +1,4 @@
 {
-  "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5b8b36cd121a5abf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1702938909479,
-        "stop" : 1702939027130,
-        "duration" : 117651
-      }
-    } ]
-  },
   "60ad711f96ae91af8fa840af672238e2" : {
     "statistic" : {
       "failed" : 0,
@@ -28,13 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe5310503283878c",
+      "uid" : "f82c73f2a60b218f",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702942647550,
-        "stop" : 1702942723799,
-        "duration" : 76249
+        "start" : 1703512455556,
+        "stop" : 1703512521502,
+        "duration" : 65946
+      }
+    } ]
+  },
+  "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26bf98a391366973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703508719223,
+        "stop" : 1703508795705,
+        "duration" : 76482
       }
     } ]
   },
@@ -48,37 +48,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "797f50ce7d9b23d3",
+      "uid" : "849cea8c7f5d1e7",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702940521186,
-        "stop" : 1702940655580,
-        "duration" : 134394
+        "start" : 1703511283265,
+        "stop" : 1703511346912,
+        "duration" : 63647
       }
     } ]
   },
   "903836de96a677aa4aecee735017c3f6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "41f80dfe960b3c75",
-      "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
-      "time" : {
-        "start" : 1702940358574,
-        "stop" : 1702940411136,
-        "duration" : 52562
-      }
-    } ]
-  },
-  "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -88,12 +68,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da91d979cbdf98bc",
+      "uid" : "f58363476cc640d3",
       "status" : "passed",
       "time" : {
-        "start" : 1702939648261,
-        "stop" : 1702939815771,
-        "duration" : 167510
+        "start" : 1703510469934,
+        "stop" : 1703510545552,
+        "duration" : 75618
+      }
+    } ]
+  },
+  "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e50dd818ef1b772a",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные о заболевании добавлены\"]",
+      "time" : {
+        "start" : 1703512776704,
+        "stop" : 1703512849541,
+        "duration" : 72837
       }
     } ]
   },
@@ -107,57 +107,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c243f46b00bca92",
+      "uid" : "888ed887c3af6892",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 891aad4c-7656-4036-a5fb-e5d6017daee1\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "time" : {
-        "start" : 1702938788049,
-        "stop" : 1702938909444,
-        "duration" : 121395
+        "start" : 1703513933682,
+        "stop" : 1703513939135,
+        "duration" : 5453
       }
     } ]
   },
   "2405b53ec2e57934cb3f0631348e855b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ff504916cdcb15be",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1702945008233,
-        "stop" : 1702945112606,
-        "duration" : 104373
-      }
-    } ]
-  },
-  "f806401a4fe5145ec0e282970490ec1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c2bcf2b7da11bea3",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1702943550826,
-        "stop" : 1702943674703,
-        "duration" : 123877
-      }
-    } ]
-  },
-  "f67134439d58a9cfb24d3a9c728841eb" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -167,12 +127,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22c956963544d6b9",
+      "uid" : "c57c3f0a9b58eec2",
       "status" : "passed",
       "time" : {
-        "start" : 1702939540318,
-        "stop" : 1702939648245,
-        "duration" : 107927
+        "start" : 1703510635174,
+        "stop" : 1703510697367,
+        "duration" : 62193
       }
     } ]
   },
@@ -186,13 +146,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba9efe515c83719f",
+      "uid" : "2707f96d07c1973",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702942793517,
-        "stop" : 1702942871116,
-        "duration" : 77599
+        "start" : 1703512584165,
+        "stop" : 1703512647580,
+        "duration" : 63415
+      }
+    } ]
+  },
+  "f67134439d58a9cfb24d3a9c728841eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35a1ee25e8817c79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703512849544,
+        "stop" : 1703512922427,
+        "duration" : 72883
+      }
+    } ]
+  },
+  "f806401a4fe5145ec0e282970490ec1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac34daf8efec25c9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1703513525515,
+        "stop" : 1703513593379,
+        "duration" : 67864
       }
     } ]
   },
@@ -206,12 +205,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a231396cb735d2a4",
+      "uid" : "f012d205caa36c6a",
       "status" : "passed",
       "time" : {
-        "start" : 1702942190419,
-        "stop" : 1702942259062,
-        "duration" : 68643
+        "start" : 1703507904590,
+        "stop" : 1703507972386,
+        "duration" : 67796
+      }
+    } ]
+  },
+  "75d4b60cd5c57d88e7622405baf8befb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd2a6d74e80113eb",
+      "status" : "failed",
+      "statusDetails" : "Assertion failed for element. Expected text: Фамилия Денис Отчествович - 22LM2103/008714 - действует до 2023-11-30, Error: Element text does not match. Expected: Фамилия Денис Отчествович - 22LM2103/008714 - действует до 2023-11-30, Found: Фамилия Денис Отчествович - 23LM2103/006558 - действует до 2024-11-30",
+      "time" : {
+        "start" : 1703513939139,
+        "stop" : 1703514005940,
+        "duration" : 66801
       }
     } ]
   },
@@ -225,33 +244,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b2ffdb61b9d531f",
+      "uid" : "d07e80c980548e0",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: label == \"Выберите специалиста\" (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: eaf3ba13-11f2-4fcb-a7ca-9cb3bb4829ef",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Выберите специалиста\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702944865409,
-        "stop" : 1702945008200,
-        "duration" : 142791
-      }
-    } ]
-  },
-  "75d4b60cd5c57d88e7622405baf8befb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cb5d806a5bdf07d3",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1702942596880,
-        "stop" : 1702942647532,
-        "duration" : 50652
+        "start" : 1703513034023,
+        "stop" : 1703513100924,
+        "duration" : 66901
       }
     } ]
   },
@@ -265,33 +264,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f4e7c9fda7d0079",
+      "uid" : "e6c269da722e9dae",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702940874010,
-        "stop" : 1702940985816,
-        "duration" : 111806
+        "start" : 1703512160681,
+        "stop" : 1703512226524,
+        "duration" : 65843
       }
     } ]
   },
   "26bac62248ca4bd68ebe8c33827f49f7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ffcb2912bf822a1",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeCell)[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "uid" : "c497174dd671ac16",
+      "status" : "passed",
       "time" : {
-        "start" : 1702939374680,
-        "stop" : 1702939540294,
-        "duration" : 165614
+        "start" : 1703508504612,
+        "stop" : 1703508719220,
+        "duration" : 214608
       }
     } ]
   },
@@ -305,32 +303,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c08ce46092796084",
+      "uid" : "306efb45e1e37cc7",
       "status" : "passed",
       "time" : {
-        "start" : 1702939815796,
-        "stop" : 1702939949719,
-        "duration" : 133923
+        "start" : 1703509118044,
+        "stop" : 1703509215419,
+        "duration" : 97375
       }
     } ]
   },
   "5e94fe62b62986319f169be63613673" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae19fb5d3caecf77",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeCell)[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "uid" : "5cdb9d4ddd259e81",
+      "status" : "passed",
       "time" : {
-        "start" : 1702939027145,
-        "stop" : 1702939259748,
-        "duration" : 232603
+        "start" : 1703509215423,
+        "stop" : 1703509412242,
+        "duration" : 196819
       }
     } ]
   },
@@ -344,36 +341,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf6f98a259a3d22",
+      "uid" : "6301de1b62ea66e4",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702940655601,
-        "stop" : 1702940762326,
-        "duration" : 106725
+        "start" : 1703511046722,
+        "stop" : 1703511110242,
+        "duration" : 63520
       }
     } ]
   },
   "d839064510354c59ad3042a75e06a20e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9bf9503561a0e1dc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1702942328253,
-        "stop" : 1702942402485,
-        "duration" : 74232
-      }
-    } ]
-  },
-  "507f3329bcac06196c711d6214e28910" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -383,13 +361,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dfc5de9546c33c0b",
+      "uid" : "4744973a4badd035",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702943059155,
-        "stop" : 1702943135164,
-        "duration" : 76009
+        "start" : 1703513891838,
+        "stop" : 1703513933677,
+        "duration" : 41839
       }
     } ]
   },
@@ -403,33 +381,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d4e540a84333b02",
+      "uid" : "23616538343b0c2b",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: label == \"Выберите специалиста\" (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 0b0cc1a9-6c45-4c74-ac0e-e381266baa9d",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Выберите специалиста\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702943865872,
-        "stop" : 1702944002118,
-        "duration" : 136246
+        "start" : 1703513460112,
+        "stop" : 1703513525512,
+        "duration" : 65400
       }
     } ]
   },
-  "7c74a9406553be6256f4edcc68b5499f" : {
+  "507f3329bcac06196c711d6214e28910" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7608020d130165c1",
-      "status" : "failed",
-      "statusDetails" : "Element not found with accessibility ID: By.IosNsPredicate: label == \"Связаться с СОГАЗом\"",
+      "uid" : "67fe9e6f5c589c43",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702943287947,
-        "stop" : 1702943382972,
-        "duration" : 95025
+        "start" : 1703512392335,
+        "stop" : 1703512455552,
+        "duration" : 63217
+      }
+    } ]
+  },
+  "7c74a9406553be6256f4edcc68b5499f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce979cd97c5dcc68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1703509412246,
+        "stop" : 1703509551500,
+        "duration" : 139254
       }
     } ]
   },
@@ -443,12 +440,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b5f3f8195f6cd73",
+      "uid" : "6fa12978ebbd24ab",
       "status" : "passed",
       "time" : {
-        "start" : 1702939259762,
-        "stop" : 1702939374666,
-        "duration" : 114904
+        "start" : 1703509028864,
+        "stop" : 1703509112451,
+        "duration" : 83587
       }
     } ]
   },
@@ -462,33 +459,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "651fdbd72df82d51",
+      "uid" : "7d07af4785cfe8da",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Цель cдачи анализа\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Цель сдачи анализов\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702944321496,
-        "stop" : 1702944505231,
-        "duration" : 183735
+        "start" : 1703513774744,
+        "stop" : 1703513891833,
+        "duration" : 117089
       }
     } ]
   },
   "b045c964eb716a32b5421d102b3035a1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd43e2569ea33b4",
-      "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "uid" : "2cb058e5e85d6885",
+      "status" : "passed",
       "time" : {
-        "start" : 1702940302621,
-        "stop" : 1702940358360,
-        "duration" : 55739
+        "start" : 1703510545556,
+        "stop" : 1703510635170,
+        "duration" : 89614
       }
     } ]
   },
@@ -502,13 +498,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eff03c91261812b9",
+      "uid" : "c9834932030a3672",
       "status" : "failed",
-      "statusDetails" : "Element not found with locator: By.xpath: //XCUIElementTypeSearchField[@name=\"Название или адрес клиники\"]",
+      "statusDetails" : "Element not found with locator: By.id: ru.sogaz.app.stage:id/input_search",
       "time" : {
-        "start" : 1702941224319,
-        "stop" : 1702941515827,
-        "duration" : 291508
+        "start" : 1703511110246,
+        "stop" : 1703511283262,
+        "duration" : 173016
       }
     } ]
   },
@@ -522,12 +518,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66781d63c5442b78",
+      "uid" : "c2d53e0e382670c0",
       "status" : "passed",
       "time" : {
-        "start" : 1702941761190,
-        "stop" : 1702941876767,
-        "duration" : 115577
+        "start" : 1703512226530,
+        "stop" : 1703512277262,
+        "duration" : 50732
       }
     } ]
   },
@@ -541,13 +537,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a46642f6e0e3207",
+      "uid" : "68a1c377dbedd2a0",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//button[@class=\"StyledButton-sc-323bzc-0 dwljrf Select__StyledSelectDropButton-sc-17idtfo-2 bswlIS\"])[3] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702941088129,
-        "stop" : 1702941119079,
-        "duration" : 30950
+        "start" : 1703511822581,
+        "stop" : 1703511849476,
+        "duration" : 26895
       }
     } ]
   },
@@ -561,32 +557,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f5048c2a979ba25",
+      "uid" : "8cb93bec958e4ce5",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"История лечения\"])[2] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"История лечения\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702944151357,
-        "stop" : 1702944321474,
-        "duration" : 170117
+        "start" : 1703513231219,
+        "stop" : 1703513345039,
+        "duration" : 113820
       }
     } ]
   },
   "ba6a924fce26128c6ee2510e73e8a21d" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7172b36923048de",
-      "status" : "passed",
+      "uid" : "ca8c300a29cce5cd",
+      "status" : "failed",
+      "statusDetails" : "Element not found with locator: By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")]",
       "time" : {
-        "start" : 1702941515844,
-        "stop" : 1702941648227,
-        "duration" : 132383
+        "start" : 1703511849479,
+        "stop" : 1703512022460,
+        "duration" : 172981
       }
     } ]
   },
@@ -600,12 +597,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "391d0b9950e6266",
+      "uid" : "6dfcacabb84fd62a",
       "status" : "passed",
       "time" : {
-        "start" : 1702942259078,
-        "stop" : 1702942328236,
-        "duration" : 69158
+        "start" : 1703507972392,
+        "stop" : 1703508035479,
+        "duration" : 63087
       }
     } ]
   },
@@ -619,53 +616,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3c995fecdc22037",
+      "uid" : "22af996669b30af4",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: ee86bed3-2f05-4b84-93ed-6a6ebe3cd697\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "time" : {
-        "start" : 1702941119097,
-        "stop" : 1702941224300,
-        "duration" : 105203
+        "start" : 1703512091159,
+        "stop" : 1703512096556,
+        "duration" : 5397
       }
     } ]
   },
   "66c70b389e0fbbe16e554a89f0fb1684" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "59e3c1f18a26609c",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeCell)[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "uid" : "b5896ad0783cfe96",
+      "status" : "passed",
       "time" : {
-        "start" : 1702940078506,
-        "stop" : 1702940293672,
-        "duration" : 215166
-      }
-    } ]
-  },
-  "d0e183c5aea0d02949fbb7f7c8df728f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3dc9e836dbdc301e",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1702943213234,
-        "stop" : 1702943287931,
-        "duration" : 74697
+        "start" : 1703508795708,
+        "stop" : 1703509028861,
+        "duration" : 233153
       }
     } ]
   },
@@ -679,12 +655,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e6430b30891e0902",
+      "uid" : "91d4d1445e502db7",
       "status" : "passed",
       "time" : {
-        "start" : 1702942489956,
-        "stop" : 1702942596862,
-        "duration" : 106906
+        "start" : 1703508253631,
+        "stop" : 1703508320208,
+        "duration" : 66577
       }
     } ]
   },
@@ -698,32 +674,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18bfdca0e99ded55",
+      "uid" : "192d93783c20554",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Цель cдачи анализа\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Цель сдачи анализов\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702944505249,
-        "stop" : 1702944676835,
-        "duration" : 171586
+        "start" : 1703512922431,
+        "stop" : 1703513034020,
+        "duration" : 111589
+      }
+    } ]
+  },
+  "d0e183c5aea0d02949fbb7f7c8df728f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1063af046a65116",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1703512647583,
+        "stop" : 1703512713389,
+        "duration" : 65806
       }
     } ]
   },
   "4d7588b6ca974609f15c061aa465fe80" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "80e20e9fa78c7811",
-      "status" : "passed",
+      "uid" : "423b80ed62e1957a",
+      "status" : "failed",
+      "statusDetails" : "Element not found with locator: By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")]",
       "time" : {
-        "start" : 1702941999371,
-        "stop" : 1702942190399,
-        "duration" : 191028
+        "start" : 1703511483068,
+        "stop" : 1703511660842,
+        "duration" : 177774
       }
     } ]
   },
@@ -737,13 +734,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "909aa28bd5480a78",
+      "uid" : "8d5426679defddee",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702943382993,
-        "stop" : 1702943429651,
-        "duration" : 46658
+        "start" : 1703513166639,
+        "stop" : 1703513231215,
+        "duration" : 64576
       }
     } ]
   },
@@ -757,13 +754,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dea9f27f88385535",
+      "uid" : "82fdf9b4d2dbff14",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702941877963,
-        "stop" : 1702941999350,
-        "duration" : 121387
+        "start" : 1703512096559,
+        "stop" : 1703512160679,
+        "duration" : 64120
       }
     } ]
   },
@@ -777,32 +774,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9bbe1ee374d31d94",
+      "uid" : "bcb98652073b93bf",
       "status" : "passed",
       "time" : {
-        "start" : 1702939949734,
-        "stop" : 1702940078490,
-        "duration" : 128756
-      }
-    } ]
-  },
-  "58ae8a85773b95a7b4345b4c9d4a82bd" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b46d6bf2142713e",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1702942723815,
-        "stop" : 1702942793502,
-        "duration" : 69687
+        "start" : 1703508320212,
+        "stop" : 1703508427304,
+        "duration" : 107092
       }
     } ]
   },
@@ -816,12 +793,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b5ad8fd0ef769f9",
+      "uid" : "d08ded2dd0c9403a",
       "status" : "passed",
       "time" : {
-        "start" : 1702938521956,
-        "stop" : 1702938787943,
-        "duration" : 265987
+        "start" : 1703510697373,
+        "stop" : 1703510835218,
+        "duration" : 137845
+      }
+    } ]
+  },
+  "58ae8a85773b95a7b4345b4c9d4a82bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e6ad841f1b1a855",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1703512277266,
+        "stop" : 1703512328839,
+        "duration" : 51573
       }
     } ]
   },
@@ -835,13 +832,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "23d5a7ce6d2eacc",
+      "uid" : "8c837f99633b91d7",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Цель cдачи анализа\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Цель сдачи анализов\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702943693902,
-        "stop" : 1702943865616,
-        "duration" : 171714
+        "start" : 1703513345042,
+        "stop" : 1703513460109,
+        "duration" : 115067
       }
     } ]
   },
@@ -855,12 +852,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bf0c9596c890bd3a",
+      "uid" : "e30c654c5b2e9013",
       "status" : "passed",
       "time" : {
-        "start" : 1702945112630,
-        "stop" : 1702945207408,
-        "duration" : 94778
+        "start" : 1703510835223,
+        "stop" : 1703510905149,
+        "duration" : 69926
       }
     } ]
   },
@@ -874,13 +871,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4703f128dcda2363",
+      "uid" : "9a8f167fc5f23b30",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Цель cдачи анализа\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Цель сдачи анализов\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702944676993,
-        "stop" : 1702944865388,
-        "duration" : 188395
+        "start" : 1703513594458,
+        "stop" : 1703513707256,
+        "duration" : 112798
       }
     } ]
   },
@@ -894,13 +891,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eddcd15aa1a26d79",
+      "uid" : "feb1eb00e208fc46",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702940411155,
-        "stop" : 1702940521164,
-        "duration" : 110009
+        "start" : 1703512022463,
+        "stop" : 1703512091156,
+        "duration" : 68693
       }
     } ]
   },
@@ -914,13 +911,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "13621b31a6ea1ca4",
+      "uid" : "693e1b937a2690cd",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702940985836,
-        "stop" : 1702941088109,
-        "duration" : 102273
+        "start" : 1703511416664,
+        "stop" : 1703511483064,
+        "duration" : 66400
       }
     } ]
   },
@@ -934,13 +931,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "196e73481b167574",
+      "uid" : "d43abed1a08b9d90",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702940762351,
-        "stop" : 1702940873987,
-        "duration" : 111636
+        "start" : 1703511346915,
+        "stop" : 1703511416660,
+        "duration" : 69745
       }
     } ]
   },
@@ -954,13 +951,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "232b7bb4115fe2f4",
+      "uid" : "fcf9ecafbe56532",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702942871600,
-        "stop" : 1702942955828,
-        "duration" : 84228
+        "start" : 1703512328842,
+        "stop" : 1703512392333,
+        "duration" : 63491
       }
     } ]
   },
@@ -974,13 +971,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51dcea4ab1ec78df",
+      "uid" : "fc3b7b0ccf8869c8",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702943135180,
-        "stop" : 1702943212748,
-        "duration" : 77568
+        "start" : 1703512713393,
+        "stop" : 1703512776700,
+        "duration" : 63307
       }
     } ]
   },
@@ -994,12 +991,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ff0c371009d67b0",
+      "uid" : "66df7e5cb3c4f66c",
       "status" : "passed",
       "time" : {
-        "start" : 1702942402500,
-        "stop" : 1702942489942,
-        "duration" : 87442
+        "start" : 1703508184507,
+        "stop" : 1703508253628,
+        "duration" : 69121
       }
     } ]
   },
@@ -1013,13 +1010,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "28c9a2aec14003cd",
+      "uid" : "29cd3a60817452e4",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702942955846,
-        "stop" : 1702943058184,
-        "duration" : 102338
+        "start" : 1703512521507,
+        "stop" : 1703512584162,
+        "duration" : 62655
       }
     } ]
   },
@@ -1033,13 +1030,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e69e86adfebaca62",
+      "uid" : "48ce5a58167d5d20",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702943429667,
-        "stop" : 1702943550812,
-        "duration" : 121145
+        "start" : 1703513100927,
+        "stop" : 1703513166636,
+        "duration" : 65709
       }
     } ]
   },
@@ -1053,32 +1050,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "305e47f9c7c9e7c7",
+      "uid" : "e6a641e4a68e1c45",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: label == \"Выберите специалиста\" (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 76c5fe63-7a2f-428a-a16a-fcfb4e0f1f2a",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Выберите специалиста\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1702944002137,
-        "stop" : 1702944150845,
-        "duration" : 148708
+        "start" : 1703513707259,
+        "stop" : 1703513774740,
+        "duration" : 67481
       }
     } ]
   },
   "68b47b537cfcf9d4ef3daef0137ef71f" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1bca380b53802a7f",
-      "status" : "passed",
+      "uid" : "ef6a0bf19a386dd6",
+      "status" : "failed",
+      "statusDetails" : "Element not found with locator: By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")]",
       "time" : {
-        "start" : 1702941648248,
-        "stop" : 1702941761171,
-        "duration" : 112923
+        "start" : 1703511660845,
+        "stop" : 1703511822578,
+        "duration" : 161733
       }
     } ]
   }
