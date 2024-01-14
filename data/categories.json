@@ -4,53 +4,57 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found: By.xpath: //*[contains(@text,'Мохов Денис Александрович')]",
+      "name" : "Element not found: By.xpath: //*[contains(@name,'Мохов Денис Александрович')]",
       "children" : [ {
         "name" : "addInsuranceAV()",
-        "uid" : "dd78a1f693b56344",
-        "parentUid" : "6191b0124db8c7b73eebbdb1a61baf83",
+        "uid" : "9c3fcf4b87a41122",
+        "parentUid" : "b19fca5e74148129fed0c93d5d63a6ad",
         "status" : "failed",
         "time" : {
-          "start" : 1705260474029,
-          "stop" : 1705260542422,
-          "duration" : 68393
+          "start" : 1705260894760,
+          "stop" : 1705260980158,
+          "duration" : 85398
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceAM()",
-        "uid" : "33435535381cf6e4",
-        "parentUid" : "6191b0124db8c7b73eebbdb1a61baf83",
+        "uid" : "98421a559a1aef6c",
+        "parentUid" : "b19fca5e74148129fed0c93d5d63a6ad",
         "status" : "failed",
         "time" : {
-          "start" : 1705260542639,
-          "stop" : 1705260608355,
-          "duration" : 65716
+          "start" : 1705260980347,
+          "stop" : 1705261055412,
+          "duration" : 75065
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6191b0124db8c7b73eebbdb1a61baf83"
-    }, {
-      "name" : "Element not found: By.xpath: //*[contains(@text,'Мохов Алексей Денисович')]",
-      "children" : [ {
-        "name" : "addInsuranceCV()",
-        "uid" : "f123e2863dcd752f",
-        "parentUid" : "3790d63e36dbf95f6a958703f94d520b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1705260608359,
-          "stop" : 1705260680704,
-          "duration" : 72345
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3790d63e36dbf95f6a958703f94d520b"
+      "uid" : "b19fca5e74148129fed0c93d5d63a6ad"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[@name=\"Полисы\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 421291e8-d55c-486e-a383-4dbd45166667",
+      "children" : [ {
+        "name" : "addInsuranceCV()",
+        "uid" : "4aac400b3c98efc2",
+        "parentUid" : "b907f15b13bb4956e7c1547f110fb861",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705261055425,
+          "stop" : 1705261132523,
+          "duration" : 77098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b907f15b13bb4956e7c1547f110fb861"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
