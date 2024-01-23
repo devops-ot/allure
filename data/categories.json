@@ -4,611 +4,534 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found with accessibility ID: By.xpath: //XCUIElementTypeStaticText[@name=\"Настройки\"]",
+      "name" : "Element not found with locator: By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")]",
       "children" : [ {
-        "name" : "changePasswordPositive()",
-        "uid" : "ec5f2ac35721c2fc",
-        "parentUid" : "6ec7326e09d36966ebe103c37da9c87d",
+        "name" : "questionnaireOpensForAdultPatient()",
+        "uid" : "ea6a0173f0404c17",
+        "parentUid" : "f6fdbd7741f25ccdbd6b0f50938c7f10",
         "status" : "failed",
         "time" : {
-          "start" : 1705558032453,
-          "stop" : 1705558201601,
-          "duration" : 169148
+          "start" : 1706039596894,
+          "stop" : 1706039777323,
+          "duration" : 180429
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "recoveryPass()",
-        "uid" : "772b7124fd653e00",
-        "parentUid" : "6ec7326e09d36966ebe103c37da9c87d",
+        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
+        "uid" : "ccb8420b6b91ed54",
+        "parentUid" : "f6fdbd7741f25ccdbd6b0f50938c7f10",
         "status" : "failed",
         "time" : {
-          "start" : 1705562539386,
-          "stop" : 1705562623663,
-          "duration" : 84277
+          "start" : 1706039782512,
+          "stop" : 1706039954158,
+          "duration" : 171646
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "authorization()",
-        "uid" : "ca6bf93a3a810c40",
-        "parentUid" : "6ec7326e09d36966ebe103c37da9c87d",
+        "name" : "specializationDeterminedForOnlineConsultation()",
+        "uid" : "afae22d5fdc0a760",
+        "parentUid" : "f6fdbd7741f25ccdbd6b0f50938c7f10",
         "status" : "failed",
         "time" : {
-          "start" : 1705564098138,
-          "stop" : 1705564187101,
-          "duration" : 88963
+          "start" : 1706040647145,
+          "stop" : 1706040824278,
+          "duration" : 177133
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6ec7326e09d36966ebe103c37da9c87d"
+      "uid" : "f6fdbd7741f25ccdbd6b0f50938c7f10"
     }, {
-      "name" : "Element not found: By.id: Данные о заболевании добавлены",
-      "children" : [ {
-        "name" : "diseaseTests()",
-        "uid" : "c268c4dafc2c5d0b",
-        "parentUid" : "68c2ca1261b38eee68a8734cd5d9e02f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1705559022063,
-          "stop" : 1705559186305,
-          "duration" : 164242
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "68c2ca1261b38eee68a8734cd5d9e02f"
-    }, {
-      "name" : "Element not found with locator: By.xpath: //XCUIElementTypeSearchField[@name=\"Название или адрес клиники\"]",
+      "name" : "Element not found with locator: By.id: ru.sogaz.app.stage:id/input_search",
       "children" : [ {
         "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
-        "uid" : "9a637dcc393d6861",
-        "parentUid" : "483eb7c655ff7f68b73de0ce8fea5686",
+        "uid" : "85deca7998c3c9e0",
+        "parentUid" : "d13366a4b35e9c816ee547e2370e9375",
         "status" : "failed",
         "time" : {
-          "start" : 1705560659989,
-          "stop" : 1705560882159,
-          "duration" : 222170
+          "start" : 1706039954162,
+          "stop" : 1706040125818,
+          "duration" : 171656
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "483eb7c655ff7f68b73de0ce8fea5686"
+      "uid" : "d13366a4b35e9c816ee547e2370e9375"
+    }, {
+      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные о заболевании добавлены\"]",
+      "children" : [ {
+        "name" : "diseaseTests()",
+        "uid" : "b2e5eb2dfed6cc65",
+        "parentUid" : "a4938c085bb0a55691dc35d689c2c781",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706041476640,
+          "stop" : 1706041550659,
+          "duration" : 74019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4938c085bb0a55691dc35d689c2c781"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeCell)[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: RemoteWebDriver",
       "children" : [ {
-        "name" : "doctorConclusionTests()",
-        "uid" : "8bbc1b7f21590c89",
-        "parentUid" : "3f0a0f1ce2bc8c7b852f478d75e87899",
+        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
+        "uid" : "3349768d6befbcd7",
+        "parentUid" : "5948fba9bba54a834036eb26e44dc543",
         "status" : "broken",
         "time" : {
-          "start" : 1705558331522,
-          "stop" : 1705558606132,
-          "duration" : 274610
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "instrumentalDiagnosticsTests()",
-        "uid" : "210d7368eeba6388",
-        "parentUid" : "3f0a0f1ce2bc8c7b852f478d75e87899",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705558732426,
-          "stop" : 1705558896996,
-          "duration" : 164570
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "analyzesTests()",
-        "uid" : "5774532deeba8905",
-        "parentUid" : "3f0a0f1ce2bc8c7b852f478d75e87899",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705559432199,
-          "stop" : 1705559654595,
-          "duration" : 222396
+          "start" : 1706039777327,
+          "stop" : 1706039782509,
+          "duration" : 5182
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3f0a0f1ce2bc8c7b852f478d75e87899"
+      "uid" : "5948fba9bba54a834036eb26e44dc543"
     }, {
-      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "sliderNavigationTests()",
-        "uid" : "36cdfbcd1f1e99f2",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705559654622,
-          "stop" : 1705559721816,
-          "duration" : 67194
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sectionsAndModalsTests()",
-        "uid" : "a3fd41b6aa53fb38",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705559722803,
-          "stop" : 1705559774601,
-          "duration" : 51798
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "ednaChatTests()",
-        "uid" : "85a0d668f8bbb80a",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705561906415,
-          "stop" : 1705561991719,
-          "duration" : 85304
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "exitFromQuestionnaire()",
-        "uid" : "25cff1f8c0f69a9",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705559774621,
-          "stop" : 1705559907191,
-          "duration" : 132570
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "e1db1981bc31d8e9",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705559907211,
-          "stop" : 1705560015356,
-          "duration" : 108145
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
-        "uid" : "e7e7a42d11e4a5c0",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "uid" : "dd377aed9a403cb7",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1705560027516,
-          "stop" : 1705560138117,
-          "duration" : 110601
+          "start" : 1706040125821,
+          "stop" : 1706040192356,
+          "duration" : 66535
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "navigatingThroughQuestionnaireScreens()",
-        "uid" : "7b8efc609cdbc221",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "name" : "exitFromQuestionnaire()",
+        "uid" : "e1cbd724fcb8505e",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1705560138132,
-          "stop" : 1705560261367,
-          "duration" : 123235
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
-        "uid" : "78b8dda8ed18b610",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705560261389,
-          "stop" : 1705560383462,
-          "duration" : 122073
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
-        "uid" : "7dfc86bf4ae60f1d",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705560383484,
-          "stop" : 1705560495640,
-          "duration" : 112156
+          "start" : 1706040192358,
+          "stop" : 1706040259627,
+          "duration" : 67269
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "goBackToSymptomsSelectionPage()",
-        "uid" : "ab8a09bde8cdbcf7",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "uid" : "ce7cb2cc5c604055",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1705560529225,
-          "stop" : 1705560659974,
-          "duration" : 130749
+          "start" : 1706040259631,
+          "stop" : 1706040324838,
+          "duration" : 65207
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "85d616594896414d",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "uid" : "ea0cb9c6c5c4085f",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1705561227319,
-          "stop" : 1705561362597,
-          "duration" : 135278
+          "start" : 1706040324842,
+          "stop" : 1706040388357,
+          "duration" : 63515
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "813a2621c9075b96",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+        "uid" : "e358603f2a2cd5f5",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1705562623683,
-          "stop" : 1705562737317,
-          "duration" : 113634
+          "start" : 1706040388359,
+          "stop" : 1706040453435,
+          "duration" : 65076
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "939b7da00e6e00ef",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
+        "uid" : "73a55d86b295f523",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1705562737337,
-          "stop" : 1705562860046,
-          "duration" : 122709
+          "start" : 1706040453438,
+          "stop" : 1706040518231,
+          "duration" : 64793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+        "uid" : "4a96a4056b320551",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706040518235,
+          "stop" : 1706040581810,
+          "duration" : 63575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigatingThroughQuestionnaireScreens()",
+        "uid" : "43b7ab357bbb8766",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706040581813,
+          "stop" : 1706040647142,
+          "duration" : 65329
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "20c6bcdc6f626fbb",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "uid" : "263852ed4ca4e649",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
         "status" : "broken",
         "time" : {
-          "start" : 1705562860065,
-          "stop" : 1705562995753,
-          "duration" : 135688
+          "start" : 1706041734559,
+          "stop" : 1706041801043,
+          "duration" : 66484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "a67ed61bad6368dd",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706042110591,
+          "stop" : 1706042181782,
+          "duration" : 71191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithChat()",
+        "uid" : "f30967021f76eff0",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706042293446,
+          "stop" : 1706042358913,
+          "duration" : 65467
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a747bae42ce134c5181d2fa21396d1df"
+      "uid" : "0f5af47d1f874975e68f857ba40d7a6b"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//button[@class=\"StyledButton-sc-323bzc-0 dwljrf Select__StyledSelectDropButton-sc-17idtfo-2 bswlIS\"])[3] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "4f12cc19b07205fe",
-        "parentUid" : "61769262887f038566a3086ed64db47c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705560495657,
-          "stop" : 1705560529209,
-          "duration" : 33552
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "61769262887f038566a3086ed64db47c"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: //XCUIElementTypeStaticText[@name=\"Регистрация\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "addInsuranceAV()",
-        "uid" : "62e7441e0e4a41cd",
-        "parentUid" : "b91f0bff7e2944ba4a4f9078699f3a44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705561599924,
-          "stop" : 1705561681195,
-          "duration" : 81271
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "36b1369a755e49c8",
-        "parentUid" : "b91f0bff7e2944ba4a4f9078699f3a44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705561681207,
-          "stop" : 1705561752214,
-          "duration" : 71007
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceCV()",
-        "uid" : "c4c3c75912584ad6",
-        "parentUid" : "b91f0bff7e2944ba4a4f9078699f3a44",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705561752226,
-          "stop" : 1705561819443,
-          "duration" : 67217
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b91f0bff7e2944ba4a4f9078699f3a44"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "checkup18()",
-        "uid" : "273c210427201679",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705561991742,
-          "stop" : 1705562062549,
-          "duration" : 70807
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup28()",
-        "uid" : "404b870d007ae782",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705562109469,
-          "stop" : 1705562177585,
-          "duration" : 68116
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "checkup40()",
-        "uid" : "fbce9d8908ed24d4",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "e51ad584f2eae94e",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
         "status" : "broken",
         "time" : {
-          "start" : 1705562177599,
-          "stop" : 1705562252177,
-          "duration" : 74578
+          "start" : 1706040824282,
+          "stop" : 1706040887440,
+          "duration" : 63158
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "checkup41()",
-        "uid" : "198a8ed3826d5f8b",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "name" : "checkup27()",
+        "uid" : "e2b8a8013d051c48",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
         "status" : "broken",
         "time" : {
-          "start" : 1705562252187,
-          "stop" : 1705562333227,
-          "duration" : 81040
+          "start" : 1706040887444,
+          "stop" : 1706040951331,
+          "duration" : 63887
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkup50()",
-        "uid" : "277b03091897583e",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "565d5bf6c463b1c2",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
         "status" : "broken",
         "time" : {
-          "start" : 1705562333236,
-          "stop" : 1705562402630,
-          "duration" : 69394
+          "start" : 1706040951334,
+          "stop" : 1706041015242,
+          "duration" : 63908
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "checkup51()",
-        "uid" : "105c8bf905006648",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "name" : "checkup18()",
+        "uid" : "cb0b0845f61b91ea",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
         "status" : "broken",
         "time" : {
-          "start" : 1705562402643,
-          "stop" : 1705562470474,
-          "duration" : 67831
+          "start" : 1706041015435,
+          "stop" : 1706041079700,
+          "duration" : 64265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup41()",
+        "uid" : "417fc541d9475758",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706041079703,
+          "stop" : 1706041145432,
+          "duration" : 65729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup28()",
+        "uid" : "c93f7e789118093",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706041145436,
+          "stop" : 1706041209110,
+          "duration" : 63674
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkup59()",
-        "uid" : "227540d42b9a2d80",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "caa4ca2accbf9d34",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
         "status" : "broken",
         "time" : {
-          "start" : 1705562470483,
-          "stop" : 1705562539369,
-          "duration" : 68886
+          "start" : 1706041219910,
+          "stop" : 1706041284338,
+          "duration" : 64428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup51()",
+        "uid" : "18b6a1906e041319",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706041284341,
+          "stop" : 1706041348596,
+          "duration" : 64255
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5e16959f4c64f31d3ca78b22365eb56f"
+      "uid" : "1b7563ab456d560cf8cc2d7f6c574ddf"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "checkup27()",
-        "uid" : "d76583b2f58eecbe",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "name" : "addInsuranceAV()",
+        "uid" : "ff440786bb42e545",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1705562062563,
-          "stop" : 1705562109456,
-          "duration" : 46893
+          "start" : 1706041348600,
+          "stop" : 1706041391024,
+          "duration" : 42424
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "a94b95b10be093d7",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "name" : "addInsuranceAM()",
+        "uid" : "bb013e4dc2777bf5",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1705563409570,
-          "stop" : 1705563458565,
-          "duration" : 48995
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "90f53dfd111086032dd0191c38369f31"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Цель cдачи анализа\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "a7812bcbda20fc4",
-        "parentUid" : "78790f5ae04b3fd9fc9d82c874bd723d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705562995773,
-          "stop" : 1705563171176,
-          "duration" : 175403
+          "start" : 1706041391027,
+          "stop" : 1706041432571,
+          "duration" : 41544
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "bf326007adb02716",
-        "parentUid" : "78790f5ae04b3fd9fc9d82c874bd723d",
+        "name" : "addInsuranceCV()",
+        "uid" : "b01c1745be6ebebe",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1705563458868,
-          "stop" : 1705563638618,
-          "duration" : 179750
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "bec629eced4c9ae1",
-        "parentUid" : "78790f5ae04b3fd9fc9d82c874bd723d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1705563638641,
-          "stop" : 1705563806194,
-          "duration" : 167553
+          "start" : 1706041432574,
+          "stop" : 1706041476636,
+          "duration" : 44062
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "5e74ab8a8ec84369",
-        "parentUid" : "78790f5ae04b3fd9fc9d82c874bd723d",
+        "uid" : "5a14d341e2a63231",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1705563806212,
-          "stop" : 1705563979224,
-          "duration" : 173012
+          "start" : 1706041801047,
+          "stop" : 1706041843564,
+          "duration" : 42517
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "78790f5ae04b3fd9fc9d82c874bd723d"
+      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: label == \"Выберите специалиста\" (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 3ec3e337-3aa4-45f0-b650-428d163f7b43",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Цель сдачи анализов\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "fd5c82c144c65980",
+        "parentUid" : "1a1b17c52b136893397580bbbe4a2987",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706041550664,
+          "stop" : 1706041668038,
+          "duration" : 117374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "616015370bed187b",
+        "parentUid" : "1a1b17c52b136893397580bbbe4a2987",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706041843567,
+          "stop" : 1706041975050,
+          "duration" : 131483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithAudio()",
+        "uid" : "dd9f64912d095837",
+        "parentUid" : "1a1b17c52b136893397580bbbe4a2987",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706042181785,
+          "stop" : 1706042293443,
+          "duration" : 111658
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a1b17c52b136893397580bbbe4a2987"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Выберите специалиста\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "addingReadmissionWithAudio()",
-        "uid" : "b13be04f7de615e0",
-        "parentUid" : "6418c3d81856c54d43d1ad451d1a68f8",
+        "uid" : "9dccb60a4445ebe8",
+        "parentUid" : "fee0b525dfb643e6e089416a151047d8",
         "status" : "broken",
         "time" : {
-          "start" : 1705563171195,
-          "stop" : 1705563294777,
-          "duration" : 123582
+          "start" : 1706041668041,
+          "stop" : 1706041734557,
+          "duration" : 66516
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "6418c3d81856c54d43d1ad451d1a68f8"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: label == \"Выберите специалиста\" (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: c4440c31-6f3f-4073-a024-0922b2d24d46",
-      "children" : [ {
+      }, {
         "name" : "addingReadmissionWithVideo()",
-        "uid" : "ef91b76b37067dbf",
-        "parentUid" : "c01ef630e74d4148d1660bfb3b4532c5",
+        "uid" : "13e97d839f7bb01a",
+        "parentUid" : "fee0b525dfb643e6e089416a151047d8",
         "status" : "broken",
         "time" : {
-          "start" : 1705563294795,
-          "stop" : 1705563409552,
-          "duration" : 114757
+          "start" : 1706041975052,
+          "stop" : 1706042040500,
+          "duration" : 65448
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "c01ef630e74d4148d1660bfb3b4532c5"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: label == \"Выберите специалиста\" (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: fc115deb-b17c-4897-973c-12125b7d965a",
-      "children" : [ {
+      }, {
         "name" : "addingReadmissionWithChat()",
-        "uid" : "f825ee455cd4ddef",
-        "parentUid" : "ad37d003b3eb843270ff0ba8699e522f",
+        "uid" : "d3a34c5aeb672a41",
+        "parentUid" : "fee0b525dfb643e6e089416a151047d8",
         "status" : "broken",
         "time" : {
-          "start" : 1705563979243,
-          "stop" : 1705564098110,
-          "duration" : 118867
+          "start" : 1706042041522,
+          "stop" : 1706042110588,
+          "duration" : 69066
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ad37d003b3eb843270ff0ba8699e522f"
+      "uid" : "fee0b525dfb643e6e089416a151047d8"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"История лечения\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "65ed0d0fbf5c83",
+        "parentUid" : "7fe507c7892a0e5f781d861fbf2d10c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706042358917,
+          "stop" : 1706042476060,
+          "duration" : 117143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fe507c7892a0e5f781d861fbf2d10c0"
+    }, {
+      "name" : "Expected condition failed: waiting for number of elements found by By.xpath: //android.view.ViewGroup[@resource-id=\"ru.sogaz.app.stage:id/chipGroup\"]/android.widget.FrameLayout/android.widget.TextView[1] to be more than \"5\". Current number: \"5\" (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f9c849a7-51e4-4ec5-9355-280c3db57570",
+      "children" : [ {
+        "name" : "ednaChatTests()",
+        "uid" : "77972ce36b5fd064",
+        "parentUid" : "7b7b295d49d840de69127571e5ec39bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706042607840,
+          "stop" : 1706042748718,
+          "duration" : 140878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b7b295d49d840de69127571e5ec39bf"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
