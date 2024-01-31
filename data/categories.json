@@ -1,5 +1,603 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found with locator: By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")]",
+      "children" : [ {
+        "name" : "questionnaireOpensForAdultPatient()",
+        "uid" : "12a217ce248aca54",
+        "parentUid" : "f6fdbd7741f25ccdbd6b0f50938c7f10",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706720581224,
+          "stop" : 1706720751682,
+          "duration" : 170458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "specializationDeterminedForOnlineConsultation()",
+        "uid" : "be0ae6a580fb1ffb",
+        "parentUid" : "f6fdbd7741f25ccdbd6b0f50938c7f10",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706721602253,
+          "stop" : 1706721780145,
+          "duration" : 177892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6fdbd7741f25ccdbd6b0f50938c7f10"
+    }, {
+      "name" : "Element not found with locator: By.id: ru.sogaz.app.stage:id/input_search",
+      "children" : [ {
+        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+        "uid" : "d6372ab495503ae2",
+        "parentUid" : "d13366a4b35e9c816ee547e2370e9375",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706720827812,
+          "stop" : 1706721014557,
+          "duration" : 186745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d13366a4b35e9c816ee547e2370e9375"
+    }, {
+      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Лекарство добавлено\"]",
+      "children" : [ {
+        "name" : "medicineTests()",
+        "uid" : "fe1129a24f0f9da2",
+        "parentUid" : "d33b204d1769300104a33a2ee08aef93",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706722571846,
+          "stop" : 1706722646039,
+          "duration" : 74193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d33b204d1769300104a33a2ee08aef93"
+    }, {
+      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные о заболевании добавлены\"]",
+      "children" : [ {
+        "name" : "diseaseTests()",
+        "uid" : "cd536901e18afa16",
+        "parentUid" : "a4938c085bb0a55691dc35d689c2c781",
+        "status" : "failed",
+        "time" : {
+          "start" : 1706722647421,
+          "stop" : 1706722721233,
+          "duration" : 73812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4938c085bb0a55691dc35d689c2c781"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 121.0.6167.85 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x000000010068e004 chromedriver + 4169732\n1   chromedriver                        0x0000000100685ff8 chromedriver + 4136952\n2   chromedriver                        0x00000001002db500 chromedriver + 292096\n3   chromedriver                        0x000000010031195c chromedriver + 514396\n4   chromedriver                        0x0000000100310b98 chromedriver + 510872\n5   chromedriver                        0x000000010030c244 chromedriver + 492100\n6   chromedriver                        0x00000001003095b8 chromedriver + 480696\n7   chromedriver                        0x000000010034b754 chromedriver + 751444\n8   chromedriver                        0x00000001003145e8 chromedriver + 525800\n9   chromedriver                        0x00000001003154b8 chromedriver + 529592\n10  chromedriver                        0x0000000100654334 chromedriver + 3932980\n11  chromedriver                        0x0000000100658970 chromedriver + 3950960\n12  chromedriver                        0x000000010063c774 chromedriver + 3835764\n13  chromedriver                        0x0000000100659478 chromedriver + 3953784\n14  chromedriver                        0x000000010062eab4 chromedriver + 3779252\n15  chromedriver                        0x0000000100675914 chromedriver + 4069652\n16  chromedriver                        0x0000000100675a90 chromedriver + 4070032\n17  chromedriver                        0x0000000100685c70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x000000019a84ffa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x000000019a84ada0 thread_start + 8\n",
+      "children" : [ {
+        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
+        "uid" : "f9b512be7bb0e30f",
+        "parentUid" : "9b24bde761049eee3bbae952665a2d0b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706720751692,
+          "stop" : 1706720759319,
+          "duration" : 7627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b24bde761049eee3bbae952665a2d0b"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
+        "uid" : "ed4991ceb598fe2a",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706720759322,
+          "stop" : 1706720827808,
+          "duration" : 68486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup27()",
+        "uid" : "29153428bac4107f",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721855107,
+          "stop" : 1706721945279,
+          "duration" : 90172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup50()",
+        "uid" : "c4620f01efb85efe",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721945284,
+          "stop" : 1706722020155,
+          "duration" : 74871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup41()",
+        "uid" : "a23b845ebd06f656",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722063315,
+          "stop" : 1706722131452,
+          "duration" : 68137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup28()",
+        "uid" : "fbf47320291924d7",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722131455,
+          "stop" : 1706722198052,
+          "duration" : 66597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup59()",
+        "uid" : "f890d7323ad6e5cc",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722198055,
+          "stop" : 1706722263968,
+          "duration" : 65913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup51()",
+        "uid" : "96b097b357923c34",
+        "parentUid" : "1b7563ab456d560cf8cc2d7f6c574ddf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722271573,
+          "stop" : 1706722337384,
+          "duration" : 65811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b7563ab456d560cf8cc2d7f6c574ddf"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+        "uid" : "f2a70d6da2cca58b",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721014569,
+          "stop" : 1706721083033,
+          "duration" : 68464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitFromQuestionnaire()",
+        "uid" : "d17b93a290092e65",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721083039,
+          "stop" : 1706721147914,
+          "duration" : 64875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goBackToSymptomsSelectionPage()",
+        "uid" : "edace446728b3992",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721147918,
+          "stop" : 1706721218001,
+          "duration" : 70083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
+        "uid" : "347f92d1a1b4045f",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721218006,
+          "stop" : 1706721309036,
+          "duration" : 91030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+        "uid" : "85fabe9ba9094be7",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721309041,
+          "stop" : 1706721374797,
+          "duration" : 65756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
+        "uid" : "9efc45f2ee483e36",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721374802,
+          "stop" : 1706721469004,
+          "duration" : 94202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigatingThroughQuestionnaireScreens()",
+        "uid" : "514e7c246e4dc83c",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721469009,
+          "stop" : 1706721534909,
+          "duration" : 65900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+        "uid" : "b5ec6a9f96f97793",
+        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721534913,
+          "stop" : 1706721602248,
+          "duration" : 67335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f5af47d1f874975e68f857ba40d7a6b"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/register_btn_text (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "checkup40()",
+        "uid" : "e25a0712c0bf1845",
+        "parentUid" : "d323aa617e1a5ebf15f6e6f64da70065",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706721780156,
+          "stop" : 1706721855096,
+          "duration" : 74940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d323aa617e1a5ebf15f6e6f64da70065"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "checkup18()",
+        "uid" : "9e9336a5a373914f",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722020159,
+          "stop" : 1706722063311,
+          "duration" : 43152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/buttonAdd (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "addInsuranceAV()",
+        "uid" : "3508aae9c0fa9cc4",
+        "parentUid" : "9e1f663ab9511ba9f47f62e2efa7ff7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722337391,
+          "stop" : 1706722412582,
+          "duration" : 75191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAM()",
+        "uid" : "302a6af87fb0014c",
+        "parentUid" : "9e1f663ab9511ba9f47f62e2efa7ff7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722412587,
+          "stop" : 1706722482137,
+          "duration" : 69550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceCV()",
+        "uid" : "f02035a77483a940",
+        "parentUid" : "9e1f663ab9511ba9f47f62e2efa7ff7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722482144,
+          "stop" : 1706722571837,
+          "duration" : 89693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e1f663ab9511ba9f47f62e2efa7ff7f"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1092:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "instrumentalDiagnosticsTests()",
+        "uid" : "80a969ee105816b1",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722721240,
+          "stop" : 1706722746963,
+          "duration" : 25723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allergyTests()",
+        "uid" : "a40e8585fa494fe2",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722746966,
+          "stop" : 1706722771445,
+          "duration" : 24479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "analyzesTests()",
+        "uid" : "42b4612ba604610f",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722771450,
+          "stop" : 1706722795878,
+          "duration" : 24428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doctorConclusionTests()",
+        "uid" : "c350e63f55f23884",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722795881,
+          "stop" : 1706722820465,
+          "duration" : 24584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "989b567a54829984",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722820469,
+          "stop" : 1706722844973,
+          "duration" : 24504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "edc933e40ce4d02f",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722845186,
+          "stop" : 1706722870670,
+          "duration" : 25484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "531fa0683cf31a37",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722870673,
+          "stop" : 1706722895227,
+          "duration" : 24554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithChat()",
+        "uid" : "d4c2ef0abe70a032",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722895229,
+          "stop" : 1706722919697,
+          "duration" : 24468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "d41b8088aeb1004",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722919700,
+          "stop" : 1706722944300,
+          "duration" : 24600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithVideo()",
+        "uid" : "4ab585b8b82370c3",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722944304,
+          "stop" : 1706722968692,
+          "duration" : 24388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithChat()",
+        "uid" : "f01a38fcf316ae35",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722968694,
+          "stop" : 1706722996587,
+          "duration" : 27893
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "92008f3b0dc639c5",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706722997629,
+          "stop" : 1706723022101,
+          "duration" : 24472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithAudio()",
+        "uid" : "9653a4fcec1d4a15",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706723022104,
+          "stop" : 1706723055011,
+          "duration" : 32907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithChat()",
+        "uid" : "e1b7430f57039e1e",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706723056204,
+          "stop" : 1706723081806,
+          "duration" : 25602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "9b0b68c4f7a98d",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706723081809,
+          "stop" : 1706723121046,
+          "duration" : 39237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ednaChatTests()",
+        "uid" : "1385256d1aaf70ca",
+        "parentUid" : "cad920926e5128598702d9640bec24ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1706723122205,
+          "stop" : 1706723146811,
+          "duration" : 24606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cad920926e5128598702d9640bec24ce"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
