@@ -2,794 +2,143 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found with accessibility ID: By.xpath: //XCUIElementTypeStaticText[@name=\"Настройки\"]",
-      "children" : [ {
-        "name" : "changePasswordPositive()",
-        "uid" : "3cf8ca81cad6ea81",
-        "parentUid" : "6ec7326e09d36966ebe103c37da9c87d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1707745654104,
-          "stop" : 1707745838586,
-          "duration" : 184482
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6ec7326e09d36966ebe103c37da9c87d"
-    }, {
-      "name" : "Element not found: By.id: Данные об аллергии добавлены",
-      "children" : [ {
-        "name" : "allergyTests()",
-        "uid" : "c43fddabf3d675c6",
-        "parentUid" : "7e07045f9b4cfb61a889f27115a8031a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1707745838684,
-          "stop" : 1707745979675,
-          "duration" : 140991
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7e07045f9b4cfb61a889f27115a8031a"
-    }, {
-      "name" : "Element not found: By.id: Лекарство добавлено",
-      "children" : [ {
-        "name" : "medicineTests()",
-        "uid" : "6ddc699ceba9cff1",
-        "parentUid" : "472c876b737e9c7439c4ca85183ca04e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1707747186840,
-          "stop" : 1707747331675,
-          "duration" : 144835
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "472c876b737e9c7439c4ca85183ca04e"
-    }, {
-      "name" : "Element not found with accessibility ID: By.IosNsPredicate: label == \"Связаться с СОГАЗом\"",
-      "children" : [ {
-        "name" : "authorization()",
-        "uid" : "153d796d83ef1b6c",
-        "parentUid" : "65fe17a988f0670392a24dbe36db2e56",
-        "status" : "failed",
-        "time" : {
-          "start" : 1707751321532,
-          "stop" : 1707751421940,
-          "duration" : 100408
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "65fe17a988f0670392a24dbe36db2e56"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeTable/XCUIElementTypeCell)[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 10cf2038-bfc4-412b-8291-dfe72d88911b is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 10cf2038-bfc4-412b-8291-dfe72d88911b is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "doctorConclusionTests()",
-        "uid" : "20940f91cffb115c",
-        "parentUid" : "4e190b7399066cba9b38dc476a7977b7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707745980880,
-          "stop" : 1707746203116,
-          "duration" : 222236
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4e190b7399066cba9b38dc476a7977b7"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeCell)[1] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "instrumentalDiagnosticsTests()",
-        "uid" : "9c0eecff4c03918",
-        "parentUid" : "3f0a0f1ce2bc8c7b852f478d75e87899",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707746479987,
-          "stop" : 1707746693591,
-          "duration" : 213604
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3f0a0f1ce2bc8c7b852f478d75e87899"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: Медкарта (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "diseaseTests()",
-        "uid" : "e3610ff53a6d64e",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707746915653,
-          "stop" : 1707747031787,
-          "duration" : 116134
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "analyzesTests()",
-        "uid" : "c3008e1bceb4fa1c",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707747331701,
-          "stop" : 1707747451514,
-          "duration" : 119813
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "exitFromQuestionnaire()",
-        "uid" : "5ed3ec7ca98f0ba5",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707747574534,
-          "stop" : 1707747666724,
-          "duration" : 92190
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "checkup18()",
-        "uid" : "766fd629bc19a905",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "942f992ce7dd8b73",
+        "parentUid" : "e7f51974aeb91d6c8645e7873472d5ae",
         "status" : "broken",
         "time" : {
-          "start" : 1707749567379,
-          "stop" : 1707749638989,
-          "duration" : 71610
+          "start" : 1707751665372,
+          "stop" : 1707751671690,
+          "duration" : 6318
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "checkup27()",
-        "uid" : "70d10aed2c3fb478",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749639007,
-          "stop" : 1707749712140,
-          "duration" : 73133
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "e7f51974aeb91d6c8645e7873472d5ae"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by fbe507dc-fa11-47e5-a4dc-9d98de66abc0 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by fbe507dc-fa11-47e5-a4dc-9d98de66abc0 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
         "name" : "checkup28()",
-        "uid" : "682d0fa13027c8ba",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "fae5627d3f0b6890",
+        "parentUid" : "f840102fa668dab6ca57e3a4ea40c3e4",
         "status" : "broken",
         "time" : {
-          "start" : 1707749712159,
-          "stop" : 1707749789322,
-          "duration" : 77163
+          "start" : 1707751671693,
+          "stop" : 1707751677973,
+          "duration" : 6280
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "f840102fa668dab6ca57e3a4ea40c3e4"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by bffa9edb-4982-4c64-a891-c504d59a65c0 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by bffa9edb-4982-4c64-a891-c504d59a65c0 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
         "name" : "checkup40()",
-        "uid" : "34d3d73d461de624",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "34deec658e94882b",
+        "parentUid" : "9b958d3669e7c1e516365c0eaa0c8bcc",
         "status" : "broken",
         "time" : {
-          "start" : 1707749789339,
-          "stop" : 1707749865911,
-          "duration" : 76572
+          "start" : 1707751677975,
+          "stop" : 1707751684058,
+          "duration" : 6083
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "9b958d3669e7c1e516365c0eaa0c8bcc"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 0d13a518-15e0-419b-b673-5cece66d09cf is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 0d13a518-15e0-419b-b673-5cece66d09cf is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
         "name" : "checkup41()",
-        "uid" : "a068295c271cd661",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "87a3a6420bb2af03",
+        "parentUid" : "c931af3b6c4b911be8f9297408b5b042",
         "status" : "broken",
         "time" : {
-          "start" : 1707749865928,
-          "stop" : 1707749942135,
-          "duration" : 76207
+          "start" : 1707751684060,
+          "stop" : 1707751690267,
+          "duration" : 6207
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "checkup50()",
-        "uid" : "9a362e9e9285ae26",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749942152,
-          "stop" : 1707750017720,
-          "duration" : 75568
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup51()",
-        "uid" : "974455fc5b465163",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750017740,
-          "stop" : 1707750089760,
-          "duration" : 72020
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "c931af3b6c4b911be8f9297408b5b042"
+    }, {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 9a36a1f6-cc7d-42f2-8127-941387b876fb is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 9a36a1f6-cc7d-42f2-8127-941387b876fb is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
         "name" : "checkup59()",
-        "uid" : "7ab01d2a998bdbf1",
-        "parentUid" : "5e16959f4c64f31d3ca78b22365eb56f",
+        "uid" : "111fdd63e2790e7a",
+        "parentUid" : "11caa7c319691c577f31843eedf836cc",
         "status" : "broken",
         "time" : {
-          "start" : 1707750089779,
-          "stop" : 1707750175726,
-          "duration" : 85947
+          "start" : 1707751690270,
+          "stop" : 1707751696519,
+          "duration" : 6249
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5e16959f4c64f31d3ca78b22365eb56f"
+      "uid" : "11caa7c319691c577f31843eedf836cc"
     }, {
-      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by a1d08bf6-186c-4b75-96be-a0d27cb6b76d is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by a1d08bf6-186c-4b75-96be-a0d27cb6b76d is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "sliderNavigationTests()",
-        "uid" : "138cb3ea94c96019",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "name" : "checkup50()",
+        "uid" : "f289250e03374121",
+        "parentUid" : "a1ac6fd1c45c79e85442d84c6c3898b1",
         "status" : "broken",
         "time" : {
-          "start" : 1707747451539,
-          "stop" : 1707747521262,
-          "duration" : 69723
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sectionsAndModalsTests()",
-        "uid" : "ca450f35e8d1fcd1",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707747521280,
-          "stop" : 1707747574509,
-          "duration" : 53229
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "ednaChatTests()",
-        "uid" : "11bbac620513c73b",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749488521,
-          "stop" : 1707749567357,
-          "duration" : 78836
+          "start" : 1707751696521,
+          "stop" : 1707751703079,
+          "duration" : 6558
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
+      "uid" : "a1ac6fd1c45c79e85442d84c6c3898b1"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by d8cbf46e-a7ec-4d04-8a15-47c55d657a87 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by d8cbf46e-a7ec-4d04-8a15-47c55d657a87 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "b63f5abb2f530e45",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "name" : "checkup51()",
+        "uid" : "1c7f55919f26625a",
+        "parentUid" : "0bdf45c74535311dfc8e94205d251912",
         "status" : "broken",
         "time" : {
-          "start" : 1707747666740,
-          "stop" : 1707747896576,
-          "duration" : 229836
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
-        "uid" : "1c7bf24c769a7ea3",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707747896596,
-          "stop" : 1707748038345,
-          "duration" : 141749
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "navigatingThroughQuestionnaireScreens()",
-        "uid" : "7975a37e5c06cfb1",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748038372,
-          "stop" : 1707748217232,
-          "duration" : 178860
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
-        "uid" : "3878fcf9d9c09721",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748274598,
-          "stop" : 1707748487852,
-          "duration" : 213254
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "goBackToSymptomsSelectionPage()",
-        "uid" : "4adce826960ae868",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748514575,
-          "stop" : 1707748623770,
-          "duration" : 109195
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "1fa3a3e98005279f",
-        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749059341,
-          "stop" : 1707749197461,
-          "duration" : 138120
+          "start" : 1707751703081,
+          "stop" : 1707751709240,
+          "duration" : 6159
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a747bae42ce134c5181d2fa21396d1df"
+      "uid" : "0bdf45c74535311dfc8e94205d251912"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by ae294fb3-60a4-4f56-bc40-936b02882403 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by ae294fb3-60a4-4f56-bc40-936b02882403 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
-        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
-        "uid" : "eaeaf6004e26b274",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "name" : "checkup27()",
+        "uid" : "c9db07ae33ca141e",
+        "parentUid" : "8d89e9450acf968d294e576777a9059e",
         "status" : "broken",
         "time" : {
-          "start" : 1707748217257,
-          "stop" : 1707748274582,
-          "duration" : 57325
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAV()",
-        "uid" : "3a1a1b4f6eea5f40",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749289790,
-          "stop" : 1707749335991,
-          "duration" : 46201
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "c8218ee1663542fc",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749336009,
-          "stop" : 1707749382081,
-          "duration" : 46072
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceCV()",
-        "uid" : "ceeb187e276bedbe",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749382094,
-          "stop" : 1707749435244,
-          "duration" : 53150
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete()",
-        "uid" : "9a0a856db4dacc10",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749435262,
-          "stop" : 1707749488500,
-          "duration" : 53238
+          "start" : 1707751709243,
+          "stop" : 1707751715442,
+          "duration" : 6199
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "90f53dfd111086032dd0191c38369f31"
-    }, {
-      "name" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 121.0.6167.160 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x000000010135e004 chromedriver + 4169732\n1   chromedriver                        0x0000000101355ff8 chromedriver + 4136952\n2   chromedriver                        0x0000000100fab500 chromedriver + 292096\n3   chromedriver                        0x0000000100fe195c chromedriver + 514396\n4   chromedriver                        0x0000000100fe0b98 chromedriver + 510872\n5   chromedriver                        0x0000000100fdc244 chromedriver + 492100\n6   chromedriver                        0x0000000100fd95b8 chromedriver + 480696\n7   chromedriver                        0x000000010101b754 chromedriver + 751444\n8   chromedriver                        0x0000000100fe45e8 chromedriver + 525800\n9   chromedriver                        0x0000000100fe54b8 chromedriver + 529592\n10  chromedriver                        0x0000000101324334 chromedriver + 3932980\n11  chromedriver                        0x0000000101328970 chromedriver + 3950960\n12  chromedriver                        0x000000010130c774 chromedriver + 3835764\n13  chromedriver                        0x0000000101329478 chromedriver + 3953784\n14  chromedriver                        0x00000001012feab4 chromedriver + 3779252\n15  chromedriver                        0x0000000101345914 chromedriver + 4069652\n16  chromedriver                        0x0000000101345a90 chromedriver + 4070032\n17  chromedriver                        0x0000000101355c70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x000000019acb3fa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x000000019acaeda0 thread_start + 8\n",
-      "children" : [ {
-        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "362a4263d763ecad",
-        "parentUid" : "f8fb9278fe77cc6fbc832d3df078869c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748487872,
-          "stop" : 1707748514563,
-          "duration" : 26691
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f8fb9278fe77cc6fbc832d3df078869c"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Запись в клинику\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
-        "uid" : "55f3d162ffd0c092",
-        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748623799,
-          "stop" : 1707748751656,
-          "duration" : 127857
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a2c753d9437c0e478aa92f38df1a0e99"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 25e5a997-7fcf-465f-b7da-e6e72ecf7316",
-      "children" : [ {
-        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
-        "uid" : "6b2beec8316592a",
-        "parentUid" : "eafdb7d45c4b64a405fa5084d4284149",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748751673,
-          "stop" : 1707748848398,
-          "duration" : 96725
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "eafdb7d45c4b64a405fa5084d4284149"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 4a718657-0c99-436a-883f-15fc5562bc5d",
-      "children" : [ {
-        "name" : "questionnaireOpensForAdultPatient()",
-        "uid" : "c57d0e794712cb13",
-        "parentUid" : "fb568038e802b9d684840d300c0bd709",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748848414,
-          "stop" : 1707748948070,
-          "duration" : 99656
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fb568038e802b9d684840d300c0bd709"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: d5d0dfb2-4136-450c-b107-053366f7a61f",
-      "children" : [ {
-        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
-        "uid" : "60b3f384641adbdb",
-        "parentUid" : "6d751520cca3e8557f884aff3948c8e6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707748948087,
-          "stop" : 1707749059322,
-          "duration" : 111235
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6d751520cca3e8557f884aff3948c8e6"
-    }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "specializationDeterminedForOnlineConsultation()",
-        "uid" : "56222593c1229fdb",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749197495,
-          "stop" : 1707749220726,
-          "duration" : 23231
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "add87b84395d1f73b808eb965195cd71"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"4 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "registration()",
-        "uid" : "24e2cb19ac5e3ae1",
-        "parentUid" : "1967aa390876dcd824c8e2d732e0d326",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707749243776,
-          "stop" : 1707749289775,
-          "duration" : 45999
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1967aa390876dcd824c8e2d732e0d326"
-    }, {
-      "name" : "The previously found element \"TextField\" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: No matches found for Elements matching predicate 'fb_uid IN {\"93000000-0000-0000-1690-000000000000\"}' from input {(\n    TextField, Disabled,\n    TextField\n)}\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 41d9fb2c-88e0-4c6a-a6dd-d2445429687a",
-      "children" : [ {
-        "name" : "recoveryPass()",
-        "uid" : "ea71dbbc562180a4",
-        "parentUid" : "46adbeb04637662f2fbae7ad4d4b8731",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750175753,
-          "stop" : 1707750195765,
-          "duration" : 20012
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "46adbeb04637662f2fbae7ad4d4b8731"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 834b7565-d4ec-4f28-a1eb-c43bc7db7403",
-      "children" : [ {
-        "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "1aeaec846e0222e3",
-        "parentUid" : "fe4e155afa30360e23e18cd63ca5609f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750195789,
-          "stop" : 1707750314266,
-          "duration" : 118477
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fe4e155afa30360e23e18cd63ca5609f"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 6296135f-7c38-4bb8-9858-1cdd646f9f3a",
-      "children" : [ {
-        "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "30c3799dc7137a8b",
-        "parentUid" : "d75080129fa388372ca280b9fb90bd06",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750314655,
-          "stop" : 1707750413465,
-          "duration" : 98810
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d75080129fa388372ca280b9fb90bd06"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: a30b94f8-204c-4d92-85cf-ac99a75a82bb",
-      "children" : [ {
-        "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "43ec8bebcc7a2309",
-        "parentUid" : "63d950f7d8ff90e5e3c5dc7aa9908c63",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750413486,
-          "stop" : 1707750514350,
-          "duration" : 100864
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "63d950f7d8ff90e5e3c5dc7aa9908c63"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: f882165d-a469-4c60-b6f7-4ad1528f6ab7",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "5fafcffbba5cf717",
-        "parentUid" : "879e636f07c1736b6fbbd744db99d272",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750514371,
-          "stop" : 1707750624714,
-          "duration" : 110343
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "879e636f07c1736b6fbbd744db99d272"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 87613233-a480-4a26-8d85-5bc6f19616d0",
-      "children" : [ {
-        "name" : "addingReadmissionWithAudio()",
-        "uid" : "8580927c58fc8ea",
-        "parentUid" : "8f0f709ed832a971650d87924eeae138",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750624734,
-          "stop" : 1707750723634,
-          "duration" : 98900
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8f0f709ed832a971650d87924eeae138"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 2f7974ec-6d49-4d67-868e-74c07ff056aa",
-      "children" : [ {
-        "name" : "addingReadmissionWithVideo()",
-        "uid" : "22ef0040c76ec52d",
-        "parentUid" : "39885632a314585e8015641624ce8acf",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750723652,
-          "stop" : 1707750821103,
-          "duration" : 97451
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "39885632a314585e8015641624ce8acf"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 70e180ea-3c7a-4546-8338-180d7611455e",
-      "children" : [ {
-        "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "dea5f76511e74370",
-        "parentUid" : "8b9eba80c52b0af2e843d932a96ae2f3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750821123,
-          "stop" : 1707750920215,
-          "duration" : 99092
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8b9eba80c52b0af2e843d932a96ae2f3"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: fa67b9ff-27c7-4bba-a79a-b75a25af1424",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "6447ee300c427cd2",
-        "parentUid" : "22c1c06e8baa247f308f941b7d328fe5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707750920235,
-          "stop" : 1707751017528,
-          "duration" : 97293
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "22c1c06e8baa247f308f941b7d328fe5"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 44b3b3c5-3d5c-4477-8601-890966c3a13f",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "2fe342ee440be83",
-        "parentUid" : "49afd8e53ae9a0c531888fa2ed532c20",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707751017550,
-          "stop" : 1707751125015,
-          "duration" : 107465
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "49afd8e53ae9a0c531888fa2ed532c20"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 397d055f-e7ba-45e3-8b7b-707fe3c9e7a7",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "50d186bec60b2fab",
-        "parentUid" : "5c308446e8aeaf908ef7835db587375f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707751125035,
-          "stop" : 1707751223484,
-          "duration" : 98449
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5c308446e8aeaf908ef7835db587375f"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 127a99cb-e4a1-4daf-b4a1-7fd0b30813fe",
-      "children" : [ {
-        "name" : "addingReadmissionWithChat()",
-        "uid" : "ffe9b02bd70ba7db",
-        "parentUid" : "502736bfdd434dff3de8c0a778f4134e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707751223499,
-          "stop" : 1707751321504,
-          "duration" : 98005
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "502736bfdd434dff3de8c0a778f4134e"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: label == \"Связаться с СОГАЗом\" (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "onboardingPagination()",
-        "uid" : "e040284bbac97e77",
-        "parentUid" : "b7dc1b638b6561b92c01b8f724f028c5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1707751429931,
-          "stop" : 1707751500804,
-          "duration" : 70873
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b7dc1b638b6561b92c01b8f724f028c5"
+      "uid" : "8d89e9450acf968d294e576777a9059e"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
