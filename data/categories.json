@@ -4,22 +4,141 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by a4cdc2a5-a686-4e7e-8d76-0f7ddd96c529 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by a4cdc2a5-a686-4e7e-8d76-0f7ddd96c529 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 2175a1bd-8910-47b1-bf94-a3ca0ad5fdba\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Превосходно!\"]}",
       "children" : [ {
         "name" : "checkup18()",
-        "uid" : "1f76aeff32edba78",
-        "parentUid" : "cf5fba8a3ce6c9e2046ff5f15ca40b45",
+        "uid" : "558fe6b0f0f9f1c4",
+        "parentUid" : "32b245925dcc76734582b177fcdde4fe",
         "status" : "broken",
         "time" : {
-          "start" : 1707949091861,
-          "stop" : 1707949097930,
-          "duration" : 6069
+          "start" : 1707950289076,
+          "stop" : 1707950440339,
+          "duration" : 151263
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cf5fba8a3ce6c9e2046ff5f15ca40b45"
+      "uid" : "32b245925dcc76734582b177fcdde4fe"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: c2bb0dc7-91fc-4bf2-bb78-8a368f3e0c88\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Превосходно!\"]}",
+      "children" : [ {
+        "name" : "checkup27()",
+        "uid" : "89ce421bd0cded24",
+        "parentUid" : "36a8978af2ac7031d5c1e1c2c7b5f54b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707950440596,
+          "stop" : 1707950537838,
+          "duration" : 97242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36a8978af2ac7031d5c1e1c2c7b5f54b"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 41fb29e8-28ff-44c4-a923-f7971ec54916\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Так держать!\"]}",
+      "children" : [ {
+        "name" : "checkup28()",
+        "uid" : "7a97d2114f9ea245",
+        "parentUid" : "b03107f129a77498db8df42c9c75b552",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707950537853,
+          "stop" : 1707950636004,
+          "duration" : 98151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b03107f129a77498db8df42c9c75b552"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 952ffd53-094f-4cf5-b5b5-295183fdf2d8\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Так держать!\"]}",
+      "children" : [ {
+        "name" : "checkup40()",
+        "uid" : "f31e5c9f235eb99c",
+        "parentUid" : "2be1f134dab0c37397003a54a76225f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707950636180,
+          "stop" : 1707950733572,
+          "duration" : 97392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2be1f134dab0c37397003a54a76225f9"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 1d841ed7-da00-4dee-98ee-29ef742f16cb\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Внимание!\"]}",
+      "children" : [ {
+        "name" : "checkup41()",
+        "uid" : "8b60b84b9136370b",
+        "parentUid" : "9f18a355eb01a637c404c8bfb7293740",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707950733584,
+          "stop" : 1707950831504,
+          "duration" : 97920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f18a355eb01a637c404c8bfb7293740"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 248f0368-333b-4e0e-84e9-77f89f6d2169\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Внимание!\"]}",
+      "children" : [ {
+        "name" : "checkup50()",
+        "uid" : "efcba7631b852ab7",
+        "parentUid" : "1e6424c4cc7c3b5ee3eb36a2d4097445",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707950831682,
+          "stop" : 1707950929838,
+          "duration" : 98156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e6424c4cc7c3b5ee3eb36a2d4097445"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 3789eaf4-340b-40ea-b68c-8b895ddbe675\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Начните действовать!\"]}",
+      "children" : [ {
+        "name" : "checkup51()",
+        "uid" : "c3c9fa26516c7a7a",
+        "parentUid" : "85b7fac7cfd276e271bf7ff9cc73f832",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707950929848,
+          "stop" : 1707951027787,
+          "duration" : 97939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85b7fac7cfd276e271bf7ff9cc73f832"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 575efe4b-e2a6-4d05-9de1-433493aa05ff\n*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name=\"Начните действовать!\"]}",
+      "children" : [ {
+        "name" : "checkup59()",
+        "uid" : "95965169c0c9dff0",
+        "parentUid" : "d58f95aacc5e8279e69b1c0eb9097ee5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1707951027958,
+          "stop" : 1707951126404,
+          "duration" : 98446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d58f95aacc5e8279e69b1c0eb9097ee5"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
