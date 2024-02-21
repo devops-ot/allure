@@ -2,637 +2,679 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Element not found with accessibility ID: By.xpath: //XCUIElementTypeStaticText[@name=\"Настройки\"]",
       "children" : [ {
-        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
-        "uid" : "7a4c7b26727504bf",
-        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
-        "status" : "broken",
+        "name" : "changePasswordPositive()",
+        "uid" : "f6a5b8e1c2766b52",
+        "parentUid" : "6ec7326e09d36966ebe103c37da9c87d",
+        "status" : "failed",
         "time" : {
-          "start" : 1708467169246,
-          "stop" : 1708467236107,
-          "duration" : 66861
+          "start" : 1708469144799,
+          "stop" : 1708469296622,
+          "duration" : 151823
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
-        "uid" : "f5ff098b98945221",
-        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
-        "status" : "broken",
+        "name" : "recoveryPass()",
+        "uid" : "41709410fa39c1d8",
+        "parentUid" : "6ec7326e09d36966ebe103c37da9c87d",
+        "status" : "failed",
         "time" : {
-          "start" : 1708467379223,
-          "stop" : 1708467497342,
-          "duration" : 118119
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "goBackToSymptomsSelectionPage()",
-        "uid" : "16b49138a4aafbb7",
-        "parentUid" : "0f5af47d1f874975e68f857ba40d7a6b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467643915,
-          "stop" : 1708467714282,
-          "duration" : 70367
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0f5af47d1f874975e68f857ba40d7a6b"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Медкарта\")] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
-        "uid" : "63e4959da6d92d25",
-        "parentUid" : "1a4b44d71553299393577430e13c2235",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467236111,
-          "stop" : 1708467307385,
-          "duration" : 71274
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1a4b44d71553299393577430e13c2235"
-    }, {
-      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: emulator-5554, fullReset: false, isHeadless: false, platformName: android}, deviceApiLevel: 34, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, fullReset: false, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 14, statBarHeight: 136, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 136, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: bb2e0bc0-3747-4b4e-9676-dcdcd973d634\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
-      "children" : [ {
-        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "34e5bc8e31c4af83",
-        "parentUid" : "02dd181a5e779ac36b45915dd67d5a93",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467307391,
-          "stop" : 1708467314562,
-          "duration" : 7171
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "02dd181a5e779ac36b45915dd67d5a93"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
-        "name" : "navigatingThroughQuestionnaireScreens()",
-        "uid" : "f3ba195a5c67bb59",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467314565,
-          "stop" : 1708467377850,
-          "duration" : 63285
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "specializationDeterminedForOnlineConsultation()",
-        "uid" : "3be6166f46be7265",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467497345,
-          "stop" : 1708467522155,
-          "duration" : 24810
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "questionnaireOpensForAdultPatient()",
-        "uid" : "4b9b6b00f79ea54d",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467522158,
-          "stop" : 1708467546889,
-          "duration" : 24731
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "exitFromQuestionnaire()",
-        "uid" : "3581ffb581ef267e",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467619243,
-          "stop" : 1708467643912,
-          "duration" : 24669
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
-        "uid" : "1a58b005d8f32ad9",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467735678,
-          "stop" : 1708467760405,
-          "duration" : 24727
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
-        "uid" : "fb479a9ac7f6b85f",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467760407,
-          "stop" : 1708467785059,
-          "duration" : 24652
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registration()",
-        "uid" : "b36b6dfc7b0f4d1",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467785064,
-          "stop" : 1708467809627,
-          "duration" : 24563
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceCV()",
-        "uid" : "929434bf2ddadaed",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467877977,
-          "stop" : 1708467902831,
-          "duration" : 24854
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete()",
-        "uid" : "cb216927afffc086",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708467902834,
-          "stop" : 1708467927693,
-          "duration" : 24859
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "allergyTests()",
-        "uid" : "ab83df90301c2584",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468013158,
-          "stop" : 1708468037864,
-          "duration" : 24706
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "analyzesTests()",
-        "uid" : "7f8764778eeb8329",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468037868,
-          "stop" : 1708468062595,
-          "duration" : 24727
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "injuryTests()",
-        "uid" : "9a60e2daffdb8e93",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468062598,
-          "stop" : 1708468087328,
-          "duration" : 24730
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "doctorConclusionTests()",
-        "uid" : "f71af1aff2913628",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468087332,
-          "stop" : 1708468111937,
-          "duration" : 24605
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "e8e3ce9a21a588d1",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468242642,
-          "stop" : 1708468267502,
-          "duration" : 24860
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "964ab9bf170ce8e7",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468293408,
-          "stop" : 1708468318248,
-          "duration" : 24840
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "f9012c0b3ad568d5",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468388811,
-          "stop" : 1708468413564,
-          "duration" : 24753
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithAudio()",
-        "uid" : "bbf2ea5a1cc05da8",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468434524,
-          "stop" : 1708468459169,
-          "duration" : 24645
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "47d8b79c2d396822",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468665232,
-          "stop" : 1708468692468,
-          "duration" : 27236
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sliderNavigationTests()",
-        "uid" : "44c7a1652a198a20",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468713604,
-          "stop" : 1708468740951,
-          "duration" : 27347
+          "start" : 1708474501932,
+          "stop" : 1708474622367,
+          "duration" : 120435
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "authorization()",
-        "uid" : "7f7453208e89d9da",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
+        "uid" : "ab1cc07747294551",
+        "parentUid" : "6ec7326e09d36966ebe103c37da9c87d",
+        "status" : "failed",
         "time" : {
-          "start" : 1708468740955,
-          "stop" : 1708468765628,
-          "duration" : 24673
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup40()",
-        "uid" : "ff468cd76b57ac6f",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468770195,
-          "stop" : 1708468794856,
-          "duration" : 24661
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup18()",
-        "uid" : "ecd1f6084afb24bb",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468897182,
-          "stop" : 1708468921839,
-          "duration" : 24657
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "onboardingPagination()",
-        "uid" : "12385db16414603",
-        "parentUid" : "4c2105f0087a1ad88e83ed02ed8283a6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708469050439,
-          "stop" : 1708469075181,
-          "duration" : 24742
+          "start" : 1708475954819,
+          "stop" : 1708476086177,
+          "duration" : 131358
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4c2105f0087a1ad88e83ed02ed8283a6"
+      "uid" : "6ec7326e09d36966ebe103c37da9c87d"
     }, {
-      "name" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x00000001050da004 chromedriver + 4169732\n1   chromedriver                        0x00000001050d1ff8 chromedriver + 4136952\n2   chromedriver                        0x0000000104d27500 chromedriver + 292096\n3   chromedriver                        0x0000000104d5d95c chromedriver + 514396\n4   chromedriver                        0x0000000104d5cb98 chromedriver + 510872\n5   chromedriver                        0x0000000104d58244 chromedriver + 492100\n6   chromedriver                        0x0000000104d555b8 chromedriver + 480696\n7   chromedriver                        0x0000000104d97754 chromedriver + 751444\n8   chromedriver                        0x0000000104d605e8 chromedriver + 525800\n9   chromedriver                        0x0000000104d614b8 chromedriver + 529592\n10  chromedriver                        0x00000001050a0334 chromedriver + 3932980\n11  chromedriver                        0x00000001050a4970 chromedriver + 3950960\n12  chromedriver                        0x0000000105088774 chromedriver + 3835764\n13  chromedriver                        0x00000001050a5478 chromedriver + 3953784\n14  chromedriver                        0x000000010507aab4 chromedriver + 3779252\n15  chromedriver                        0x00000001050c1914 chromedriver + 4069652\n16  chromedriver                        0x00000001050c1a90 chromedriver + 4070032\n17  chromedriver                        0x00000001050d1c70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x0000000192873fa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x000000019286eda0 thread_start + 8\n",
+      "name" : "Element not found: By.id: Данные об аллергии добавлены",
       "children" : [ {
-        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "edb9085e5105e2d5",
-        "parentUid" : "eb72874340acc5e46f6ef3744273b597",
-        "status" : "broken",
+        "name" : "allergyTests()",
+        "uid" : "7661f81f906e5a13",
+        "parentUid" : "7e07045f9b4cfb61a889f27115a8031a",
+        "status" : "failed",
         "time" : {
-          "start" : 1708467546892,
-          "stop" : 1708467553889,
-          "duration" : 6997
+          "start" : 1708469296726,
+          "stop" : 1708469413893,
+          "duration" : 117167
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "eb72874340acc5e46f6ef3744273b597"
+      "uid" : "7e07045f9b4cfb61a889f27115a8031a"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"Тип консультации\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Element not found: By.id: Данные о заболевании добавлены",
       "children" : [ {
-        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
-        "uid" : "446813a7696f33da",
-        "parentUid" : "bc46bddb3268c64bea220ec9549fcfa2",
-        "status" : "broken",
+        "name" : "diseaseTests()",
+        "uid" : "f53462f7b79e691e",
+        "parentUid" : "68c2ca1261b38eee68a8734cd5d9e02f",
+        "status" : "failed",
         "time" : {
-          "start" : 1708467553892,
-          "stop" : 1708467619240,
-          "duration" : 65348
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "c9ca9c03596ecc75",
-        "parentUid" : "bc46bddb3268c64bea220ec9549fcfa2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468318251,
-          "stop" : 1708468388809,
-          "duration" : 70558
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "1bd8bef3070740a0",
-        "parentUid" : "bc46bddb3268c64bea220ec9549fcfa2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468459172,
-          "stop" : 1708468531174,
-          "duration" : 72002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "50d2a3065abb711b",
-        "parentUid" : "bc46bddb3268c64bea220ec9549fcfa2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468531177,
-          "stop" : 1708468597263,
-          "duration" : 66086
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithVideo()",
-        "uid" : "798f6e39ae47183a",
-        "parentUid" : "bc46bddb3268c64bea220ec9549fcfa2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468597265,
-          "stop" : 1708468665228,
-          "duration" : 67963
+          "start" : 1708470124554,
+          "stop" : 1708470294831,
+          "duration" : 170277
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "bc46bddb3268c64bea220ec9549fcfa2"
+      "uid" : "68c2ca1261b38eee68a8734cd5d9e02f"
     }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/auth_btn_text (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Element not found with locator: By.xpath: //XCUIElementTypeSearchField[@name=\"Название или адрес клиники\"]",
       "children" : [ {
-        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "3baf9d95c10952cf",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
-        "status" : "broken",
+        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+        "uid" : "725af7c30b13bf42",
+        "parentUid" : "483eb7c655ff7f68b73de0ce8fea5686",
+        "status" : "failed",
         "time" : {
-          "start" : 1708467714285,
-          "stop" : 1708467735676,
-          "duration" : 21391
+          "start" : 1708472211777,
+          "stop" : 1708472551163,
+          "duration" : 339386
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "e05a1613f1bedc76",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
+      } ],
+      "uid" : "483eb7c655ff7f68b73de0ce8fea5686"
+    }, {
+      "name" : "expected: <26/42> but was: <27/42>",
+      "children" : [ {
+        "name" : "checkup50()",
+        "uid" : "c2cbc64ded4f4155",
+        "parentUid" : "8d644ebee137dc35cd62a5af8b216584",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708474106266,
+          "stop" : 1708474230479,
+          "duration" : 124213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d644ebee137dc35cd62a5af8b216584"
+    }, {
+      "name" : "expected: <36/42> but was: <41/42>",
+      "children" : [ {
+        "name" : "checkup59()",
+        "uid" : "8882960f701da8ca",
+        "parentUid" : "28572a030e600223c64afd90ddc1f7f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708474386498,
+          "stop" : 1708474501907,
+          "duration" : 115409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28572a030e600223c64afd90ddc1f7f4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeCell)[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "doctorConclusionTests()",
+        "uid" : "b90b0c017fcc7bd",
+        "parentUid" : "3f0a0f1ce2bc8c7b852f478d75e87899",
         "status" : "broken",
         "time" : {
-          "start" : 1708467852769,
-          "stop" : 1708467874147,
-          "duration" : 21378
+          "start" : 1708469413908,
+          "stop" : 1708469653879,
+          "duration" : 239971
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "instrumentalDiagnosticsTests()",
-        "uid" : "5f77bb04ce126235",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
+        "uid" : "48e685002b649443",
+        "parentUid" : "3f0a0f1ce2bc8c7b852f478d75e87899",
         "status" : "broken",
         "time" : {
-          "start" : 1708467991781,
-          "stop" : 1708468013155,
-          "duration" : 21374
+          "start" : 1708469779989,
+          "stop" : 1708469954104,
+          "duration" : 174115
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "addingReadmissionWithChat()",
-        "uid" : "40269b0750aaac6f",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
+        "name" : "analyzesTests()",
+        "uid" : "483618d258268215",
+        "parentUid" : "3f0a0f1ce2bc8c7b852f478d75e87899",
         "status" : "broken",
         "time" : {
-          "start" : 1708468267505,
-          "stop" : 1708468293405,
-          "duration" : 25900
+          "start" : 1708470611539,
+          "stop" : 1708470923990,
+          "duration" : 312451
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "fa83344f0e635184",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
+      } ],
+      "uid" : "3f0a0f1ce2bc8c7b852f478d75e87899"
+    }, {
+      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "children" : [ {
+        "name" : "sliderNavigationTests()",
+        "uid" : "59c8ef9c8cba611e",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
         "status" : "broken",
         "time" : {
-          "start" : 1708468413567,
-          "stop" : 1708468434522,
-          "duration" : 20955
+          "start" : 1708470924021,
+          "stop" : 1708470980250,
+          "duration" : 56229
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "sectionsAndModalsTests()",
-        "uid" : "8740eda26a8961e4",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
+        "uid" : "2ffb04a0b9047ca4",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
         "status" : "broken",
         "time" : {
-          "start" : 1708468692472,
-          "stop" : 1708468713601,
-          "duration" : 21129
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup41()",
-        "uid" : "a8f718f3abc6ffb1",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708468921844,
-          "stop" : 1708468943172,
-          "duration" : 21328
+          "start" : 1708470980262,
+          "stop" : 1708471058230,
+          "duration" : 77968
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ednaChatTests()",
-        "uid" : "616bd55e1f444a20",
-        "parentUid" : "0dc3a87585fd58f6954d454f468c227d",
+        "uid" : "8a7326946982da3a",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
         "status" : "broken",
         "time" : {
-          "start" : 1708469075186,
-          "stop" : 1708469096438,
-          "duration" : 21252
+          "start" : 1708473388430,
+          "stop" : 1708473464072,
+          "duration" : 75642
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0dc3a87585fd58f6954d454f468c227d"
+      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "exitFromQuestionnaire()",
+        "uid" : "59933148f7163b7e",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708471058247,
+          "stop" : 1708471249061,
+          "duration" : 190814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
+        "uid" : "df4b690242a5160",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708471249091,
+          "stop" : 1708471385240,
+          "duration" : 136149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+        "uid" : "933fd9eb63ae0b49",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708471385260,
+          "stop" : 1708471576791,
+          "duration" : 191531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigatingThroughQuestionnaireScreens()",
+        "uid" : "613e74d55b01a583",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708471576815,
+          "stop" : 1708471705583,
+          "duration" : 128768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+        "uid" : "3bb00f9dd842dada",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708471705608,
+          "stop" : 1708471881733,
+          "duration" : 176125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+        "uid" : "26a06b2127d0fd4a",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708471881753,
+          "stop" : 1708472044419,
+          "duration" : 162666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goBackToSymptomsSelectionPage()",
+        "uid" : "c8a777c28cf3da85",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708472056991,
+          "stop" : 1708472211751,
+          "duration" : 154760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
+        "uid" : "93010bef0947cfa9",
+        "parentUid" : "a747bae42ce134c5181d2fa21396d1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708472848192,
+          "stop" : 1708472967512,
+          "duration" : 119320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a747bae42ce134c5181d2fa21396d1df"
+    }, {
+      "name" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x000000010120a004 chromedriver + 4169732\n1   chromedriver                        0x0000000101201ff8 chromedriver + 4136952\n2   chromedriver                        0x0000000100e57500 chromedriver + 292096\n3   chromedriver                        0x0000000100e8d95c chromedriver + 514396\n4   chromedriver                        0x0000000100e8cb98 chromedriver + 510872\n5   chromedriver                        0x0000000100e88244 chromedriver + 492100\n6   chromedriver                        0x0000000100e855b8 chromedriver + 480696\n7   chromedriver                        0x0000000100ec7754 chromedriver + 751444\n8   chromedriver                        0x0000000100e905e8 chromedriver + 525800\n9   chromedriver                        0x0000000100e914b8 chromedriver + 529592\n10  chromedriver                        0x00000001011d0334 chromedriver + 3932980\n11  chromedriver                        0x00000001011d4970 chromedriver + 3950960\n12  chromedriver                        0x00000001011b8774 chromedriver + 3835764\n13  chromedriver                        0x00000001011d5478 chromedriver + 3953784\n14  chromedriver                        0x00000001011aaab4 chromedriver + 3779252\n15  chromedriver                        0x00000001011f1914 chromedriver + 4069652\n16  chromedriver                        0x00000001011f1a90 chromedriver + 4070032\n17  chromedriver                        0x0000000101201c70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x0000000192873fa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x000000019286eda0 thread_start + 8\n",
+      "children" : [ {
+        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
+        "uid" : "69bfadf8a1f8ff9e",
+        "parentUid" : "e0584a359ff3ecedbd9eb27ca6545928",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708472045956,
+          "stop" : 1708472056981,
+          "duration" : 11025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0584a359ff3ecedbd9eb27ca6545928"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 7598c8ee-7591-49c2-ae7f-47edde0afc6a",
+      "children" : [ {
+        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
+        "uid" : "d13ad6ea7fa836db",
+        "parentUid" : "892e7beb756f072b33d703ceca236780",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708472551178,
+          "stop" : 1708472658432,
+          "duration" : 107254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "892e7beb756f072b33d703ceca236780"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 0a01482a-3a23-4597-8a01-28a4868e5bda",
+      "children" : [ {
+        "name" : "questionnaireOpensForAdultPatient()",
+        "uid" : "fdcf34f646d32",
+        "parentUid" : "1e5af58557ceca2f21be8cc5d4f22e3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708472658452,
+          "stop" : 1708472756119,
+          "duration" : 97667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e5af58557ceca2f21be8cc5d4f22e3e"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 7d2bf05f-f42e-43c4-974f-e88d14a837c1",
+      "children" : [ {
+        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
+        "uid" : "3ffe6e75469ee76b",
+        "parentUid" : "e466dc4ba147f1abfbba879fa46158e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708472756137,
+          "stop" : 1708472848172,
+          "duration" : 92035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e466dc4ba147f1abfbba879fa46158e8"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: c3c0ae11-abb0-42d3-b427-acba2465f3bb",
+      "children" : [ {
+        "name" : "specializationDeterminedForOnlineConsultation()",
+        "uid" : "c8fad51f3020f658",
+        "parentUid" : "71f6d5c3f98f02a06eaab3593afd436f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708472967534,
+          "stop" : 1708473082147,
+          "duration" : 114613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71f6d5c3f98f02a06eaab3593afd436f"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"4 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "registration()",
+        "uid" : "14741e3861e210dc",
+        "parentUid" : "1967aa390876dcd824c8e2d732e0d326",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708473082171,
+          "stop" : 1708473150311,
+          "duration" : 68140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1967aa390876dcd824c8e2d732e0d326"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "addInsuranceAV()",
-        "uid" : "fbeef3547fac3712",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "uid" : "5410009b57ef7804",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
         "status" : "broken",
         "time" : {
-          "start" : 1708467809631,
-          "stop" : 1708467852766,
-          "duration" : 43135
+          "start" : 1708473150596,
+          "stop" : 1708473224414,
+          "duration" : 73818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAM()",
+        "uid" : "fdc19b29b4ba4043",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708473224588,
+          "stop" : 1708473272720,
+          "duration" : 48132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceCV()",
+        "uid" : "f9608a708ee7e441",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708473273904,
+          "stop" : 1708473320556,
+          "duration" : 46652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "3ba68f066e713267",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708473321819,
+          "stop" : 1708473386915,
+          "duration" : 65096
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
+      "uid" : "90f53dfd111086032dd0191c38369f31"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: d759670c-2a25-4445-9a66-eb56b8ff5436",
+      "children" : [ {
+        "name" : "addingOnlineConsultationWithChat()",
+        "uid" : "cbe0d3b26e56d00",
+        "parentUid" : "ff0d0b806d89640d43929ccce1f31c57",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708474622389,
+          "stop" : 1708474744095,
+          "duration" : 121706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff0d0b806d89640d43929ccce1f31c57"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 26c4aecf-1d20-43ef-8c1e-4fb166c81702",
+      "children" : [ {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "5aef82da77f0cf7b",
+        "parentUid" : "696c6b305c914b039796f4db0464e7d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708474744118,
+          "stop" : 1708474848518,
+          "duration" : 104400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "696c6b305c914b039796f4db0464e7d7"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 85792f4e-2980-40b0-a778-fce9ca2a6784",
+      "children" : [ {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "25d0738b373cbc58",
+        "parentUid" : "2842039dafd16b776d73310667a68f5a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708474848538,
+          "stop" : 1708474996466,
+          "duration" : 147928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2842039dafd16b776d73310667a68f5a"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 368dd1b5-6032-43e0-aeba-62a0096219bf",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "1c9d99ab52a29762",
+        "parentUid" : "f95c298176f0b4eb08b262b3f3adf4b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708474996486,
+          "stop" : 1708475084326,
+          "duration" : 87840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f95c298176f0b4eb08b262b3f3adf4b4"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 387cea30-4532-4aa3-ad56-d49933e3c302",
+      "children" : [ {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "6b6af45fd7623c6e",
+        "parentUid" : "bb631f4530758a383831cf5b27d27ef4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708475084349,
+          "stop" : 1708475218048,
+          "duration" : 133699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb631f4530758a383831cf5b27d27ef4"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 938246cf-139f-45b1-a9cb-7154ea1b4a44",
+      "children" : [ {
+        "name" : "addingReadmissionWithVideo()",
+        "uid" : "f30bf145722b00cd",
+        "parentUid" : "f4ee93f66f61f5d8fdd3fba876ce7d14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708475218069,
+          "stop" : 1708475334133,
+          "duration" : 116064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4ee93f66f61f5d8fdd3fba876ce7d14"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 26ba44ea-11e0-4297-9ee0-587869547203",
+      "children" : [ {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "43d9547f53705fec",
+        "parentUid" : "95338d18a822cf50265deea61ab94ab5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708475334152,
+          "stop" : 1708475444050,
+          "duration" : 109898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95338d18a822cf50265deea61ab94ab5"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 8286b7ce-57e9-445b-92cb-6291f3db6474",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzesWithAudio()",
+        "uid" : "10db3c45d5702ce4",
+        "parentUid" : "a84e292ea300d2ab04b1b0dfd59a57e5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708475444082,
+          "stop" : 1708475547273,
+          "duration" : 103191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a84e292ea300d2ab04b1b0dfd59a57e5"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: fcff005d-ba76-49b8-8520-07220f10b2ca",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "6af7702d7541ffcd",
+        "parentUid" : "385bd68eac746eabf772e24ed5039500",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708475547291,
+          "stop" : 1708475674765,
+          "duration" : 127474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "385bd68eac746eabf772e24ed5039500"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 64a97338-0ead-4e25-bdf5-076f92404a74",
+      "children" : [ {
+        "name" : "addingDecipheringAnalyzesWithChat()",
+        "uid" : "2e754d2bc2ea3439",
+        "parentUid" : "cb093bff8018f8e21e19dc27d42cbc1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708475674783,
+          "stop" : 1708475783172,
+          "duration" : 108389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb093bff8018f8e21e19dc27d42cbc1b"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoDismissAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 25e78521-a121-463e-8673-8f6c998112b0",
+      "children" : [ {
+        "name" : "addingReadmissionWithChat()",
+        "uid" : "4a90dc5c83b7be0c",
+        "parentUid" : "0fc94ba9fc3ff650853fa93d7584ada7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708475783196,
+          "stop" : 1708475954787,
+          "duration" : 171591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0fc94ba9fc3ff650853fa93d7584ada7"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expected: <0> but was: <1>",
-      "children" : [ {
-        "name" : "diseaseTests()",
-        "uid" : "fe60a785d0036a51",
-        "parentUid" : "c2b9bedd41385f41d640815158ed2d6d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1708467928730,
-          "stop" : 1708467991776,
-          "duration" : 63046
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c2b9bedd41385f41d640815158ed2d6d"
-    }, {
-      "name" : "expected: <Начните действовать!> but was: <Внимание!>",
-      "children" : [ {
-        "name" : "checkup59()",
-        "uid" : "ae86843fc56252af",
-        "parentUid" : "04989e3a8fded25bdbc4b29dbd567b2b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1708468943175,
-          "stop" : 1708469050433,
-          "duration" : 107258
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "04989e3a8fded25bdbc4b29dbd567b2b"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
