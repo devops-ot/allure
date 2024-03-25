@@ -2,844 +2,598 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -g /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' timed out after 60000ms'. Try to increase the 60000ms adb execution timeout represented by 'androidInstallTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -g /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' timed out after 60000ms'. Try to increase the 60000ms adb execution timeout represented by 'androidInstallTimeout' capability\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "name" : "Element not found: By.id: Данные об аллергии добавлены",
       "children" : [ {
         "name" : "allergyTests()",
-        "uid" : "bbe214bfd4365a8e",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
-        "status" : "broken",
+        "uid" : "bc2b4d0067d1e090",
+        "parentUid" : "7e07045f9b4cfb61a889f27115a8031a",
+        "status" : "failed",
         "time" : {
-          "start" : 1711326183567,
-          "stop" : 1711326323472,
-          "duration" : 139905
+          "start" : 1711330014333,
+          "stop" : 1711330196137,
+          "duration" : 181804
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "7e07045f9b4cfb61a889f27115a8031a"
+    }, {
+      "name" : "expected: <MATCH> but was: <MISMATCH>",
+      "children" : [ {
+        "name" : "PoliciesTab()",
+        "uid" : "4872dc348cac8012",
+        "parentUid" : "200e9e2e2692953dfc7ba9c698921a4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711335015471,
+          "stop" : 1711335118643,
+          "duration" : 103172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "200e9e2e2692953dfc7ba9c698921a4d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x=-1 and @y=299] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
         "name" : "doctorConclusionTests()",
-        "uid" : "e6c029c15601467e",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
+        "uid" : "89aa36f6e1021014",
+        "parentUid" : "a2e9f11be1474f06709a1e79a9c7a7c1",
         "status" : "broken",
         "time" : {
-          "start" : 1711326323524,
-          "stop" : 1711326476105,
-          "duration" : 152581
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "operationTests()",
-        "uid" : "6d291557fee18ac8",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711326476118,
-          "stop" : 1711326654387,
-          "duration" : 178269
+          "start" : 1711330196227,
+          "stop" : 1711330380669,
+          "duration" : 184442
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "instrumentalDiagnosticsTests()",
-        "uid" : "341d9d2ca4a5dab8",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
+        "uid" : "4c36d4db40fed7c4",
+        "parentUid" : "a2e9f11be1474f06709a1e79a9c7a7c1",
         "status" : "broken",
         "time" : {
-          "start" : 1711326654399,
-          "stop" : 1711326845520,
-          "duration" : 191121
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "diseaseTests()",
-        "uid" : "9128960fb180db6b",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711327002007,
-          "stop" : 1711327178509,
-          "duration" : 176502
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "injuryTests()",
-        "uid" : "476465547dcbf609",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711327178519,
-          "stop" : 1711327350244,
-          "duration" : 171725
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "medicineTests()",
-        "uid" : "d409a163819c9027",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711327350255,
-          "stop" : 1711327557985,
-          "duration" : 207730
+          "start" : 1711330491516,
+          "stop" : 1711330605208,
+          "duration" : 113692
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "analyzesTests()",
-        "uid" : "1365dd900b5cde77",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
+        "uid" : "ac03e556d87ce4dc",
+        "parentUid" : "a2e9f11be1474f06709a1e79a9c7a7c1",
         "status" : "broken",
         "time" : {
-          "start" : 1711327557994,
-          "stop" : 1711327749409,
-          "duration" : 191415
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sliderNavigationTests()",
-        "uid" : "cc3c318ac1cfb79b",
-        "parentUid" : "99c9be6d93672e923497914f375e8157",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711327749427,
-          "stop" : 1711327940681,
-          "duration" : 191254
+          "start" : 1711331151410,
+          "stop" : 1711331301722,
+          "duration" : 150312
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "99c9be6d93672e923497914f375e8157"
+      "uid" : "a2e9f11be1474f06709a1e79a9c7a7c1"
     }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb: device '8ALX0UWHU' not found\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb: device '8ALX0UWHU' not found\n\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
       "children" : [ {
-        "name" : "vaccinationTests()",
-        "uid" : "cdb0b40450d5b1aa",
-        "parentUid" : "439491ca18d4419ab954eadce6241419",
+        "name" : "sliderNavigationTests()",
+        "uid" : "faa0d54d6af94e00",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
         "status" : "broken",
         "time" : {
-          "start" : 1711326845530,
-          "stop" : 1711327000885,
-          "duration" : 155355
+          "start" : 1711331301764,
+          "stop" : 1711331373339,
+          "duration" : 71575
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "sectionsAndModalsTests()",
-        "uid" : "5ee2bce435e0a69d",
-        "parentUid" : "439491ca18d4419ab954eadce6241419",
+        "uid" : "92730e3e2ace06df",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
         "status" : "broken",
         "time" : {
-          "start" : 1711327946305,
-          "stop" : 1711328056509,
-          "duration" : 110204
+          "start" : 1711331373358,
+          "stop" : 1711331443117,
+          "duration" : 69759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ednaChatTests()",
+        "uid" : "816d6d84c367911a",
+        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711332953359,
+          "stop" : 1711333029250,
+          "duration" : 75891
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "439491ca18d4419ab954eadce6241419"
+      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
     }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 57ea04ff-79df-4c1a-976b-49643fe5f1c6\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, 'Придумайте ПИН-код')]}",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Запись в клинику\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "exitFromQuestionnaire()",
-        "uid" : "729d0ab916677de6",
-        "parentUid" : "6439c315ac919b561907f1dd694d04b0",
+        "uid" : "885b9750ed333c26",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
         "status" : "broken",
         "time" : {
-          "start" : 1711328057633,
-          "stop" : 1711328152908,
-          "duration" : 95275
+          "start" : 1711331443140,
+          "stop" : 1711331527141,
+          "duration" : 84001
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "6439c315ac919b561907f1dd694d04b0"
-    }, {
-      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 5c0f59ca-5c28-4e27-af7d-0d6de63067e4\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
-      "children" : [ {
+      }, {
         "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "1637735a32bfedc5",
-        "parentUid" : "69e18d19b28a950cf963f5fdf7e0d3df",
+        "uid" : "1a665957c4afa9bf",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
         "status" : "broken",
         "time" : {
-          "start" : 1711328152922,
-          "stop" : 1711328164711,
-          "duration" : 11789
+          "start" : 1711331527160,
+          "stop" : 1711331611728,
+          "duration" : 84568
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "69e18d19b28a950cf963f5fdf7e0d3df"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 655e40c3-03aa-4b07-abde-ac1ade5c82a9\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
+      }, {
         "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
-        "uid" : "abcd45d2447b6b01",
-        "parentUid" : "f9f847807aec2edaed9118a35e204e4b",
+        "uid" : "74814ef252b0ed42",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
         "status" : "broken",
         "time" : {
-          "start" : 1711328164721,
-          "stop" : 1711328209481,
-          "duration" : 44760
+          "start" : 1711331611747,
+          "stop" : 1711331696766,
+          "duration" : 85019
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "f9f847807aec2edaed9118a35e204e4b"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d42bd5ae-6176-4472-acd2-f395e25f2130\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
+      }, {
         "name" : "navigatingThroughQuestionnaireScreens()",
-        "uid" : "62b5a9cbd23aba4e",
-        "parentUid" : "a3c433857a848d50e6327b54fa682808",
+        "uid" : "dd716b1668d83351",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
         "status" : "broken",
         "time" : {
-          "start" : 1711328209489,
-          "stop" : 1711328265199,
-          "duration" : 55710
+          "start" : 1711331696781,
+          "stop" : 1711331782132,
+          "duration" : 85351
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "a3c433857a848d50e6327b54fa682808"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 834219b4-3086-4790-ac21-aaa37ee9d110\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
+      }, {
         "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
-        "uid" : "279262426f458338",
-        "parentUid" : "28df9d7a7cc5bae9523b0d9b221003e7",
+        "uid" : "5bfc9bfa95ea9efb",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
         "status" : "broken",
         "time" : {
-          "start" : 1711328265210,
-          "stop" : 1711328313545,
-          "duration" : 48335
+          "start" : 1711331782151,
+          "stop" : 1711331872395,
+          "duration" : 90244
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "28df9d7a7cc5bae9523b0d9b221003e7"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 508f8dfb-e74a-45a9-9fcb-3ea0d60423cc\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
+      }, {
         "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
-        "uid" : "7698e2f9ed486446",
-        "parentUid" : "0567c2c0db8c0670a7f7596ce3b219d3",
+        "uid" : "cc3117ffe4248b14",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
         "status" : "broken",
         "time" : {
-          "start" : 1711328313553,
-          "stop" : 1711328361055,
-          "duration" : 47502
+          "start" : 1711331872418,
+          "stop" : 1711331957676,
+          "duration" : 85258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goBackToSymptomsSelectionPage()",
+        "uid" : "f82114ea2c1b2175",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711331967024,
+          "stop" : 1711332052480,
+          "duration" : 85456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
+        "uid" : "b69a65fb50b31d01",
+        "parentUid" : "a2c753d9437c0e478aa92f38df1a0e99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711332405489,
+          "stop" : 1711332505458,
+          "duration" : 99969
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0567c2c0db8c0670a7f7596ce3b219d3"
+      "uid" : "a2c753d9437c0e478aa92f38df1a0e99"
     }, {
-      "name" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 123.0.6312.59 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x00000001011e6004 chromedriver + 4169732\n1   chromedriver                        0x00000001011ddff8 chromedriver + 4136952\n2   chromedriver                        0x0000000100e33500 chromedriver + 292096\n3   chromedriver                        0x0000000100e6995c chromedriver + 514396\n4   chromedriver                        0x0000000100e68b98 chromedriver + 510872\n5   chromedriver                        0x0000000100e64244 chromedriver + 492100\n6   chromedriver                        0x0000000100e615b8 chromedriver + 480696\n7   chromedriver                        0x0000000100ea3754 chromedriver + 751444\n8   chromedriver                        0x0000000100e6c5e8 chromedriver + 525800\n9   chromedriver                        0x0000000100e6d4b8 chromedriver + 529592\n10  chromedriver                        0x00000001011ac334 chromedriver + 3932980\n11  chromedriver                        0x00000001011b0970 chromedriver + 3950960\n12  chromedriver                        0x0000000101194774 chromedriver + 3835764\n13  chromedriver                        0x00000001011b1478 chromedriver + 3953784\n14  chromedriver                        0x0000000101186ab4 chromedriver + 3779252\n15  chromedriver                        0x00000001011cd914 chromedriver + 4069652\n16  chromedriver                        0x00000001011cda90 chromedriver + 4070032\n17  chromedriver                        0x00000001011ddc70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x0000000185d1ffa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x0000000185d1ada0 thread_start + 8\n",
+      "name" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 123.0.6312.59 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x0000000104fee004 chromedriver + 4169732\n1   chromedriver                        0x0000000104fe5ff8 chromedriver + 4136952\n2   chromedriver                        0x0000000104c3b500 chromedriver + 292096\n3   chromedriver                        0x0000000104c7195c chromedriver + 514396\n4   chromedriver                        0x0000000104c70b98 chromedriver + 510872\n5   chromedriver                        0x0000000104c6c244 chromedriver + 492100\n6   chromedriver                        0x0000000104c695b8 chromedriver + 480696\n7   chromedriver                        0x0000000104cab754 chromedriver + 751444\n8   chromedriver                        0x0000000104c745e8 chromedriver + 525800\n9   chromedriver                        0x0000000104c754b8 chromedriver + 529592\n10  chromedriver                        0x0000000104fb4334 chromedriver + 3932980\n11  chromedriver                        0x0000000104fb8970 chromedriver + 3950960\n12  chromedriver                        0x0000000104f9c774 chromedriver + 3835764\n13  chromedriver                        0x0000000104fb9478 chromedriver + 3953784\n14  chromedriver                        0x0000000104f8eab4 chromedriver + 3779252\n15  chromedriver                        0x0000000104fd5914 chromedriver + 4069652\n16  chromedriver                        0x0000000104fd5a90 chromedriver + 4070032\n17  chromedriver                        0x0000000104fe5c70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x0000000185d1ffa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x0000000185d1ada0 thread_start + 8\n",
       "children" : [ {
         "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "df7e14796fc5e7a",
-        "parentUid" : "2ade6348fc98452f20ee70e1dac744a6",
+        "uid" : "1a499f376f00346a",
+        "parentUid" : "1b8fa84628da0f548275243f16c1c534",
         "status" : "broken",
         "time" : {
-          "start" : 1711328361062,
-          "stop" : 1711328372090,
-          "duration" : 11028
+          "start" : 1711331957689,
+          "stop" : 1711331967012,
+          "duration" : 9323
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2ade6348fc98452f20ee70e1dac744a6"
+      "uid" : "1b8fa84628da0f548275243f16c1c534"
     }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 9c0fa0c3-a11e-4700-943d-491df99166da\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
-        "name" : "goBackToSymptomsSelectionPage()",
-        "uid" : "6842e5d5f1473371",
-        "parentUid" : "5851aebbb0defbadba9d60c0050f60c8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328372101,
-          "stop" : 1711328423076,
-          "duration" : 50975
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5851aebbb0defbadba9d60c0050f60c8"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d52ed94d-c735-4058-b645-37212932421e\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[contains(@name,\"Медкарта\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
-        "uid" : "c6c6571efe551800",
-        "parentUid" : "94651e4b14da652a5ad37cd4a4a23be5",
+        "uid" : "79a2841658706499",
+        "parentUid" : "1886ac6ec19fa7d76dffd5046e381ed0",
         "status" : "broken",
         "time" : {
-          "start" : 1711328423094,
-          "stop" : 1711328477251,
-          "duration" : 54157
+          "start" : 1711332052496,
+          "stop" : 1711332138494,
+          "duration" : 85998
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "94651e4b14da652a5ad37cd4a4a23be5"
+      "uid" : "1886ac6ec19fa7d76dffd5046e381ed0"
     }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 1dc24e18-f398-4076-b716-22aacb80377e\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, \"Онлайн-\")]}",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Онлайн-консультация\"])[1] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
-        "uid" : "c6a97252b5a53721",
-        "parentUid" : "659dc0e6ba1e2ff46148e906589d3158",
+        "uid" : "b74f047c264a205a",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
         "status" : "broken",
         "time" : {
-          "start" : 1711328477258,
-          "stop" : 1711328534855,
-          "duration" : 57597
+          "start" : 1711332138509,
+          "stop" : 1711332227086,
+          "duration" : 88577
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "659dc0e6ba1e2ff46148e906589d3158"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 0be1f5de-f4fd-4d3c-a3db-80d7994a1ad7\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
+      }, {
         "name" : "questionnaireOpensForAdultPatient()",
-        "uid" : "1fd667e8e9626815",
-        "parentUid" : "3f60101cff1a816e503901faa0276d3b",
+        "uid" : "4a556fac3f140a63",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
         "status" : "broken",
         "time" : {
-          "start" : 1711328534863,
-          "stop" : 1711328582381,
-          "duration" : 47518
+          "start" : 1711332227104,
+          "stop" : 1711332313386,
+          "duration" : 86282
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "3f60101cff1a816e503901faa0276d3b"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a54f9d7f-2d6d-4c56-b799-899c19e450f2\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
+      }, {
         "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
-        "uid" : "836dba7945e7c23c",
-        "parentUid" : "5cb943d1aa095971b583a85656464b70",
+        "uid" : "d14c75bd27466394",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
         "status" : "broken",
         "time" : {
-          "start" : 1711328582391,
-          "stop" : 1711328636931,
-          "duration" : 54540
+          "start" : 1711332313403,
+          "stop" : 1711332405475,
+          "duration" : 92072
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "5cb943d1aa095971b583a85656464b70"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 2ea7afd5-7313-4316-9a76-1baf99ecc863\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, \"Запись\") and contains(@text, \"в клинику\")]}",
-      "children" : [ {
-        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "16f1bd265d4a3534",
-        "parentUid" : "afb82fabc5d62d4962c652f2549377db",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328636938,
-          "stop" : 1711328692876,
-          "duration" : 55938
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "afb82fabc5d62d4962c652f2549377db"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, \"Онлайн-\")] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
+      }, {
         "name" : "specializationDeterminedForOnlineConsultation()",
-        "uid" : "59cf99e45935224",
-        "parentUid" : "4af31a766473a16d8e58d18f54b90586",
+        "uid" : "209217c51c6180ed",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
         "status" : "broken",
         "time" : {
-          "start" : 1711328692884,
-          "stop" : 1711328763475,
-          "duration" : 70591
+          "start" : 1711332507376,
+          "stop" : 1711332593382,
+          "duration" : 86006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithChat()",
+        "uid" : "69d0b82720a7c085",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711333714848,
+          "stop" : 1711333801739,
+          "duration" : 86891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "9d5c22124de6c8e4",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711333801758,
+          "stop" : 1711333889695,
+          "duration" : 87937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "9b8e13c05932619b",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711333889711,
+          "stop" : 1711333978722,
+          "duration" : 89011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "5c2bbb65a1a4ebc9",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711333978740,
+          "stop" : 1711334066309,
+          "duration" : 87569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "8468aeca5f780dd5",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711334066326,
+          "stop" : 1711334170011,
+          "duration" : 103685
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingReadmissionWithVideo()",
-        "uid" : "8300cee32c406163",
-        "parentUid" : "4af31a766473a16d8e58d18f54b90586",
+        "uid" : "bb42aabadf6622df",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
         "status" : "broken",
         "time" : {
-          "start" : 1711329516704,
-          "stop" : 1711329585522,
-          "duration" : 68818
+          "start" : 1711334170030,
+          "stop" : 1711334255862,
+          "duration" : 85832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "334168e5a377b6e2",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711334255874,
+          "stop" : 1711334342937,
+          "duration" : 87063
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "f7000f1617369fd8",
-        "parentUid" : "4af31a766473a16d8e58d18f54b90586",
+        "uid" : "ea6f8821c787a995",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
         "status" : "broken",
         "time" : {
-          "start" : 1711329596719,
-          "stop" : 1711329666421,
-          "duration" : 69702
+          "start" : 1711334342953,
+          "stop" : 1711334430863,
+          "duration" : 87910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "8f5a7b61e0d4e8ef",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711334430881,
+          "stop" : 1711334518696,
+          "duration" : 87815
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "6b500c9c2938f560",
-        "parentUid" : "4af31a766473a16d8e58d18f54b90586",
+        "uid" : "f2ecab2ad655202f",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
         "status" : "broken",
         "time" : {
-          "start" : 1711329712983,
-          "stop" : 1711329781778,
-          "duration" : 68795
+          "start" : 1711334518714,
+          "stop" : 1711334605630,
+          "duration" : 86916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithChat()",
+        "uid" : "7163194265dbfe07",
+        "parentUid" : "29afcce707eda6c65c2420871caef768",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711334605647,
+          "stop" : 1711334692086,
+          "duration" : 86439
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4af31a766473a16d8e58d18f54b90586"
+      "uid" : "29afcce707eda6c65c2420871caef768"
     }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a93d0c59-73c9-400f-8917-bbccf8f588d0\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Введите код с картинки\"]}",
-      "children" : [ {
-        "name" : "registration()",
-        "uid" : "ad60f659ed5ea43d",
-        "parentUid" : "13977ef63d8c49d063c63943b57f8885",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328763491,
-          "stop" : 1711328778328,
-          "duration" : 14837
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "13977ef63d8c49d063c63943b57f8885"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "changePasswordPositive()",
-        "uid" : "cb64dbe6121faf2d",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328778337,
-          "stop" : 1711328824310,
-          "duration" : 45973
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 7aa3a133-3cde-42c0-bc9a-39ed53f2ad22\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Введите код с картинки\"]}",
-      "children" : [ {
-        "name" : "delete()",
-        "uid" : "5c8ea4f35fa54ad7",
-        "parentUid" : "aed40000ee5e6d200c03c8988449aa53",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328824325,
-          "stop" : 1711328840888,
-          "duration" : 16563
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "aed40000ee5e6d200c03c8988449aa53"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: ddc695dd-a938-465d-9595-813497954865\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Связаться с СОГАЗом\"]}",
-      "children" : [ {
-        "name" : "ednaChatTests()",
-        "uid" : "ed30a71f7debb682",
-        "parentUid" : "a1d7dee8d926122e4629cdd36dedf90a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328840899,
-          "stop" : 1711328897718,
-          "duration" : 56819
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a1d7dee8d926122e4629cdd36dedf90a"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/btnCheckup (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "checkup18()",
-        "uid" : "6f29c2bed3d7320a",
-        "parentUid" : "de8346186e53968d1a59777ac85b500d",
+        "uid" : "eb1a1f8d26550f2f",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
         "status" : "broken",
         "time" : {
-          "start" : 1711328897730,
-          "stop" : 1711328968490,
-          "duration" : 70760
+          "start" : 1711333029265,
+          "stop" : 1711333114908,
+          "duration" : 85643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup27()",
+        "uid" : "24e267583fb09225",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711333114922,
+          "stop" : 1711333199674,
+          "duration" : 84752
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup28()",
+        "uid" : "2633a20010073534",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711333199686,
+          "stop" : 1711333283806,
+          "duration" : 84120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup40()",
+        "uid" : "dd2fd3fb08529861",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711333283820,
+          "stop" : 1711333374475,
+          "duration" : 90655
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkup41()",
-        "uid" : "1b0b63a810ecc058",
-        "parentUid" : "de8346186e53968d1a59777ac85b500d",
+        "uid" : "cec9db3ed45f053d",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
         "status" : "broken",
         "time" : {
-          "start" : 1711329084429,
-          "stop" : 1711329155399,
-          "duration" : 70970
+          "start" : 1711333374548,
+          "stop" : 1711333459308,
+          "duration" : 84760
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "de8346186e53968d1a59777ac85b500d"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 344d52a0-aac8-4838-a86d-a253da06a90d\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/auth_btn_text}",
-      "children" : [ {
-        "name" : "checkup27()",
-        "uid" : "4abaa5962bebfdcf",
-        "parentUid" : "09658d591464a9910023a7f1d8bc2646",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328968497,
-          "stop" : 1711328978425,
-          "duration" : 9928
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "09658d591464a9910023a7f1d8bc2646"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 54760977-2f80-49f7-8222-94a68c254fc9\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
-        "name" : "checkup28()",
-        "uid" : "aaae9712410f4255",
-        "parentUid" : "eebc1e5c19153402fa6f2cab0ed66579",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711328978433,
-          "stop" : 1711329025910,
-          "duration" : 47477
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "eebc1e5c19153402fa6f2cab0ed66579"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 49a4851a-f036-4359-b313-67668a60f56c\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/btnCheckup}",
-      "children" : [ {
-        "name" : "checkup40()",
-        "uid" : "a625e6f691360608",
-        "parentUid" : "9301a855114e897d4db207db146361c7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329025918,
-          "stop" : 1711329084422,
-          "duration" : 58504
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9301a855114e897d4db207db146361c7"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 6b052581-6487-4507-8163-f9242ac0a8c3\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Введите код с картинки\"]}",
-      "children" : [ {
+      }, {
         "name" : "checkup50()",
-        "uid" : "36dc1091770d3fed",
-        "parentUid" : "c4853e5f2586ba9d28ffc98ee20f9e3d",
+        "uid" : "e265981724196cec",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
         "status" : "broken",
         "time" : {
-          "start" : 1711329155406,
-          "stop" : 1711329182485,
-          "duration" : 27079
+          "start" : 1711333459320,
+          "stop" : 1711333544739,
+          "duration" : 85419
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "c4853e5f2586ba9d28ffc98ee20f9e3d"
-    }, {
-      "name" : "The element 'By.id: ru.sogaz.app.stage:id/register_btn_text' is not linked to the same object in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a31f7116-09ea-4490-9544-efb594a42e93",
-      "children" : [ {
+      }, {
         "name" : "checkup51()",
-        "uid" : "831c2498928ca080",
-        "parentUid" : "5973402e595cbd077def63cdcc68d443",
+        "uid" : "ce5b111446d1bd1e",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
         "status" : "broken",
         "time" : {
-          "start" : 1711329182492,
-          "stop" : 1711329219978,
-          "duration" : 37486
+          "start" : 1711333544944,
+          "stop" : 1711333628755,
+          "duration" : 83811
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "5973402e595cbd077def63cdcc68d443"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c6146784-73af-418a-b0e5-24247ae82ff4\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Введите код с картинки\"]}",
-      "children" : [ {
+      }, {
         "name" : "checkup59()",
-        "uid" : "7a9dc47d6d2cd5c2",
-        "parentUid" : "3af5ba491cb860bce085f4c885659be3",
+        "uid" : "721f0ef59d27da6e",
+        "parentUid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba",
         "status" : "broken",
         "time" : {
-          "start" : 1711329219984,
-          "stop" : 1711329245206,
-          "duration" : 25222
+          "start" : 1711333628769,
+          "stop" : 1711333714827,
+          "duration" : 86058
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3af5ba491cb860bce085f4c885659be3"
+      "uid" : "f5d9a1fd04b2844d0ca2439a8bcc24ba"
     }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 84760e1f-d08e-4cca-9e7a-de47c3c29463\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, \"Онлайн-\")]}",
-      "children" : [ {
-        "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "32290d219cb567e9",
-        "parentUid" : "aaea31a1e314b55bc03d4127a97735ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329245218,
-          "stop" : 1711329301668,
-          "duration" : 56450
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "aaea31a1e314b55bc03d4127a97735ff"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: bb6a53cd-33f6-4f73-8b0a-5e4f9db31829\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
-        "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "d17440ec12f68f91",
-        "parentUid" : "155833f1a227977eaa6bf545623dffc4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329301675,
-          "stop" : 1711329353084,
-          "duration" : 51409
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "155833f1a227977eaa6bf545623dffc4"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 41e7b7b6-5430-4012-9116-4bb08798e5dc\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
-        "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "88536fefcfc78582",
-        "parentUid" : "cf0a7bb384e964da5f55c70c0dc5b442",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329353091,
-          "stop" : 1711329400140,
-          "duration" : 47049
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cf0a7bb384e964da5f55c70c0dc5b442"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 917dbd5a-50a1-4567-a8c2-b80768d3f47e\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, \"Онлайн-\")]}",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "34b4ddbdaa2c9ea3",
-        "parentUid" : "a8294db6208c8c6d5a110eebf6cfa49a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329400147,
-          "stop" : 1711329458335,
-          "duration" : 58188
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a8294db6208c8c6d5a110eebf6cfa49a"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: bb4ea9ab-c4ba-4927-953d-dfac8d740507\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, \"Онлайн-\")]}",
-      "children" : [ {
-        "name" : "addingReadmissionWithAudio()",
-        "uid" : "7186100eeceea497",
-        "parentUid" : "e0a086b73498a04fad8b47eb32a943e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329458344,
-          "stop" : 1711329516698,
-          "duration" : 58354
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e0a086b73498a04fad8b47eb32a943e0"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b2700b52-9f81-493f-8693-0f935950a4a5",
-      "children" : [ {
-        "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "40e7450f5896014c",
-        "parentUid" : "b4a6182204bc127db1d895649459818c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329585531,
-          "stop" : 1711329596712,
-          "duration" : 11181
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b4a6182204bc127db1d895649459818c"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 1259a808-37ac-43a7-b272-82ae9123813f\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "3e3cb3be199ee7ce",
-        "parentUid" : "11d8d80a32983f074f89efbaa47ed7cc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329666427,
-          "stop" : 1711329712949,
-          "duration" : 46522
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "11d8d80a32983f074f89efbaa47ed7cc"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c22333dc-625d-4e45-8e87-2dd4e83b6229",
-      "children" : [ {
-        "name" : "addingReadmissionWithChat()",
-        "uid" : "87c46aeae53956a3",
-        "parentUid" : "16829735c9e596f1595b34257c923446",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329781784,
-          "stop" : 1711329793095,
-          "duration" : 11311
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "16829735c9e596f1595b34257c923446"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 09c62f83-b337-412c-a570-31ef54bcbf6c\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/contact_us}",
-      "children" : [ {
-        "name" : "authorization()",
-        "uid" : "abd31f99495eeec1",
-        "parentUid" : "35d49771b74cc6411c33927392adf55f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329793105,
-          "stop" : 1711329850949,
-          "duration" : 57844
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "35d49771b74cc6411c33927392adf55f"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 31055f6c-7ffc-43cd-aff8-e7f76dc69a55\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/register_btn_text}",
-      "children" : [ {
-        "name" : "recoveryPass()",
-        "uid" : "a80636e67ed260fb",
-        "parentUid" : "c37e3edb87f89bf268feee31e42dad39",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329850955,
-          "stop" : 1711329906657,
-          "duration" : 55702
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c37e3edb87f89bf268feee31e42dad39"
-    }, {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/wv..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/wv..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c92c8de8-5c07-4633-927f-e9432006f57b",
-      "children" : [ {
-        "name" : "PoliciesTab()",
-        "uid" : "f36e41f07d5369d3",
-        "parentUid" : "002bda1b828ef48cdb721de1f97cb30a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711329972350,
-          "stop" : 1711329987644,
-          "duration" : 15294
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "002bda1b828ef48cdb721de1f97cb30a"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found: By.id: ru.sogaz.app.stage:id/btNext",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Ваша медкарта\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "onboardingPagination()",
-        "uid" : "9b72bfc2ce60f1d9",
-        "parentUid" : "e9cc00b2f77f0bb06ac038e4826e1d69",
-        "status" : "failed",
+        "uid" : "ce3648f715d8cc3b",
+        "parentUid" : "499db5876ea824db8c459eba72572fef",
+        "status" : "broken",
         "time" : {
-          "start" : 1711329906670,
-          "stop" : 1711329972340,
-          "duration" : 65670
+          "start" : 1711334922859,
+          "stop" : 1711335015450,
+          "duration" : 92591
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e9cc00b2f77f0bb06ac038e4826e1d69"
+      "uid" : "499db5876ea824db8c459eba72572fef"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
