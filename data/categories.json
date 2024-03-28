@@ -4,158 +4,685 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "name" : "Connection refused\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "allergyTests()",
-        "uid" : "aeadfce45d1d74d7",
-        "parentUid" : "513ab940811975875a2c8e7bf058f789",
+        "uid" : "ac61a545f97ea265",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624368544,
-          "stop" : 1711624525125,
-          "duration" : 156581
+          "start" : 1711634360647,
+          "stop" : 1711634360959,
+          "duration" : 312
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "513ab940811975875a2c8e7bf058f789"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 969d82dd-a769-41c9-ada9-ed8d2d6ba673 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 969d82dd-a769-41c9-ada9-ed8d2d6ba673 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "doctorConclusionTests()",
-        "uid" : "c907cb1d0f33ba0b",
-        "parentUid" : "a33d1f84fdb4ea19f91e33d8457b3417",
+        "uid" : "20e0e1a2c62d4dbc",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624525171,
-          "stop" : 1711624537288,
-          "duration" : 12117
+          "start" : 1711634361010,
+          "stop" : 1711634361018,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "a33d1f84fdb4ea19f91e33d8457b3417"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by d50d5e8c-8ff9-48b6-8efa-621d62671a1b is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by d50d5e8c-8ff9-48b6-8efa-621d62671a1b is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "operationTests()",
-        "uid" : "a5ab59737ea33236",
-        "parentUid" : "a90d3e0dae37b987008580517d5c991a",
+        "uid" : "ea9694bd95af93c3",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624537300,
-          "stop" : 1711624548202,
-          "duration" : 10902
+          "start" : 1711634361020,
+          "stop" : 1711634361025,
+          "duration" : 5
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "a90d3e0dae37b987008580517d5c991a"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 5504762d-9842-418f-85d0-473ca973213b is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 5504762d-9842-418f-85d0-473ca973213b is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "instrumentalDiagnosticsTests()",
-        "uid" : "7249fc9351a2c7d",
-        "parentUid" : "488b15177cc659bbc2f3c5ea9a48b4e5",
+        "uid" : "6488e1db19ce2d91",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624548214,
-          "stop" : 1711624559184,
-          "duration" : 10970
+          "start" : 1711634361027,
+          "stop" : 1711634361031,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "488b15177cc659bbc2f3c5ea9a48b4e5"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 32f58f29-0a4f-47a8-a179-0fea15d65eb7 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 32f58f29-0a4f-47a8-a179-0fea15d65eb7 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "vaccinationTests()",
-        "uid" : "be672291124c2441",
-        "parentUid" : "881dae2c7a6416e88a5f3c36668f58d1",
+        "uid" : "b96ead77149e4df",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624559194,
-          "stop" : 1711624570282,
-          "duration" : 11088
+          "start" : 1711634361032,
+          "stop" : 1711634361036,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "881dae2c7a6416e88a5f3c36668f58d1"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 9e45cdcd-3f76-44e2-9ded-35995fac1238 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 9e45cdcd-3f76-44e2-9ded-35995fac1238 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "diseaseTests()",
-        "uid" : "6108100b96bce523",
-        "parentUid" : "28fcf3a740fd3309a2b07d584255a2ac",
+        "uid" : "cc7a5bd832265f03",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624573832,
-          "stop" : 1711624584816,
-          "duration" : 10984
+          "start" : 1711634361039,
+          "stop" : 1711634361043,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "28fcf3a740fd3309a2b07d584255a2ac"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 5df88dae-566e-40e3-892f-c5506280a452 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 5df88dae-566e-40e3-892f-c5506280a452 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "injuryTests()",
-        "uid" : "fc587ae98de2315a",
-        "parentUid" : "ba5729ed03f04871890dfba665aca586",
+        "uid" : "d24018e39a8130fe",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624584826,
-          "stop" : 1711624595702,
-          "duration" : 10876
+          "start" : 1711634361045,
+          "stop" : 1711634361049,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "ba5729ed03f04871890dfba665aca586"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by befec883-1406-455a-ba60-754f194bfec2 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by befec883-1406-455a-ba60-754f194bfec2 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "medicineTests()",
-        "uid" : "44935bc789452572",
-        "parentUid" : "586910c8e56f34d6dedd8c40a6114d37",
+        "uid" : "9a86e54678711a55",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624595710,
-          "stop" : 1711624606504,
-          "duration" : 10794
+          "start" : 1711634361051,
+          "stop" : 1711634361055,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "586910c8e56f34d6dedd8c40a6114d37"
-    }, {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 79277c1e-dc03-4efb-8175-088045841d31 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 79277c1e-dc03-4efb-8175-088045841d31 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
+      }, {
         "name" : "analyzesTests()",
-        "uid" : "793833aaf843548b",
-        "parentUid" : "7c47ef7d5b3504bc99687386f4238b74",
+        "uid" : "37a25f322287ed52",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
         "status" : "broken",
         "time" : {
-          "start" : 1711624606510,
-          "stop" : 1711624617435,
-          "duration" : 10925
+          "start" : 1711634361056,
+          "stop" : 1711634361061,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sliderNavigationTests()",
+        "uid" : "89a29ad860c752e6",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361064,
+          "stop" : 1711634361071,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sectionsAndModalsTests()",
+        "uid" : "96bc22d9ae8785be",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361073,
+          "stop" : 1711634361079,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitFromQuestionnaire()",
+        "uid" : "bded1ca848e50dac",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361082,
+          "stop" : 1711634361088,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
+        "uid" : "d623fc5295350277",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361090,
+          "stop" : 1711634361096,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
+        "uid" : "35437bc60932e12e",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361099,
+          "stop" : 1711634361103,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigatingThroughQuestionnaireScreens()",
+        "uid" : "61c49a5d78a5cacc",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361105,
+          "stop" : 1711634361110,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
+        "uid" : "759ce0962bfd72fa",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361113,
+          "stop" : 1711634361119,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
+        "uid" : "789f98b4987d4074",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361121,
+          "stop" : 1711634361124,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
+        "uid" : "208c3e9cc93c48b",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361126,
+          "stop" : 1711634361129,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goBackToSymptomsSelectionPage()",
+        "uid" : "2a3c218c1900e24",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361130,
+          "stop" : 1711634361134,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+        "uid" : "1952e3c8425c422e",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361135,
+          "stop" : 1711634361139,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
+        "uid" : "6785322938b8b3b8",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361140,
+          "stop" : 1711634361143,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "questionnaireOpensForAdultPatient()",
+        "uid" : "479cb17c097cbce0",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361144,
+          "stop" : 1711634361147,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
+        "uid" : "97a66e389d4d9e57",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361148,
+          "stop" : 1711634361152,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
+        "uid" : "115998323e933d1b",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361153,
+          "stop" : 1711634361155,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "specializationDeterminedForOnlineConsultation()",
+        "uid" : "e7a4ed2ad53c90fd",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361156,
+          "stop" : 1711634361158,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registration()",
+        "uid" : "f0c594de86934433",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361160,
+          "stop" : 1711634361163,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePasswordPositive()",
+        "uid" : "2e5c247ea05b9242",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361164,
+          "stop" : 1711634361167,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "2635725104225d0f",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361172,
+          "stop" : 1711634361174,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ednaChatTests()",
+        "uid" : "cf0806a2fd552ba",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361177,
+          "stop" : 1711634361181,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup18()",
+        "uid" : "db02ff6621cd37f4",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361183,
+          "stop" : 1711634361187,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup27()",
+        "uid" : "e603c92a3075462a",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361188,
+          "stop" : 1711634361191,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup28()",
+        "uid" : "56349046b0edde57",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361192,
+          "stop" : 1711634361195,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup40()",
+        "uid" : "e9e86bff1090f856",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361196,
+          "stop" : 1711634361198,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup41()",
+        "uid" : "81039c2824318983",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361199,
+          "stop" : 1711634361202,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup50()",
+        "uid" : "ce55853bf7d6a8ec",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361204,
+          "stop" : 1711634361212,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup51()",
+        "uid" : "4efe3c56e4bbc7be",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361213,
+          "stop" : 1711634361216,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup59()",
+        "uid" : "88d0a53d5b5121f7",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361218,
+          "stop" : 1711634361221,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithChat()",
+        "uid" : "dd44fcd8983bca75",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361223,
+          "stop" : 1711634361228,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "7f4ae03b6195bffa",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361229,
+          "stop" : 1711634361231,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "d870160eb584a774",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361232,
+          "stop" : 1711634361235,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "bd4528f4f24ae3d7",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361236,
+          "stop" : 1711634361238,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "d706ff94edcc7ef1",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361239,
+          "stop" : 1711634361241,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithVideo()",
+        "uid" : "195564cc6aea87c8",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361242,
+          "stop" : 1711634361244,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "103a5714e4e15ff2",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361245,
+          "stop" : 1711634361247,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithAudio()",
+        "uid" : "f1dd73cebb3da424",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361248,
+          "stop" : 1711634361250,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "c6fb67dc6515044e",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361251,
+          "stop" : 1711634361254,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithChat()",
+        "uid" : "7876a74564e181ec",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361255,
+          "stop" : 1711634361258,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithChat()",
+        "uid" : "df1a02d6013bcdb9",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361258,
+          "stop" : 1711634361260,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "authorization()",
+        "uid" : "dabdd136733814d5",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361262,
+          "stop" : 1711634361265,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "recoveryPass()",
+        "uid" : "b7915c57dca901aa",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361266,
+          "stop" : 1711634361268,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "onboardingPagination()",
+        "uid" : "e4252be1217e5e09",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361270,
+          "stop" : 1711634361273,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PoliciesTab()",
+        "uid" : "ea5f4a84e011336f",
+        "parentUid" : "2bdcc859f6555e905ff6aeedb417b6c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711634361275,
+          "stop" : 1711634361278,
+          "duration" : 3
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7c47ef7d5b3504bc99687386f4238b74"
+      "uid" : "2bdcc859f6555e905ff6aeedb417b6c5"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
