@@ -4,22 +4,138 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: The process has received SIGTERM signal\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/j8..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 1cf914b6-d1fd-4fbf-85e9-eb6934fe2240\n*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=\"Нет, спасибо\"]}",
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "onboardingPagination()",
-        "uid" : "550ef8f5141d3275",
-        "parentUid" : "50c51b769faf6125c0d59e5c013c3c4f",
+        "name" : "allergyTests()",
+        "uid" : "9eee7b9ae374652b",
+        "parentUid" : "add87b84395d1f73b808eb965195cd71",
         "status" : "broken",
         "time" : {
-          "start" : 1711578312290,
-          "stop" : 1711578390601,
-          "duration" : 78311
+          "start" : 1711621842789,
+          "stop" : 1711621941522,
+          "duration" : 98733
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "50c51b769faf6125c0d59e5c013c3c4f"
+      "uid" : "add87b84395d1f73b808eb965195cd71"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "doctorConclusionTests()",
+        "uid" : "e843e10ca16df208",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711621942152,
+          "stop" : 1711622072424,
+          "duration" : 130272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "instrumentalDiagnosticsTests()",
+        "uid" : "71cd745f5153e99e",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711622156812,
+          "stop" : 1711622214111,
+          "duration" : 57299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90f53dfd111086032dd0191c38369f31"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: В медкарту (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "operationTests()",
+        "uid" : "9bf1e317a95671e8",
+        "parentUid" : "85a64af71909d74fbf22ff58a975c6fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711622072433,
+          "stop" : 1711622156809,
+          "duration" : 84376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "vaccinationTests()",
+        "uid" : "9364e590f5783de9",
+        "parentUid" : "85a64af71909d74fbf22ff58a975c6fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711622214123,
+          "stop" : 1711622302214,
+          "duration" : 88091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "diseaseTests()",
+        "uid" : "cff8b1c515cb614d",
+        "parentUid" : "85a64af71909d74fbf22ff58a975c6fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711622302218,
+          "stop" : 1711622387007,
+          "duration" : 84789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "injuryTests()",
+        "uid" : "37869c6e86655ae1",
+        "parentUid" : "85a64af71909d74fbf22ff58a975c6fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711622387011,
+          "stop" : 1711622472863,
+          "duration" : 85852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "medicineTests()",
+        "uid" : "9ed68077de29a0c0",
+        "parentUid" : "85a64af71909d74fbf22ff58a975c6fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711622472867,
+          "stop" : 1711622556091,
+          "duration" : 83224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85a64af71909d74fbf22ff58a975c6fd"
+    }, {
+      "name" : "Connection refused\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: IOSDriver",
+      "children" : [ {
+        "name" : "analyzesTests()",
+        "uid" : "4a9d89a80e6cf43f",
+        "parentUid" : "3e426139f8c58437d604068202177418",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711622556093,
+          "stop" : 1711622598439,
+          "duration" : 42346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e426139f8c58437d604068202177418"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
