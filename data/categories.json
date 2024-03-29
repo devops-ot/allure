@@ -2,823 +2,147 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 6fc0c175-a707-403a-bab6-2f2ea836d121\n*** Element info: {Using=id, value=Неверный формат пароля}",
+      "name" : "Element not found: By.xpath: //android.widget.TextView[@text=\"Данные об аллергии добавлены\"]",
       "children" : [ {
         "name" : "allergyTests()",
-        "uid" : "f0982bccfd906fe3",
-        "parentUid" : "0c15e8831002c37ee77ec8fb64669be2",
-        "status" : "broken",
+        "uid" : "5e1c8aa55aae4a84",
+        "parentUid" : "0650e43b54ae6554930d4aa086f52886",
+        "status" : "failed",
         "time" : {
-          "start" : 1711654183619,
-          "stop" : 1711654227259,
-          "duration" : 43640
+          "start" : 1711715748451,
+          "stop" : 1711715827635,
+          "duration" : 79184
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0c15e8831002c37ee77ec8fb64669be2"
-    }, {
-      "name" : "The previously found element \"\"artur.antonov@overteam.ru\" TextField\" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Application ru.overteam.SogazEMPDemo is not running\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 7c6fe2bf-c3b8-40d5-aebd-a60ba4f5b37d",
+      "uid" : "0650e43b54ae6554930d4aa086f52886"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.TextView[@text=\"Download\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "doctorConclusionTests()",
-        "uid" : "925a68a4813e5d38",
-        "parentUid" : "00b0ea84fd75c714f97b5ba53deca71a",
+        "uid" : "d936fbc1ba39df47",
+        "parentUid" : "883ebc597b76e1132ac0c3ea5b994d2d",
         "status" : "broken",
         "time" : {
-          "start" : 1711654227341,
-          "stop" : 1711654237532,
-          "duration" : 10191
+          "start" : 1711715827705,
+          "stop" : 1711715924656,
+          "duration" : 96951
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "00b0ea84fd75c714f97b5ba53deca71a"
+      "uid" : "883ebc597b76e1132ac0c3ea5b994d2d"
     }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 996d9eda-ce0c-452e-9ffb-94e08eff8845\n*** Element info: {Using=id, value=Неверный формат пароля}",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (/Users/lmovsisyan/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:355:13)\n    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)\n    at AndroidUiautomator2Driver.fillDeviceDetails (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:256:28)\n    at AndroidUiautomator2Driver.createSession (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:242:7)\n    at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:717:35)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "operationTests()",
-        "uid" : "ed409c1f62782c30",
-        "parentUid" : "5eee298ccf2b6d7f20769aadf22617cf",
+        "uid" : "e6dbfdb302ac99be",
+        "parentUid" : "cf505d3db8d78bba356dee95c387fc7a",
         "status" : "broken",
         "time" : {
-          "start" : 1711654247181,
-          "stop" : 1711654277152,
-          "duration" : 29971
+          "start" : 1711715924845,
+          "stop" : 1711715945388,
+          "duration" : 20543
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5eee298ccf2b6d7f20769aadf22617cf"
+      "uid" : "cf505d3db8d78bba356dee95c387fc7a"
     }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/sy..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/sy..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: fae61430-4195-4eea-8312-a698759f991b\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Download\"]}",
       "children" : [ {
         "name" : "instrumentalDiagnosticsTests()",
-        "uid" : "a4cddb9850d9649f",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
+        "uid" : "cc0c175f959f20a2",
+        "parentUid" : "bc2c300e0fffee51ae3c221b0644d3a1",
         "status" : "broken",
         "time" : {
-          "start" : 1711654277164,
-          "stop" : 1711654364669,
-          "duration" : 87505
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "diseaseTests()",
-        "uid" : "58b1e0046f7c44fc",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654453246,
-          "stop" : 1711654540352,
-          "duration" : 87106
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sectionsAndModalsTests()",
-        "uid" : "62f97f983a701da8",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654664520,
-          "stop" : 1711654693590,
-          "duration" : 29070
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
-        "uid" : "2c91696ad4051bc0",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654758761,
-          "stop" : 1711654788280,
-          "duration" : 29519
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
-        "uid" : "567ccb0572653fb4",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654854656,
-          "stop" : 1711654941867,
-          "duration" : 87211
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "questionnaireOpensForAdultPatient()",
-        "uid" : "14cea6a80bed81fe",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655030466,
-          "stop" : 1711655117694,
-          "duration" : 87228
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "e4a31fce9dbc48f6",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655206262,
-          "stop" : 1711655293519,
-          "duration" : 87257
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete()",
-        "uid" : "9d9e44c1ed7b5783",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655558116,
-          "stop" : 1711655645425,
-          "duration" : 87309
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup27()",
-        "uid" : "f13b0deeadd92d4e",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655746079,
-          "stop" : 1711655833132,
-          "duration" : 87053
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup40()",
-        "uid" : "2543f6b61dce061",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655922026,
-          "stop" : 1711656009017,
-          "duration" : 86991
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup41()",
-        "uid" : "eb354b9e6fb0d46f",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656009138,
-          "stop" : 1711656036490,
-          "duration" : 27352
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkup51()",
-        "uid" : "a5c38f25f3652bb2",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656094448,
-          "stop" : 1711656183226,
-          "duration" : 88778
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "fcfb504426178dd0",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656272743,
-          "stop" : 1711656360394,
-          "duration" : 87651
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "14059a9594b74aa9",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656449115,
-          "stop" : 1711656536352,
-          "duration" : 87237
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithAudio()",
-        "uid" : "5d18d5c3f4f3310e",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656624733,
-          "stop" : 1711656712197,
-          "duration" : 87464
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "e6819c394cbdc67",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656757138,
-          "stop" : 1711656786210,
-          "duration" : 29072
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithChat()",
-        "uid" : "76c294a7ad53b4b4",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656815950,
-          "stop" : 1711656902785,
-          "duration" : 86835
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "recoveryPass()",
-        "uid" : "818d0ff97ed30ed9",
-        "parentUid" : "add87b84395d1f73b808eb965195cd71",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656991078,
-          "stop" : 1711657078174,
-          "duration" : 87096
+          "start" : 1711715945393,
+          "stop" : 1711716041550,
+          "duration" : 96157
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "add87b84395d1f73b808eb965195cd71"
+      "uid" : "bc2c300e0fffee51ae3c221b0644d3a1"
     }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 611f02e5-70b4-4841-8bcf-14cb5a36d427\n*** Element info: {Using=id, value=Неверный формат пароля}",
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/sy..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/sy..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: cfd6c4b5-75b1-4467-9a0e-6e90c1d33020\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "children" : [ {
         "name" : "vaccinationTests()",
-        "uid" : "deb76740d3b9e6ab",
-        "parentUid" : "de795e4da3d8d4349148d46513e091cb",
+        "uid" : "23efdf5912dd122",
+        "parentUid" : "96d9c94c20eb046eb1089c7ec758a1bc",
         "status" : "broken",
         "time" : {
-          "start" : 1711654364876,
-          "stop" : 1711654453238,
-          "duration" : 88362
+          "start" : 1711716041562,
+          "stop" : 1711716054367,
+          "duration" : 12805
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "de795e4da3d8d4349148d46513e091cb"
+      "uid" : "96d9c94c20eb046eb1089c7ec758a1bc"
     }, {
-      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: c1fd693d-b16b-417d-9292-2980878e52cc\n*** Element info: {Using=-ios predicate string, value=type == \"XCUIElementTypeTextField\"}",
+      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/sy..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/sy..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: ad2d2406-4a0b-424f-9ad2-5648417f66c8\n*** Element info: {Using=xpath, value=//android.widget.ImageView[@resource-id=\"ru.sogaz.app.stage:id/delete\" or @resource-id=\"ru.sogaz.app.stage:id/editButton\"]}",
       "children" : [ {
-        "name" : "injuryTests()",
-        "uid" : "403d3041fe8270d4",
-        "parentUid" : "01024ef6455fd8bcaaddddf5479d7744",
+        "name" : "diseaseTests()",
+        "uid" : "f5252784dade2723",
+        "parentUid" : "26d2e30d55f9b6c27694f13eb54b72b3",
         "status" : "broken",
         "time" : {
-          "start" : 1711654540491,
-          "stop" : 1711654558383,
-          "duration" : 17892
+          "start" : 1711716054379,
+          "stop" : 1711716146095,
+          "duration" : 91716
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "01024ef6455fd8bcaaddddf5479d7744"
+      "uid" : "26d2e30d55f9b6c27694f13eb54b72b3"
     }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 161cd498-f2cf-43b1-b1eb-846dfea65d56\n*** Element info: {Using=id, value=Неверный формат пароля}",
+      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/sy..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/sy..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 3c4e1562-616d-4e47-be9b-848afce3ec65",
       "children" : [ {
         "name" : "medicineTests()",
-        "uid" : "6dc4ab3cd2e055f6",
-        "parentUid" : "a118ec9ede14a40feb1bfa9c0cc254f4",
+        "uid" : "e1d4dcac6fb6f3e6",
+        "parentUid" : "a508f5c247919973607d1f01bf41f64b",
         "status" : "broken",
         "time" : {
-          "start" : 1711654558397,
-          "stop" : 1711654646806,
-          "duration" : 88409
+          "start" : 1711716235119,
+          "stop" : 1711716249223,
+          "duration" : 14104
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a118ec9ede14a40feb1bfa9c0cc254f4"
+      "uid" : "a508f5c247919973607d1f01bf41f64b"
     }, {
-      "name" : "The previously found element \"\"artur.antonov@overteam.ru\" TextField\" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Application ru.overteam.SogazEMPDemo is not running\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 27b46e90-f46c-438e-ada8-8cc794f1d32b",
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/sy..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/sy..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f21c19ae-ae67-463c-99bc-b51172ae3b09\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "children" : [ {
         "name" : "analyzesTests()",
-        "uid" : "7577e6222b51d457",
-        "parentUid" : "5896fce9696aa37764cee32f9271aa80",
+        "uid" : "c71e7e6e14f90c6c",
+        "parentUid" : "9eaea0097a3971e08f00a50ab0c59996",
         "status" : "broken",
         "time" : {
-          "start" : 1711654646816,
-          "stop" : 1711654655376,
-          "duration" : 8560
+          "start" : 1711716249233,
+          "stop" : 1711716262112,
+          "duration" : 12879
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5896fce9696aa37764cee32f9271aa80"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: e15c0bd9-b37f-4166-b6ed-0b98eabd0a63\n*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=\"Войти\"]}",
-      "children" : [ {
-        "name" : "sliderNavigationTests()",
-        "uid" : "9dff5b7d9e24c344",
-        "parentUid" : "4cb21ef2eb3fa2b8669fe8b8773596bf",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654655420,
-          "stop" : 1711654664516,
-          "duration" : 9096
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4cb21ef2eb3fa2b8669fe8b8773596bf"
-    }, {
-      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 9516c881-88d5-4c23-83ea-f88fb8dd921c\n*** Element info: {Using=-ios predicate string, value=type == \"XCUIElementTypeTextField\"}",
-      "children" : [ {
-        "name" : "exitFromQuestionnaire()",
-        "uid" : "f70ff3bb8e909962",
-        "parentUid" : "55c3ffce27c9ba5eb7e24db5dc3128eb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654693601,
-          "stop" : 1711654711306,
-          "duration" : 17705
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "55c3ffce27c9ba5eb7e24db5dc3128eb"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: f557c9b3-b138-43cf-816c-7acd56ea3f4a\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "721a310d40db7a5",
-        "parentUid" : "32431ce3a6ffb8cf674aed9c9e7c18cb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654711320,
-          "stop" : 1711654741237,
-          "duration" : 29917
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "32431ce3a6ffb8cf674aed9c9e7c18cb"
-    }, {
-      "name" : "The previously found element \"\"artur.antonov@overteam.ru\" TextField\" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Application ru.overteam.SogazEMPDemo is not running\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 93b0cc66-3de7-45d6-8a60-3490f08ff61d",
-      "children" : [ {
-        "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
-        "uid" : "dfc6acaae9995edb",
-        "parentUid" : "e0945067bc5c00ddf7a1f53649701023",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654741245,
-          "stop" : 1711654749668,
-          "duration" : 8423
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e0945067bc5c00ddf7a1f53649701023"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 6476c27a-ce03-4157-bb17-9293f2fe3181\n*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=\"Войти\"]}",
-      "children" : [ {
-        "name" : "navigatingThroughQuestionnaireScreens()",
-        "uid" : "6f2650486949d002",
-        "parentUid" : "33d23eecd77b0fd046212d26d5de1d7c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654749673,
-          "stop" : 1711654758758,
-          "duration" : 9085
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "33d23eecd77b0fd046212d26d5de1d7c"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: ba750014-b649-4131-aa44-e9c221b9f2fd\n*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=\"Войти\"]}",
-      "children" : [ {
-        "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
-        "uid" : "5bb7217a796871a6",
-        "parentUid" : "aeff9ab0a3df114506bd57a164071967",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654788430,
-          "stop" : 1711654806825,
-          "duration" : 18395
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "aeff9ab0a3df114506bd57a164071967"
-    }, {
-      "name" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x0000000100ab2004 chromedriver + 4169732\n1   chromedriver                        0x0000000100aa9ff8 chromedriver + 4136952\n2   chromedriver                        0x00000001006ff500 chromedriver + 292096\n3   chromedriver                        0x000000010073595c chromedriver + 514396\n4   chromedriver                        0x0000000100734b98 chromedriver + 510872\n5   chromedriver                        0x0000000100730244 chromedriver + 492100\n6   chromedriver                        0x000000010072d5b8 chromedriver + 480696\n7   chromedriver                        0x000000010076f754 chromedriver + 751444\n8   chromedriver                        0x00000001007385e8 chromedriver + 525800\n9   chromedriver                        0x00000001007394b8 chromedriver + 529592\n10  chromedriver                        0x0000000100a78334 chromedriver + 3932980\n11  chromedriver                        0x0000000100a7c970 chromedriver + 3950960\n12  chromedriver                        0x0000000100a60774 chromedriver + 3835764\n13  chromedriver                        0x0000000100a7d478 chromedriver + 3953784\n14  chromedriver                        0x0000000100a52ab4 chromedriver + 3779252\n15  chromedriver                        0x0000000100a99914 chromedriver + 4069652\n16  chromedriver                        0x0000000100a99a90 chromedriver + 4070032\n17  chromedriver                        0x0000000100aa9c70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x0000000185d1ffa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x0000000185d1ada0 thread_start + 8\n",
-      "children" : [ {
-        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "fb2e9e329737168a",
-        "parentUid" : "ebdcd17f3ec644759cf5c8265760c2c7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654806831,
-          "stop" : 1711654825054,
-          "duration" : 18223
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ebdcd17f3ec644759cf5c8265760c2c7"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 554fe03b-af0b-4258-baa2-2b4a85fef441\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "goBackToSymptomsSelectionPage()",
-        "uid" : "5296ce773b2a0bd9",
-        "parentUid" : "f36487c0f7dcd34ee056c338cdd30348",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654825064,
-          "stop" : 1711654854648,
-          "duration" : 29584
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f36487c0f7dcd34ee056c338cdd30348"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 0e8986c2-2a69-4600-903f-68b9abf2ea7e\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
-        "uid" : "abc055a11a299048",
-        "parentUid" : "cda4ea3eeaff6a76aa6071de062c18c0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711654942038,
-          "stop" : 1711655030456,
-          "duration" : 88418
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cda4ea3eeaff6a76aa6071de062c18c0"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: fb24444f-6887-454b-8890-74c317d84fab\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
-        "uid" : "6512321c1da2dea7",
-        "parentUid" : "f7ade81189a116ede01c04677a350afd",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655117877,
-          "stop" : 1711655206254,
-          "duration" : 88377
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f7ade81189a116ede01c04677a350afd"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 9f1225e2-eef3-43a9-8334-9d1a43ab87ff\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "specializationDeterminedForOnlineConsultation()",
-        "uid" : "c0ced6f57b25e0fc",
-        "parentUid" : "0e05e47def83d9ab66d47545d037b2f5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655293692,
-          "stop" : 1711655381810,
-          "duration" : 88118
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0e05e47def83d9ab66d47545d037b2f5"
-    }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeButton[@name=\"Регистрация\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "registration()",
-        "uid" : "cda6b5111829eab3",
-        "parentUid" : "c36b0fcb0a583616a5dfe30d8ea1d389",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655381823,
-          "stop" : 1711655469538,
-          "duration" : 87715
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c36b0fcb0a583616a5dfe30d8ea1d389"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: e1ef4dc1-aa8f-43a3-89ac-55d3f5700283\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "changePasswordPositive()",
-        "uid" : "3c14afe40e677755",
-        "parentUid" : "a7732159c4b1b410f408ded4a90f2f55",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655469727,
-          "stop" : 1711655558099,
-          "duration" : 88372
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a7732159c4b1b410f408ded4a90f2f55"
-    }, {
-      "name" : "The previously found element \"\"artur.antonov@overteam.ru\" TextField\" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Application ru.overteam.SogazEMPDemo is not running\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 29a9853a-550f-485f-938a-9d94dd131d5a",
-      "children" : [ {
-        "name" : "ednaChatTests()",
-        "uid" : "5733d9e162ad4e44",
-        "parentUid" : "4a525c03c9f428e21a93d785bc6fc14e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655645596,
-          "stop" : 1711655659062,
-          "duration" : 13466
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4a525c03c9f428e21a93d785bc6fc14e"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 7959e653-f314-472b-8381-1466ebed5928\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "checkup18()",
-        "uid" : "bdd24320541cb5c3",
-        "parentUid" : "e6f96241f308248d994929638ed0ffff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655659070,
-          "stop" : 1711655746070,
-          "duration" : 87000
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e6f96241f308248d994929638ed0ffff"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 2e637e85-4daf-43a3-b4c2-9defc42c8f6d\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "checkup28()",
-        "uid" : "25b783a647bc189b",
-        "parentUid" : "2b3ff5188a4f9b8cba43001b35ee8aef",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711655833310,
-          "stop" : 1711655922018,
-          "duration" : 88708
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2b3ff5188a4f9b8cba43001b35ee8aef"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 850b691b-630a-4da0-a7f4-d3f6d2d3ded0\n*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=\"Нет, спасибо\"]}",
-      "children" : [ {
-        "name" : "checkup50()",
-        "uid" : "46ff9fb96e01665f",
-        "parentUid" : "1d785dbcb367c1185089847673cc5605",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656036500,
-          "stop" : 1711656094439,
-          "duration" : 57939
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1d785dbcb367c1185089847673cc5605"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 15c086d6-53bb-45ac-b482-e295309c3348\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "checkup59()",
-        "uid" : "ec55acc4f73e7890",
-        "parentUid" : "29965e9025040fcd3db3252b47826ba5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656183400,
-          "stop" : 1711656272722,
-          "duration" : 89322
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "29965e9025040fcd3db3252b47826ba5"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 9ac6d237-23f7-407e-8717-904fb788509b\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "f8e0919c2c57e0db",
-        "parentUid" : "2bf000c5ef12393d171fb53f49fcf8fd",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656360561,
-          "stop" : 1711656449106,
-          "duration" : 88545
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2bf000c5ef12393d171fb53f49fcf8fd"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 87dcc864-fb49-48dd-b345-5fda058c7956\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "a1fbcd4accf305f",
-        "parentUid" : "05c51589400d741612aa7fbd5fe5e29c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656536531,
-          "stop" : 1711656624724,
-          "duration" : 88193
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "05c51589400d741612aa7fbd5fe5e29c"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 2d7024b3-423a-469a-9bf7-682b9df09377\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "addingReadmissionWithVideo()",
-        "uid" : "2fd5fc96bd42c407",
-        "parentUid" : "a116a0caf8840267d6473f0ef0b309aa",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656712371,
-          "stop" : 1711656739665,
-          "duration" : 27294
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a116a0caf8840267d6473f0ef0b309aa"
-    }, {
-      "name" : "The previously found element \"\"checkup50@overteam.ru\" TextField\" is not present in the current view anymore. Make sure the application UI has the expected state. Original error: Application ru.overteam.SogazEMPDemo is not running\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 6b194011-7a11-42e0-b928-cc8b67e578c3",
-      "children" : [ {
-        "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "bc2aa93c0e99854b",
-        "parentUid" : "b70d96de31a7665935690152f6aeeadf",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656739673,
-          "stop" : 1711656748078,
-          "duration" : 8405
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b70d96de31a7665935690152f6aeeadf"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 7ebb601c-a265-4ddd-9b27-4faa34708e87\n*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name=\"Войти\"]}",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "f8f654f118cff17",
-        "parentUid" : "93eb2ada5c0251e357855a95d6642537",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656748082,
-          "stop" : 1711656757135,
-          "duration" : 9053
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "93eb2ada5c0251e357855a95d6642537"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 6071c442-65c7-4c3d-904c-c3c63251e5d7\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "30691b1b18b5e800",
-        "parentUid" : "007d58429586523434a44e22932b25e1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656786218,
-          "stop" : 1711656815940,
-          "duration" : 29722
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "007d58429586523434a44e22932b25e1"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 92c7c888-1956-403a-bd7a-f6369b4dda9b\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "authorization()",
-        "uid" : "372168d3c73420c2",
-        "parentUid" : "71f374b0950c61339271b5744d16fd72",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711656902949,
-          "stop" : 1711656991069,
-          "duration" : 88120
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "71f374b0950c61339271b5744d16fd72"
-    }, {
-      "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: acbb99c7-3885-45e6-a0f5-dd989a9de295\n*** Element info: {Using=id, value=Неверный формат пароля}",
-      "children" : [ {
-        "name" : "onboardingPagination()",
-        "uid" : "b7800c70370fefb2",
-        "parentUid" : "7b00a69d54539f701c819c3cde3b8687",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711657078334,
-          "stop" : 1711657167004,
-          "duration" : 88670
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7b00a69d54539f701c819c3cde3b8687"
-    }, {
-      "name" : "Unable to create a new remote session. Original error: Connection reset\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: IOSDriver",
-      "children" : [ {
-        "name" : "PoliciesTab()",
-        "uid" : "c8bf0248bd9bd9ca",
-        "parentUid" : "3e43b3f2507254b43965888e29021348",
-        "status" : "broken",
-        "time" : {
-          "start" : 1711657167012,
-          "stop" : 1711657167047,
-          "duration" : 35
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3e43b3f2507254b43965888e29021348"
+      "uid" : "9eaea0097a3971e08f00a50ab0c59996"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
