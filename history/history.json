@@ -9,33 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38cd3def8113000d",
+      "uid" : "166e9c78b997c1f3",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 5e740267-3ae6-43b8-bf97-51aee4243a82",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (/Users/lmovsisyan/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:355:13)\n    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)\n    at AndroidUiautomator2Driver.fillDeviceDetails (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:256:28)\n    at AndroidUiautomator2Driver.createSession (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:242:7)\n    at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:717:35)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711988838492,
-        "stop" : 1711988927000,
-        "duration" : 88508
+        "start" : 1711994412054,
+        "stop" : 1711994421966,
+        "duration" : 9912
       }
     } ]
   },
   "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1e9af714d9e26a3f",
-      "status" : "failed",
-      "statusDetails" : "Element not found: By.id: Данные об аллергии добавлены",
+      "uid" : "ca51b62832062e3",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 7154a8ff-6d30-478e-b0fc-54c6cb3ac233\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "time" : {
-        "start" : 1711983339256,
-        "stop" : 1711983589671,
-        "duration" : 250415
+        "start" : 1711992922253,
+        "stop" : 1711992937021,
+        "duration" : 14768
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4ad63b3ddcaa7a7f",
+      "uid" : "4dceb5db69ccc05",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8e86ba4d-bb1e-4642-b88c-781c148b391e\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, \"Запись\") and contains(@text, \"в клинику\")]}",
       "time" : {
-        "start" : 1711986157394,
-        "stop" : 1711986344179,
-        "duration" : 186785
+        "start" : 1711993591716,
+        "stop" : 1711993649448,
+        "duration" : 57732
       }
     } ]
   },
@@ -69,89 +69,73 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4ea98cd98a38ef47",
+      "uid" : "4ff44873eacac9f4",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 64151467-2c27-465d-9a00-1039571df62e\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Жизнь и здоровье\"]}",
       "time" : {
-        "start" : 1711985874746,
-        "stop" : 1711985990332,
-        "duration" : 115586
+        "start" : 1711993450886,
+        "stop" : 1711993530863,
+        "duration" : 79977
       }
     } ]
   },
   "a71815b650b52c8cf2da2cb59ef0a330" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61e7a62b053a7393",
-      "status" : "passed",
+      "uid" : "432b5f1e21e8d49a",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: A new session could not be created. Details: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@c401cbe[id=-1, flags=0]\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.SessionNotCreatedException: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@c401cbe[id=-1, flags=0]\n\tat io.appium.uiautomator2.handler.NewSession.safeHandle(NewSession.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\nCaused by: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@c401cbe[id=-1, flags=0]\n\tat android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:1472)\n\tat android.app.UiAutomation.setOnAccessibilityEventListener(UiAutomation.java:437)\n\tat androidx.test.uiautomator.QueryController.<init>(QueryController.java:95)\n\tat androidx.test.uiautomator.UiDevice.<init>(UiDevice.java:109)\n\tat androidx.test.uiautomator.UiDevice.getInstance(UiDevice.java:261)\n\tat io.appium.uiautomator2.utils.Device.getUiDevice(Device.java:34)\n\tat io.appium.uiautomator2.core.UiAutomatorBridge.getUiAutomation(UiAutomatorBridge.java:53)\n\tat io.appium.uiautomator2.core.UiAutomation.<init>(UiAutomation.java:32)\n\tat io.appium.uiautomator2.core.UiAutomation.getInstance(UiAutomation.java:37)\n\tat io.appium.uiautomator2.model.NotificationListener.<init>(NotificationListener.java:43)\n\tat io.appium.uiautomator2.model.NotificationListener.getInstance(NotificationListener.java:48)\n\tat io.appium.uiautomator2.model.settings.EnableNotificationListener.getValue(EnableNotificationListener.java:31)\n\tat io.appium.uiautomator2.model.settings.EnableNotificationListener.getValue(EnableNotificationListener.java:21)\n\tat io.appium.uiautomator2.model.settings.AbstractSetting.reset(AbstractSetting.java:57)\n\tat io.appium.uiautomator2.model.settings.Settings.resetForNewSession(Settings.java:73)\n\tat io.appium.uiautomator2.handler.NewSession.safeHandle(NewSession.java:52)\n\t... 34 more\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711991652233,
-        "stop" : 1711991941689,
-        "duration" : 289456
+        "start" : 1711994915775,
+        "stop" : 1711994922058,
+        "duration" : 6283
       }
     } ]
   },
   "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "991e82474f8a18b2",
-      "status" : "passed",
+      "uid" : "6a6cb18a4942775f",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f423d0d9-f00e-4f25-ae20-d6fedf82667a\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
       "time" : {
-        "start" : 1711984797365,
-        "stop" : 1711985016709,
-        "duration" : 219344
+        "start" : 1711993170347,
+        "stop" : 1711993227533,
+        "duration" : 57186
       }
     } ]
   },
   "2405b53ec2e57934cb3f0631348e855b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a223cb9205f2a28",
-      "status" : "passed",
+      "uid" : "328fd8276ba1ec4c",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (/Users/lmovsisyan/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:355:13)\n    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)\n    at AndroidUiautomator2Driver.fillDeviceDetails (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:256:28)\n    at AndroidUiautomator2Driver.createSession (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:242:7)\n    at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:717:35)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711991490467,
-        "stop" : 1711991652081,
-        "duration" : 161614
-      }
-    } ]
-  },
-  "f67134439d58a9cfb24d3a9c728841eb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e28dc313a0ee943a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1711984614544,
-        "stop" : 1711984797348,
-        "duration" : 182804
+        "start" : 1711994905256,
+        "stop" : 1711994915767,
+        "duration" : 10511
       }
     } ]
   },
@@ -165,13 +149,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2677bed7573e3b6",
+      "uid" : "3abe08e5d4921295",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 18d9ab48-61d4-4ff6-b6dd-6d608a2b19c9 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 18d9ab48-61d4-4ff6-b6dd-6d608a2b19c9 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989871826,
-        "stop" : 1711990061996,
-        "duration" : 190170
+        "start" : 1711994809463,
+        "stop" : 1711994820619,
+        "duration" : 11156
       }
     } ]
   },
@@ -185,36 +169,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "69d2a5cf8185f23e",
+      "uid" : "84940efa46314d15",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 98c6e849-6b2a-4ad3-a4dd-591be0b4e531",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 42bd48bd-0cd3-4a6d-872e-547198c015e6 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 42bd48bd-0cd3-4a6d-872e-547198c015e6 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989013728,
-        "stop" : 1711989104302,
-        "duration" : 90574
+        "start" : 1711994428266,
+        "stop" : 1711994438376,
+        "duration" : 10110
       }
     } ]
   },
-  "43654123208c6e7a3c356c0133360b1a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b04d9ed7dbd6976c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1711988397249,
-        "stop" : 1711988467036,
-        "duration" : 69787
-      }
-    } ]
-  },
-  "18ec24184790bbd2571b088796ff69b0" : {
+  "f67134439d58a9cfb24d3a9c728841eb" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -224,13 +189,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e6022c71fd8b2c91",
+      "uid" : "387c41122c781a96",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a82c9af6-c443-416c-a57f-dd5d997345b4\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Данные о прививке добавлены\"]}",
       "time" : {
-        "start" : 1711991317199,
-        "stop" : 1711991490309,
-        "duration" : 173110
+        "start" : 1711993085912,
+        "stop" : 1711993170337,
+        "duration" : 84425
+      }
+    } ]
+  },
+  "43654123208c6e7a3c356c0133360b1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5a4d3ac7a8915c3",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 0d6e1454-f877-495f-a46b-8931bb0ac6f1 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 0d6e1454-f877-495f-a46b-8931bb0ac6f1 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1711994370895,
+        "stop" : 1711994381143,
+        "duration" : 10248
       }
     } ]
   },
@@ -244,13 +229,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4f0fbb9a47d751b",
+      "uid" : "f17c27abe3667c55",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 5323ddcb-a4c2-4a26-a6ef-83ec6208f5bd is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 5323ddcb-a4c2-4a26-a6ef-83ec6208f5bd is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711988723818,
-        "stop" : 1711988838467,
-        "duration" : 114649
+        "start" : 1711994401902,
+        "stop" : 1711994412043,
+        "duration" : 10141
+      }
+    } ]
+  },
+  "18ec24184790bbd2571b088796ff69b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bac39b17540f5144",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by bfee6a2a-22f1-499e-86aa-848512283d8c is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by bfee6a2a-22f1-499e-86aa-848512283d8c is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1711994895188,
+        "stop" : 1711994905246,
+        "duration" : 10058
       }
     } ]
   },
@@ -264,70 +269,73 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b45a08ed70a1d035",
+      "uid" : "b9ce26d64f26c7ed",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d51d673c-5d7e-40e7-9247-b84aadd0dc98",
       "time" : {
-        "start" : 1711986720167,
-        "stop" : 1711986920340,
-        "duration" : 200173
+        "start" : 1711993673581,
+        "stop" : 1711993713337,
+        "duration" : 39756
       }
     } ]
   },
   "26bac62248ca4bd68ebe8c33827f49f7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ac82d881916ab854",
-      "status" : "passed",
+      "uid" : "4e82fee75c452f79",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: a8a2ee43-0a5c-4f06-b160-c81d0aacb5db\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Заболевания\"]}",
       "time" : {
-        "start" : 1711984268687,
-        "stop" : 1711984614527,
-        "duration" : 345840
+        "start" : 1711993027504,
+        "stop" : 1711993085692,
+        "duration" : 58188
       }
     } ]
   },
   "8b25fd7bd9ed845d19081ee0799ea118" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ea69942e59ff0b",
-      "status" : "passed",
+      "uid" : "f63a5841c852a1d9",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 78e64579-9c3e-49f2-8fe6-ee1221fcd25f",
       "time" : {
-        "start" : 1711985016728,
-        "stop" : 1711985196942,
-        "duration" : 180214
+        "start" : 1711993227811,
+        "stop" : 1711993309895,
+        "duration" : 82084
       }
     } ]
   },
   "5e94fe62b62986319f169be63613673" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48c6b277002fb577",
-      "status" : "passed",
+      "uid" : "59a8a6b0d013450f",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 56998de8-6cf6-4290-8d50-3b7ade709a6a\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, 'Придумайте ПИН-код')]}",
       "time" : {
-        "start" : 1711983589768,
-        "stop" : 1711984096731,
-        "duration" : 506963
+        "start" : 1711992937088,
+        "stop" : 1711992969998,
+        "duration" : 32910
       }
     } ]
   },
@@ -341,13 +349,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c347ae6abdde7b69",
+      "uid" : "49efc3b5da4824ca",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8926b808-48dc-433d-af1e-1be24c8a7eeb\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "time" : {
-        "start" : 1711986344419,
-        "stop" : 1711986532927,
-        "duration" : 188508
+        "start" : 1711993649471,
+        "stop" : 1711993662039,
+        "duration" : 12568
       }
     } ]
   },
@@ -361,33 +369,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9dfdcebf2c856166",
+      "uid" : "f354ceefdf2f0a06",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAM() is @Disabled",
       "time" : {
-        "start" : 1711988602256,
-        "stop" : 1711988602256,
+        "start" : 1711994391779,
+        "stop" : 1711994391779,
         "duration" : 0
-      }
-    } ]
-  },
-  "52cb1388c27fcb104d3bf655780ca1b1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7d0e3a01e91b7d51",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1711990251813,
-        "stop" : 1711990426916,
-        "duration" : 175103
       }
     } ]
   },
@@ -401,32 +389,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9e0b5bc116142da",
+      "uid" : "5bc229f34f52a129",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: f76baa36-78d5-40e9-b239-e59360b891c1",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 7e220587-5b04-4c6f-a431-6c631ed3173a is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 7e220587-5b04-4c6f-a431-6c631ed3173a is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989273007,
-        "stop" : 1711989358773,
-        "duration" : 85766
+        "start" : 1711994458679,
+        "stop" : 1711994468838,
+        "duration" : 10159
+      }
+    } ]
+  },
+  "52cb1388c27fcb104d3bf655780ca1b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9f42df46337dfb4",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 5cba6ba8-ee25-4969-a9eb-6ab5d5e73e79 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 5cba6ba8-ee25-4969-a9eb-6ab5d5e73e79 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1711994830766,
+        "stop" : 1711994840837,
+        "duration" : 10071
       }
     } ]
   },
   "8c176700601bd05c1972864a7d482183" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1817bdf637edbd1d",
-      "status" : "passed",
+      "uid" : "9547beb6f8d03240",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 098d6081-77cc-447e-b4c0-51ede59ddaa2\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"В медкарту\"]}",
       "time" : {
-        "start" : 1711984096746,
-        "stop" : 1711984268671,
-        "duration" : 171925
+        "start" : 1711992970012,
+        "stop" : 1711993027490,
+        "duration" : 57478
       }
     } ]
   },
@@ -440,13 +449,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1bbb14e3337dfdef",
+      "uid" : "aca59d1ae33b7326",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 7ca94c63-45d4-41f4-aad3-570fd43bf379 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 7ca94c63-45d4-41f4-aad3-570fd43bf379 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711990777514,
-        "stop" : 1711990969516,
-        "duration" : 192002
+        "start" : 1711994864787,
+        "stop" : 1711994874900,
+        "duration" : 10113
       }
     } ]
   },
@@ -460,13 +469,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "966ad750b0e82841",
+      "uid" : "1f07dba9db84535c",
       "status" : "broken",
-      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 14ea2fae-8245-45c0-91b8-028f0a1a4375",
       "time" : {
-        "start" : 1711985741493,
-        "stop" : 1711985874504,
-        "duration" : 133011
+        "start" : 1711993413408,
+        "stop" : 1711993450876,
+        "duration" : 37468
       }
     } ]
   },
@@ -480,13 +489,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "876732569c2c4ead",
+      "uid" : "a6592134e1bd8ed4",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.AccessibilityId: Фамилия Патимат Отчествовна (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: dcc78bce-6ec9-4bb2-88a5-06157e0347b0",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 5518eb35-dda3-4596-af7c-9a7490ebaeba is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 5518eb35-dda3-4596-af7c-9a7490ebaeba is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711992569345,
-        "stop" : 1711992756164,
-        "duration" : 186819
+        "start" : 1711994932219,
+        "stop" : 1711994942618,
+        "duration" : 10399
       }
     } ]
   },
@@ -500,13 +509,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "736f714dc00f2199",
+      "uid" : "3287cee0249be175",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[contains(@name,\"Медкарта\")] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 1203e6a7-1ace-45f3-83bf-380bdfc81f59\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
       "time" : {
-        "start" : 1711987317095,
-        "stop" : 1711987461550,
-        "duration" : 144455
+        "start" : 1711993765896,
+        "stop" : 1711993815649,
+        "duration" : 49753
       }
     } ]
   },
@@ -520,13 +529,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "388a3be971c43a95",
+      "uid" : "ef211e68bf40eddb",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 2f2bec06-bb18-4fe5-be82-88624d14cc24\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, \"Онлайн-\")]}",
       "time" : {
-        "start" : 1711987847976,
-        "stop" : 1711988023468,
-        "duration" : 175492
+        "start" : 1711993929574,
+        "stop" : 1711993990338,
+        "duration" : 60764
       }
     } ]
   },
@@ -540,13 +549,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "147dda2af3b756a8",
+      "uid" : "5bae79a2417a7ef1",
       "status" : "broken",
-      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver",
+      "statusDetails" : "session not created: This version of ChromeDriver only supports Chrome version 119\nCurrent browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x0000000104e06004 chromedriver + 4169732\n1   chromedriver                        0x0000000104dfdff8 chromedriver + 4136952\n2   chromedriver                        0x0000000104a53500 chromedriver + 292096\n3   chromedriver                        0x0000000104a8995c chromedriver + 514396\n4   chromedriver                        0x0000000104a88b98 chromedriver + 510872\n5   chromedriver                        0x0000000104a84244 chromedriver + 492100\n6   chromedriver                        0x0000000104a815b8 chromedriver + 480696\n7   chromedriver                        0x0000000104ac3754 chromedriver + 751444\n8   chromedriver                        0x0000000104a8c5e8 chromedriver + 525800\n9   chromedriver                        0x0000000104a8d4b8 chromedriver + 529592\n10  chromedriver                        0x0000000104dcc334 chromedriver + 3932980\n11  chromedriver                        0x0000000104dd0970 chromedriver + 3950960\n12  chromedriver                        0x0000000104db4774 chromedriver + 3835764\n13  chromedriver                        0x0000000104dd1478 chromedriver + 3953784\n14  chromedriver                        0x0000000104da6ab4 chromedriver + 3779252\n15  chromedriver                        0x0000000104ded914 chromedriver + 4069652\n16  chromedriver                        0x0000000104deda90 chromedriver + 4070032\n17  chromedriver                        0x0000000104dfdc70 chromedriver + 4136048\n18  libsystem_pthread.dylib             0x000000018bbdbfa8 _pthread_start + 148\n19  libsystem_pthread.dylib             0x000000018bbd6da0 thread_start + 8\n",
       "time" : {
-        "start" : 1711987106299,
-        "stop" : 1711987135391,
-        "duration" : 29092
+        "start" : 1711993725157,
+        "stop" : 1711993737733,
+        "duration" : 12576
       }
     } ]
   },
@@ -560,13 +569,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4d1d251fd781dd7",
+      "uid" : "b20722e06d3236df",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 0066c7f3-4437-47e1-a238-cd1c12f51163 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 0066c7f3-4437-47e1-a238-cd1c12f51163 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711990602270,
-        "stop" : 1711990777483,
-        "duration" : 175213
+        "start" : 1711994854504,
+        "stop" : 1711994864780,
+        "duration" : 10276
       }
     } ]
   },
@@ -580,13 +589,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9504c62a26f5852",
+      "uid" : "5c70bf81789f15e1",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c8c7bd7e-b069-4b5d-b52a-1af567119fff\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
       "time" : {
-        "start" : 1711987461730,
-        "stop" : 1711987651733,
-        "duration" : 190003
+        "start" : 1711993815709,
+        "stop" : 1711993871753,
+        "duration" : 56044
       }
     } ]
   },
@@ -600,12 +609,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5be5af3e5578302e",
+      "uid" : "e4943cf4d3e5f4aa",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceAV() is @Disabled",
       "time" : {
-        "start" : 1711988602248,
-        "stop" : 1711988602248,
+        "start" : 1711994391775,
+        "stop" : 1711994391775,
         "duration" : 0
       }
     } ]
@@ -620,36 +629,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b88ea33482536223",
+      "uid" : "9f08eeaee04a973d",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 041ce671-6533-4278-b296-8d2977f2c617\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/captcha_image}",
       "time" : {
-        "start" : 1711987135401,
-        "stop" : 1711987316915,
-        "duration" : 181514
+        "start" : 1711993737743,
+        "stop" : 1711993765887,
+        "duration" : 28144
       }
     } ]
   },
   "66c70b389e0fbbe16e554a89f0fb1684" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5fd533457e0386e8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1711985379155,
-        "stop" : 1711985741453,
-        "duration" : 362298
-      }
-    } ]
-  },
-  "d0e183c5aea0d02949fbb7f7c8df728f" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -659,13 +649,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1a9666eae4eb81e",
+      "uid" : "c01955e90c81514e",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: d59a2c9b-4563-4942-be0a-68fc30a07cd6",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 2fcedff4-00da-4f0a-8386-0aa6087f9874\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "time" : {
-        "start" : 1711989443454,
-        "stop" : 1711989529680,
-        "duration" : 86226
+        "start" : 1711993401695,
+        "stop" : 1711993413391,
+        "duration" : 11696
+      }
+    } ]
+  },
+  "1068dfde36f458b4b76be55e159487e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a79150dbba283f7",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 4d0020c9-8cd3-4e8f-87ef-7d2658789b17 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 4d0020c9-8cd3-4e8f-87ef-7d2658789b17 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1711994391782,
+        "stop" : 1711994401891,
+        "duration" : 10109
       }
     } ]
   },
@@ -679,32 +689,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8fac5bdb226e35ac",
+      "uid" : "2e1460fee60b8085",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 1e1c1118-4e6f-4ff4-b6e2-d44aa7c66de8 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 1e1c1118-4e6f-4ff4-b6e2-d44aa7c66de8 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711990969677,
-        "stop" : 1711991143933,
-        "duration" : 174256
+        "start" : 1711994874908,
+        "stop" : 1711994885012,
+        "duration" : 10104
       }
     } ]
   },
-  "1068dfde36f458b4b76be55e159487e0" : {
+  "d0e183c5aea0d02949fbb7f7c8df728f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4cfc9677c8df7b3f",
-      "status" : "passed",
+      "uid" : "d4c8272df42f20d0",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by fb5f315b-8c08-48b3-91b8-ab3dd89f93b8 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by fb5f315b-8c08-48b3-91b8-ab3dd89f93b8 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711988602262,
-        "stop" : 1711988723649,
-        "duration" : 121387
+        "start" : 1711994479991,
+        "stop" : 1711994490290,
+        "duration" : 10299
       }
     } ]
   },
@@ -718,13 +729,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48aed3cc1b31b8d8",
+      "uid" : "6ad10911622fca41",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 300000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 300000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711988207083,
-        "stop" : 1711988397094,
-        "duration" : 190011
+        "start" : 1711994063112,
+        "stop" : 1711994370888,
+        "duration" : 307776
       }
     } ]
   },
@@ -738,13 +749,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e88d590b7e5a38b",
+      "uid" : "e3fdc828ab78aa22",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1711988023484,
-        "stop" : 1711988206862,
-        "duration" : 183378
+        "start" : 1711993990383,
+        "stop" : 1711994063105,
+        "duration" : 72722
       }
     } ]
   },
@@ -758,13 +769,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a174bbde8828639",
+      "uid" : "615754eceb5de158",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 300000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 300000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989529854,
-        "stop" : 1711989717893,
-        "duration" : 188039
+        "start" : 1711994490300,
+        "stop" : 1711994799117,
+        "duration" : 308817
       }
     } ]
   },
@@ -778,12 +789,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4af2d8c6241cc41d",
+      "uid" : "8d36fac90d7ee433",
       "status" : "passed",
       "time" : {
-        "start" : 1711985196960,
-        "stop" : 1711985378989,
-        "duration" : 182029
+        "start" : 1711993309900,
+        "stop" : 1711993401687,
+        "duration" : 91787
       }
     } ]
   },
@@ -797,13 +808,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5baa5e732df5d587",
+      "uid" : "5da4343147424c38",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 4e1f7f82-febb-4b6a-8496-bddc266e7b4b",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: A new session could not be created. Details: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@c401cbe[id=-1, flags=0]\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.SessionNotCreatedException: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@c401cbe[id=-1, flags=0]\n\tat io.appium.uiautomator2.handler.NewSession.safeHandle(NewSession.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\nCaused by: java.lang.IllegalStateException: UiAutomation not connected, UiAutomation@c401cbe[id=-1, flags=0]\n\tat android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:1472)\n\tat android.app.UiAutomation.setOnAccessibilityEventListener(UiAutomation.java:437)\n\tat androidx.test.uiautomator.QueryController.<init>(QueryController.java:95)\n\tat androidx.test.uiautomator.UiDevice.<init>(UiDevice.java:109)\n\tat androidx.test.uiautomator.UiDevice.getInstance(UiDevice.java:261)\n\tat io.appium.uiautomator2.utils.Device.getUiDevice(Device.java:34)\n\tat io.appium.uiautomator2.core.UiAutomatorBridge.getUiAutomation(UiAutomatorBridge.java:53)\n\tat io.appium.uiautomator2.core.UiAutomation.<init>(UiAutomation.java:32)\n\tat io.appium.uiautomator2.core.UiAutomation.getInstance(UiAutomation.java:37)\n\tat io.appium.uiautomator2.model.NotificationListener.<init>(NotificationListener.java:43)\n\tat io.appium.uiautomator2.model.NotificationListener.getInstance(NotificationListener.java:48)\n\tat io.appium.uiautomator2.model.settings.EnableNotificationListener.getValue(EnableNotificationListener.java:31)\n\tat io.appium.uiautomator2.model.settings.EnableNotificationListener.getValue(EnableNotificationListener.java:21)\n\tat io.appium.uiautomator2.model.settings.AbstractSetting.reset(AbstractSetting.java:57)\n\tat io.appium.uiautomator2.model.settings.Settings.resetForNewSession(Settings.java:73)\n\tat io.appium.uiautomator2.handler.NewSession.safeHandle(NewSession.java:52)\n\t... 34 more\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711988927014,
-        "stop" : 1711989013041,
-        "duration" : 86027
+        "start" : 1711994421973,
+        "stop" : 1711994428259,
+        "duration" : 6286
       }
     } ]
   },
@@ -817,32 +828,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9e946b3fee19c94f",
+      "uid" : "f481c2f6915b5598",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 4043b356-980c-482f-8029-55bc3ec3cf16 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 4043b356-980c-482f-8029-55bc3ec3cf16 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711990062175,
-        "stop" : 1711990251643,
-        "duration" : 189468
+        "start" : 1711994820626,
+        "stop" : 1711994830758,
+        "duration" : 10132
       }
     } ]
   },
   "a14515df15238203fd036a7eacddc2f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dfc2c50a6ea1e0b0",
-      "status" : "passed",
+      "uid" : "cab16c5d68d22eca",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 828d82b4-5231-40d3-984a-666b8cfc11b9 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 828d82b4-5231-40d3-984a-666b8cfc11b9 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711991941901,
-        "stop" : 1711992569256,
-        "duration" : 627355
+        "start" : 1711994922066,
+        "stop" : 1711994932210,
+        "duration" : 10144
       }
     } ]
   },
@@ -856,13 +868,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "271c5aaaf469a4e",
+      "uid" : "fc40885dba1864f2",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by d6a94156-02da-469e-b06b-dc102b5cac09 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by d6a94156-02da-469e-b06b-dc102b5cac09 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711991144119,
-        "stop" : 1711991317052,
-        "duration" : 172933
+        "start" : 1711994885019,
+        "stop" : 1711994895181,
+        "duration" : 10162
       }
     } ]
   },
@@ -876,32 +888,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3190038047743172",
+      "uid" : "23a67e6a0dbe3a92",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 68ebc48a-4409-4df4-ab5e-16e68957d557\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text,\"Расскажите нам\") and contains(@text,\"своих симптомах\")]}",
       "time" : {
-        "start" : 1711985990364,
-        "stop" : 1711986157219,
-        "duration" : 166855
+        "start" : 1711993530902,
+        "stop" : 1711993591706,
+        "duration" : 60804
       }
     } ]
   },
   "cb17a8313bc9192cc419ccf6b120f961" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a9c4b0319bb8b200",
-      "status" : "passed",
+      "uid" : "9f53915a30c0750f",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 6684c761-a50c-4480-9b6f-ebb0bf4bb98f is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 6684c761-a50c-4480-9b6f-ebb0bf4bb98f is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711988467049,
-        "stop" : 1711988602076,
-        "duration" : 135027
+        "start" : 1711994381150,
+        "stop" : 1711994391765,
+        "duration" : 10615
       }
     } ]
   },
@@ -915,13 +928,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0f2b953b122ff0c",
+      "uid" : "1394d1df3346b00f",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b5c0b4a1-22d4-44b9-962c-defd09028216\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "time" : {
-        "start" : 1711986920365,
-        "stop" : 1711987106154,
-        "duration" : 185789
+        "start" : 1711993713347,
+        "stop" : 1711993725148,
+        "duration" : 11801
       }
     } ]
   },
@@ -935,13 +948,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed82ce2ffdfb306e",
+      "uid" : "ff0a42c289b5d5ce",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Расскажите нам о своих симптомах\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: fe2274f5-f1ef-48c9-a206-0f81577f20ad\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
       "time" : {
-        "start" : 1711986532946,
-        "stop" : 1711986720016,
-        "duration" : 187070
+        "start" : 1711993662048,
+        "stop" : 1711993673571,
+        "duration" : 11523
       }
     } ]
   },
@@ -955,13 +968,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "350426a1f91fec80",
+      "uid" : "58194635741a39e9",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: f67af449-2ea9-4dde-9002-904b29aa02a8",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by b3054875-d92e-426b-b2e7-0081a52a717d is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by b3054875-d92e-426b-b2e7-0081a52a717d is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989104315,
-        "stop" : 1711989188965,
-        "duration" : 84650
+        "start" : 1711994438385,
+        "stop" : 1711994448481,
+        "duration" : 10096
       }
     } ]
   },
@@ -975,13 +988,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f5d8c2b1e0d91ff8",
+      "uid" : "5824099ca938d1f0",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: df1a4b34-70ad-463c-a760-2877edf15ea7",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by 674f6bb1-a729-4a82-a5a0-2533621ebe32 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by 674f6bb1-a729-4a82-a5a0-2533621ebe32 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989358976,
-        "stop" : 1711989443443,
-        "duration" : 84467
+        "start" : 1711994468845,
+        "stop" : 1711994479983,
+        "duration" : 11138
       }
     } ]
   },
@@ -995,12 +1008,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "32e835625d19c384",
+      "uid" : "86782f6311492ac8",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.AccountTest.addInsuranceCV() is @Disabled",
       "time" : {
-        "start" : 1711988602259,
-        "stop" : 1711988602259,
+        "start" : 1711994391781,
+        "stop" : 1711994391781,
         "duration" : 0
       }
     } ]
@@ -1015,13 +1028,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e595ba3a74836b0c",
+      "uid" : "3047c0cc2b0d005c",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: ed0448ec-3530-4089-b966-e219d4145f50",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by ed9559a4-bfca-4d88-b5b0-a12df1d4d413 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by ed9559a4-bfca-4d88-b5b0-a12df1d4d413 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989189124,
-        "stop" : 1711989272990,
-        "duration" : 83866
+        "start" : 1711994448489,
+        "stop" : 1711994458671,
+        "duration" : 10182
       }
     } ]
   },
@@ -1035,13 +1048,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a889ad4b4df2c0ea",
+      "uid" : "a7571d66d363a52c",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by aab2474f-1320-4c06-b569-88e72544debb is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by aab2474f-1320-4c06-b569-88e72544debb is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711989718041,
-        "stop" : 1711989871657,
-        "duration" : 153616
+        "start" : 1711994799124,
+        "stop" : 1711994809454,
+        "duration" : 10330
       }
     } ]
   },
@@ -1055,13 +1068,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e1abc31ede1e3154",
+      "uid" : "7ba64d750f7e8973",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by bc8e199e-fe6c-49eb-b504-7668293a6b2e is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by bc8e199e-fe6c-49eb-b504-7668293a6b2e is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1711990427106,
-        "stop" : 1711990602118,
-        "duration" : 175012
+        "start" : 1711994840844,
+        "stop" : 1711994850875,
+        "duration" : 10031
       }
     } ]
   },
@@ -1075,13 +1088,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2685910791ca18de",
+      "uid" : "ff1b16d7b63f71e9",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: Тип консультации (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/builds/x3..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 163d21a3-96c0-4b3d-b53d-d34d8093c5c5\n*** Element info: {Using=xpath, value=//*[contains(@text, 'Нет, спасибо')]}",
       "time" : {
-        "start" : 1711987651885,
-        "stop" : 1711987847956,
-        "duration" : 196071
+        "start" : 1711993871944,
+        "stop" : 1711993929291,
+        "duration" : 57347
       }
     } ]
   }
