@@ -1,0 +1,3536 @@
+{
+  "uid" : "a2446837a519ecc0",
+  "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+  "fullName" : "MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline",
+  "historyId" : "2ebd030ead2202f2de6f1bad7e5cfed6",
+  "time" : {
+    "start" : 1712067679657,
+    "stop" : 1712072767661,
+    "duration" : 5088004
+  },
+  "description" : "Assert that questionnaire doesn't open for child patients when registering to clinics",
+  "descriptionHtml" : "<p>Assert that questionnaire doesn't open for child patients when registering to clinics</p>\n",
+  "status" : "broken",
+  "statusMessage" : "The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135",
+  "statusTrace" : "org.openqa.selenium.InvalidElementStateException: The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\n\tat io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)\n\tat io.appium.java_client.TouchAction.perform(TouchAction.java:187)\n\tat MobileTesting.robots.RobotHelper.swipeInternal(RobotHelper.java:90)\n\tat MobileTesting.robots.AccountRobot.swipeLeftOnBanner(AccountRobot.java:90)\n\tat MobileTesting.robots.QuestionnaireRobot.selectFirstChildUser(QuestionnaireRobot.java:296)\n\tat MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline(QuestionnaireTest.java:24)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Assert that questionnaire doesn't open for child patients when registering to clinics",
+    "status" : "broken",
+    "statusMessage" : "The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135",
+    "statusTrace" : "org.openqa.selenium.InvalidElementStateException: The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\n\tat io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)\n\tat io.appium.java_client.TouchAction.perform(TouchAction.java:187)\n\tat MobileTesting.robots.RobotHelper.swipeInternal(RobotHelper.java:90)\n\tat MobileTesting.robots.AccountRobot.swipeLeftOnBanner(AccountRobot.java:90)\n\tat MobileTesting.robots.QuestionnaireRobot.selectFirstChildUser(QuestionnaireRobot.java:296)\n\tat MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline(QuestionnaireTest.java:24)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Assert that questionnaire doesn't open for child patients when registering to clinics",
+      "time" : {
+        "start" : 1712067686467,
+        "stop" : 1712072767654,
+        "duration" : 5081187
+      },
+      "status" : "broken",
+      "statusMessage" : "The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135",
+      "statusTrace" : "org.openqa.selenium.InvalidElementStateException: The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\n\tat io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)\n\tat io.appium.java_client.TouchAction.perform(TouchAction.java:187)\n\tat MobileTesting.robots.RobotHelper.swipeInternal(RobotHelper.java:90)\n\tat MobileTesting.robots.AccountRobot.swipeLeftOnBanner(AccountRobot.java:90)\n\tat MobileTesting.robots.QuestionnaireRobot.selectFirstChildUser(QuestionnaireRobot.java:296)\n\tat MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline(QuestionnaireTest.java:24)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+      "steps" : [ {
+        "name" : "Login",
+        "time" : {
+          "start" : 1712067686467,
+          "stop" : 1712067811832,
+          "duration" : 125365
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click on authorization button",
+          "time" : {
+            "start" : 1712067686467,
+            "stop" : 1712067686985,
+            "duration" : 518
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Input email",
+          "time" : {
+            "start" : 1712067686986,
+            "stop" : 1712067691094,
+            "duration" : 4108
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur.antonov@overteam.ru"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Input password",
+          "time" : {
+            "start" : 1712067691095,
+            "stop" : 1712067692826,
+            "duration" : 1731
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "password",
+            "value" : "123456"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Click on LoginButton button",
+          "time" : {
+            "start" : 1712067692827,
+            "stop" : 1712067708585,
+            "duration" : 15758
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur.antonov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "123456"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Confirm captcha",
+          "time" : {
+            "start" : 1712067708585,
+            "stop" : 1712067710428,
+            "duration" : 1843
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Enter PIN code",
+          "time" : {
+            "start" : 1712067710428,
+            "stop" : 1712067811832,
+            "duration" : 101404
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "artur.antonov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "123456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 6,
+        "hasContent" : true
+      }, {
+        "name" : "Select child user",
+        "time" : {
+          "start" : 1712067811835,
+          "stop" : 1712072767654,
+          "duration" : 4955819
+        },
+        "status" : "broken",
+        "statusMessage" : "The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135",
+        "statusTrace" : "org.openqa.selenium.InvalidElementStateException: The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\n\tat io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)\n\tat io.appium.java_client.TouchAction.perform(TouchAction.java:187)\n\tat MobileTesting.robots.RobotHelper.swipeInternal(RobotHelper.java:90)\n\tat MobileTesting.robots.AccountRobot.swipeLeftOnBanner(AccountRobot.java:90)\n\tat MobileTesting.robots.QuestionnaireRobot.selectFirstChildUser(QuestionnaireRobot.java:296)\n\tat MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline(QuestionnaireTest.java:24)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+        "steps" : [ {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712067811835,
+            "stop" : 1712067819823,
+            "duration" : 7988
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT2S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712067855538,
+            "stop" : 1712067865278,
+            "duration" : 9740
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712067900698,
+            "stop" : 1712067910461,
+            "duration" : 9763
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712067946008,
+            "stop" : 1712067955756,
+            "duration" : 9748
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712067991211,
+            "stop" : 1712068001064,
+            "duration" : 9853
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068036874,
+            "stop" : 1712068046722,
+            "duration" : 9848
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068082395,
+            "stop" : 1712068092146,
+            "duration" : 9751
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068127896,
+            "stop" : 1712068137729,
+            "duration" : 9833
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068173265,
+            "stop" : 1712068183020,
+            "duration" : 9755
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068218555,
+            "stop" : 1712068228305,
+            "duration" : 9750
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068263982,
+            "stop" : 1712068273800,
+            "duration" : 9818
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068309228,
+            "stop" : 1712068319065,
+            "duration" : 9837
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068354773,
+            "stop" : 1712068364528,
+            "duration" : 9755
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068401289,
+            "stop" : 1712068411178,
+            "duration" : 9889
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068446688,
+            "stop" : 1712068456525,
+            "duration" : 9837
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068491913,
+            "stop" : 1712068501738,
+            "duration" : 9825
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068537249,
+            "stop" : 1712068547098,
+            "duration" : 9849
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068582599,
+            "stop" : 1712068592423,
+            "duration" : 9824
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068627842,
+            "stop" : 1712068637591,
+            "duration" : 9749
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068673243,
+            "stop" : 1712068682996,
+            "duration" : 9753
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068718476,
+            "stop" : 1712068728217,
+            "duration" : 9741
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068763835,
+            "stop" : 1712068773577,
+            "duration" : 9742
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068809096,
+            "stop" : 1712068818922,
+            "duration" : 9826
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068854433,
+            "stop" : 1712068864263,
+            "duration" : 9830
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068899765,
+            "stop" : 1712068909604,
+            "duration" : 9839
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068945149,
+            "stop" : 1712068954895,
+            "duration" : 9746
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712068991293,
+            "stop" : 1712069001300,
+            "duration" : 10007
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069036743,
+            "stop" : 1712069046578,
+            "duration" : 9835
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069082325,
+            "stop" : 1712069092090,
+            "duration" : 9765
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069127620,
+            "stop" : 1712069137360,
+            "duration" : 9740
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069172901,
+            "stop" : 1712069182645,
+            "duration" : 9744
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069218162,
+            "stop" : 1712069227930,
+            "duration" : 9768
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069263459,
+            "stop" : 1712069273204,
+            "duration" : 9745
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069308786,
+            "stop" : 1712069318545,
+            "duration" : 9759
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069354107,
+            "stop" : 1712069363872,
+            "duration" : 9765
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069399514,
+            "stop" : 1712069409368,
+            "duration" : 9854
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069444951,
+            "stop" : 1712069454794,
+            "duration" : 9843
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069490400,
+            "stop" : 1712069500242,
+            "duration" : 9842
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069535881,
+            "stop" : 1712069545725,
+            "duration" : 9844
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069581379,
+            "stop" : 1712069591145,
+            "duration" : 9766
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069627680,
+            "stop" : 1712069637431,
+            "duration" : 9751
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069672663,
+            "stop" : 1712069682490,
+            "duration" : 9827
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069717887,
+            "stop" : 1712069727645,
+            "duration" : 9758
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069763154,
+            "stop" : 1712069773008,
+            "duration" : 9854
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069808399,
+            "stop" : 1712069818245,
+            "duration" : 9846
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069853629,
+            "stop" : 1712069863465,
+            "duration" : 9836
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069898857,
+            "stop" : 1712069908615,
+            "duration" : 9758
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069944022,
+            "stop" : 1712069953863,
+            "duration" : 9841
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712069989369,
+            "stop" : 1712069999207,
+            "duration" : 9838
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070034669,
+            "stop" : 1712070044533,
+            "duration" : 9864
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070080053,
+            "stop" : 1712070089878,
+            "duration" : 9825
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070125538,
+            "stop" : 1712070135304,
+            "duration" : 9766
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070171047,
+            "stop" : 1712070180896,
+            "duration" : 9849
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070217531,
+            "stop" : 1712070227314,
+            "duration" : 9783
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070262806,
+            "stop" : 1712070272631,
+            "duration" : 9825
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070308076,
+            "stop" : 1712070317831,
+            "duration" : 9755
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070353204,
+            "stop" : 1712070362951,
+            "duration" : 9747
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070398384,
+            "stop" : 1712070408133,
+            "duration" : 9749
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070443647,
+            "stop" : 1712070453474,
+            "duration" : 9827
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070488934,
+            "stop" : 1712070498779,
+            "duration" : 9845
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070534254,
+            "stop" : 1712070544094,
+            "duration" : 9840
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070579654,
+            "stop" : 1712070589441,
+            "duration" : 9787
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070624994,
+            "stop" : 1712070634757,
+            "duration" : 9763
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070670304,
+            "stop" : 1712070680068,
+            "duration" : 9764
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070715652,
+            "stop" : 1712070725534,
+            "duration" : 9882
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070761217,
+            "stop" : 1712070771022,
+            "duration" : 9805
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070808476,
+            "stop" : 1712070818332,
+            "duration" : 9856
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070853733,
+            "stop" : 1712070863540,
+            "duration" : 9807
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070898918,
+            "stop" : 1712070908731,
+            "duration" : 9813
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070944160,
+            "stop" : 1712070953964,
+            "duration" : 9804
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712070989367,
+            "stop" : 1712070999156,
+            "duration" : 9789
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071034563,
+            "stop" : 1712071044380,
+            "duration" : 9817
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071079786,
+            "stop" : 1712071089537,
+            "duration" : 9751
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071125006,
+            "stop" : 1712071134881,
+            "duration" : 9875
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071170305,
+            "stop" : 1712071180121,
+            "duration" : 9816
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071215708,
+            "stop" : 1712071225471,
+            "duration" : 9763
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071260946,
+            "stop" : 1712071270693,
+            "duration" : 9747
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071306364,
+            "stop" : 1712071316111,
+            "duration" : 9747
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071351681,
+            "stop" : 1712071361547,
+            "duration" : 9866
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071398258,
+            "stop" : 1712071408141,
+            "duration" : 9883
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071443723,
+            "stop" : 1712071453579,
+            "duration" : 9856
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071489039,
+            "stop" : 1712071498882,
+            "duration" : 9843
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071534492,
+            "stop" : 1712071544323,
+            "duration" : 9831
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071579959,
+            "stop" : 1712071589697,
+            "duration" : 9738
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071625356,
+            "stop" : 1712071635127,
+            "duration" : 9771
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071670779,
+            "stop" : 1712071680524,
+            "duration" : 9745
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071716065,
+            "stop" : 1712071725856,
+            "duration" : 9791
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071761534,
+            "stop" : 1712071771273,
+            "duration" : 9739
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071806981,
+            "stop" : 1712071816883,
+            "duration" : 9902
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071852573,
+            "stop" : 1712071862324,
+            "duration" : 9751
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071898009,
+            "stop" : 1712071907777,
+            "duration" : 9768
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071943544,
+            "stop" : 1712071953310,
+            "duration" : 9766
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712071989203,
+            "stop" : 1712071999494,
+            "duration" : 10291
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072035115,
+            "stop" : 1712072044965,
+            "duration" : 9850
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072080636,
+            "stop" : 1712072090482,
+            "duration" : 9846
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072126247,
+            "stop" : 1712072136090,
+            "duration" : 9843
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072171944,
+            "stop" : 1712072181747,
+            "duration" : 9803
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072217487,
+            "stop" : 1712072227351,
+            "duration" : 9864
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072263081,
+            "stop" : 1712072272859,
+            "duration" : 9778
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072308723,
+            "stop" : 1712072318525,
+            "duration" : 9802
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072354328,
+            "stop" : 1712072364146,
+            "duration" : 9818
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072399925,
+            "stop" : 1712072409804,
+            "duration" : 9879
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072445624,
+            "stop" : 1712072455473,
+            "duration" : 9849
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072491351,
+            "stop" : 1712072501118,
+            "duration" : 9767
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072536984,
+            "stop" : 1712072546759,
+            "duration" : 9775
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072582686,
+            "stop" : 1712072592493,
+            "duration" : 9807
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072628502,
+            "stop" : 1712072638275,
+            "duration" : 9773
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072674023,
+            "stop" : 1712072683776,
+            "duration" : 9753
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072719532,
+            "stop" : 1712072729316,
+            "duration" : 9784
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        }, {
+          "name" : "Swipe left on banner",
+          "time" : {
+            "start" : 1712072767590,
+            "stop" : 1712072767654,
+            "duration" : 64
+          },
+          "status" : "broken",
+          "statusMessage" : "The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135",
+          "statusTrace" : "org.openqa.selenium.InvalidElementStateException: The application under test with bundle id 'ru.overteam.SogazEMPDemo' is not running, possibly crashed\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/builds/x3..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 19496806-f47d-48c3-9b99-65b10d461135\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\n\tat io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)\n\tat io.appium.java_client.TouchAction.perform(TouchAction.java:187)\n\tat MobileTesting.robots.RobotHelper.swipeInternal(RobotHelper.java:90)\n\tat MobileTesting.robots.AccountRobot.swipeLeftOnBanner(AccountRobot.java:90)\n\tat MobileTesting.robots.QuestionnaireRobot.selectFirstChildUser(QuestionnaireRobot.java:296)\n\tat MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOffline(QuestionnaireTest.java:24)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "850"
+          }, {
+            "name" : "startY",
+            "value" : "480"
+          }, {
+            "name" : "endX",
+            "value" : "230"
+          }, {
+            "name" : "endY",
+            "value" : "480"
+          }, {
+            "name" : "duration",
+            "value" : "PT5S"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 110,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 118,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 119,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mac-mini-1.local"
+  }, {
+    "name" : "thread",
+    "value" : "20540@Mac-mini-1.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "questionnaireDoesNotOpenForChildPatientOffline"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a2446837a519ecc0.json",
+  "parameterValues" : [ ]
+}
