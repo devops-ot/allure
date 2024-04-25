@@ -157,13 +157,22 @@
   "2405b53ec2e57934cb3f0631348e855b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 13,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "efda168f08ef81e9",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -r --no-incremental /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk' exited with code 1'; Command output: adb: failed to install /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk: \nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -r --no-incremental /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk' exited with code 1'; Command output: adb: failed to install /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk: \n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1714003665564,
+        "stop" : 1714003675967,
+        "duration" : 10403
+      }
+    }, {
       "uid" : "1e31ce2dd92369b4",
       "status" : "passed",
       "time" : {
