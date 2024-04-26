@@ -175,13 +175,22 @@
   "2405b53ec2e57934cb3f0631348e855b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 20
+      "total" : 21
     },
     "items" : [ {
+      "uid" : "e9bdad42d46222e7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1714165912630,
+        "stop" : 1714165955162,
+        "duration" : 42532
+      }
+    }, {
       "uid" : "b96a2a65d4220a7e",
       "status" : "broken",
       "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 04341b1b-a3db-40f7-bde0-d6a2eda37080\n*** Element info: {Using=id, value=ru.sogaz.app.stage:id/input_login}",
@@ -340,14 +349,6 @@
         "start" : 1713463175641,
         "stop" : 1713463398169,
         "duration" : 222528
-      }
-    }, {
-      "uid" : "e3c96074cd4294fe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1713356711615,
-        "stop" : 1713356926120,
-        "duration" : 214505
       }
     } ]
   }
