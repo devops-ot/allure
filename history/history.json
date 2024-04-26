@@ -2,13 +2,22 @@
   "a71815b650b52c8cf2da2cb59ef0a330" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 23,
+      "broken" : 24,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 24
+      "total" : 25
     },
     "items" : [ {
+      "uid" : "3e911d1646fc3b83",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"На почту\")]/following-sibling::android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1714170374545,
+        "stop" : 1714170424252,
+        "duration" : 49707
+      }
+    }, {
       "uid" : "5ef729fa132b2e91",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"отправлена СМС с кодом подтверждения\")]/following-sibling::android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText (tried for 15 second(s) with 500 milliseconds interval)",
@@ -178,15 +187,6 @@
         "start" : 1713466466223,
         "stop" : 1713466483846,
         "duration" : 17623
-      }
-    }, {
-      "uid" : "800eac5d497898aa",
-      "status" : "broken",
-      "statusDetails" : "Index out of range. The list contains 1 elements.",
-      "time" : {
-        "start" : 1713466132084,
-        "stop" : 1713466168818,
-        "duration" : 36734
       }
     } ]
   },
