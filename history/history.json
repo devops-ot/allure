@@ -2,13 +2,22 @@
   "a71815b650b52c8cf2da2cb59ef0a330" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 18,
+      "broken" : 19,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "5fc81cd6588f6d89",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: (//XCUIElementTypeTextField)[2] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1714167407863,
+        "stop" : 1714167493788,
+        "duration" : 85925
+      }
+    }, {
       "uid" : "b7ea8d836816cf32",
       "status" : "broken",
       "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 0a44988a-23aa-4b64-a90a-d754e75aa664\n*** Element info: {Using=xpath, value=//XCUIElementTypeOther[2]/XCUIElementTypeTextField}",
