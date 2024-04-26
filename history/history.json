@@ -2,13 +2,22 @@
   "a71815b650b52c8cf2da2cb59ef0a330" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 20,
+      "broken" : 21,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "d5752a7f3940fecb",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: org.eclipse.wst.xml.xpath2.processor.internal.StaticFunctNameError: Function does not exist: contains arity: 1\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: ca9d716b-b4a7-41ca-93dc-00c0984604c0\n*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text=\"На почту\")]/following-sibling::android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText}",
+      "time" : {
+        "start" : 1714168818998,
+        "stop" : 1714168860615,
+        "duration" : 41617
+      }
+    }, {
       "uid" : "1a3597ce7e6325a6",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: //android.widget.TextView[@text=\"3/3\"] (tried for 15 second(s) with 500 milliseconds interval)",
@@ -178,15 +187,6 @@
         "start" : 1713464413389,
         "stop" : 1713464463992,
         "duration" : 50603
-      }
-    }, {
-      "uid" : "4c7e0fa2ac2283fb",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[io.appium.java_client.ios.IOSDriver, Capabilities: {app=/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app, autoAcceptAlerts=true, autoGrantPermissions=true, automationName=XCUITest, browserName=, databaseEnabled=false, deviceName=iPhone 14, javascriptEnabled=true, locationContextEnabled=false, locationServicesAuthorized=true, locationServicesEnabled=true, networkConnectionEnabled=false, platform=MAC, platformName=iOS, platformVersion=16.4, showXcodeLog=false, takesScreenshot=true, udid=46106CB1-6A97-47B5-9D16-DC089CC2A317, webStorageEnabled=false}] -> xpath: //XCUIElementTypeTextField] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: a4684f5d-5b64-4cbf-9a32-0878988ed714",
-      "time" : {
-        "start" : 1713463398217,
-        "stop" : 1713463449561,
-        "duration" : 51344
       }
     } ]
   },
