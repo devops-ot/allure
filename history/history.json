@@ -120,13 +120,22 @@
   "a71815b650b52c8cf2da2cb59ef0a330" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 29,
+      "broken" : 30,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 30
+      "total" : 31
     },
     "items" : [ {
+      "uid" : "c2cbb678e59b1918",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1714684827759,
+        "stop" : 1714684897751,
+        "duration" : 69992
+      }
+    }, {
       "uid" : "d06000f41a87d623",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"На телефон\")]/following-sibling::android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText (tried for 15 second(s) with 500 milliseconds interval)",
@@ -296,15 +305,6 @@
         "start" : 1713471394107,
         "stop" : 1713471411125,
         "duration" : 17018
-      }
-    }, {
-      "uid" : "f928cfbafee9094b",
-      "status" : "broken",
-      "statusDetails" : "Index out of range. The list contains 1 elements.",
-      "time" : {
-        "start" : 1713470759695,
-        "stop" : 1713470785849,
-        "duration" : 26154
       }
     } ]
   },
