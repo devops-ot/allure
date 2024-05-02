@@ -120,13 +120,22 @@
   "a71815b650b52c8cf2da2cb59ef0a330" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 33,
+      "broken" : 34,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 34
+      "total" : 35
     },
     "items" : [ {
+      "uid" : "16a2eaeede4dc0a5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1714686856309,
+        "stop" : 1714686924941,
+        "duration" : 68632
+      }
+    }, {
       "uid" : "75911423503c71c",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text,\"На телефон\")]/following-sibling::android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText (tried for 15 second(s) with 500 milliseconds interval)",
@@ -296,15 +305,6 @@
         "start" : 1713535208016,
         "stop" : 1713535208023,
         "duration" : 7
-      }
-    }, {
-      "uid" : "b6edcd331177ee52",
-      "status" : "broken",
-      "statusDetails" : "Cannot invoke \"String.length()\" because \"this.input\" is null",
-      "time" : {
-        "start" : 1713534934236,
-        "stop" : 1713534934237,
-        "duration" : 1
       }
     } ]
   },
