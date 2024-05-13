@@ -4,74 +4,79 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/auth_button (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for element to be clickable: By.id: ru.sogaz.app.stage:id/settingsButtonRoot (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "changePassword()",
-        "uid" : "494bb9fa3c28941b",
-        "parentUid" : "93bf363e8d8ba30f2c8b699d507219f9",
+        "name" : "recoveryPass()",
+        "uid" : "afce390beec3346b",
+        "parentUid" : "15490a43be627ddb7341fc701ea04fd7",
         "status" : "broken",
         "time" : {
-          "start" : 1715633098255,
-          "stop" : 1715633190060,
-          "duration" : 91805
+          "start" : 1715634642057,
+          "stop" : 1715634702838,
+          "duration" : 60781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "93bf363e8d8ba30f2c8b699d507219f9"
+      "uid" : "15490a43be627ddb7341fc701ea04fd7"
     }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/archive_policies (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "addInsuranceAV()",
-        "uid" : "44643e2df7105d9b",
-        "parentUid" : "e9b9c705b8b3220c2372dc282a6dc454",
+        "uid" : "a6bbbf9205654c7b",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1715633370120,
-          "stop" : 1715633464920,
-          "duration" : 94800
+          "start" : 1715634703016,
+          "stop" : 1715634751358,
+          "duration" : 48342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAM()",
+        "uid" : "922ea43be47d6277",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1715634751380,
+          "stop" : 1715634799713,
+          "duration" : 48333
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceCV()",
-        "uid" : "58656b6e169c0a45",
-        "parentUid" : "e9b9c705b8b3220c2372dc282a6dc454",
+        "uid" : "989667a5c54e5df5",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1715633558359,
-          "stop" : 1715633655265,
-          "duration" : 96906
+          "start" : 1715634799731,
+          "stop" : 1715634847985,
+          "duration" : 48254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "cc151bf394e60c67",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1715634848165,
+          "stop" : 1715634896822,
+          "duration" : 48657
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e9b9c705b8b3220c2372dc282a6dc454"
+      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found: By.xpath: //*[contains(@text,'Мохов Денис Александрович')]",
-      "children" : [ {
-        "name" : "addInsuranceAM()",
-        "uid" : "201b6fd38606bef4",
-        "parentUid" : "6191b0124db8c7b73eebbdb1a61baf83",
-        "status" : "failed",
-        "time" : {
-          "start" : 1715633464937,
-          "stop" : 1715633558350,
-          "duration" : 93413
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6191b0124db8c7b73eebbdb1a61baf83"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
