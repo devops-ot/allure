@@ -4,108 +4,90 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"2 / 6\"] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "registration()",
-        "uid" : "6807fa9109e6b8ae",
-        "parentUid" : "90bf55c6c9ecf6a821fb2314da5f71c6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1715629253630,
-          "stop" : 1715629341425,
-          "duration" : 87795
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "90bf55c6c9ecf6a821fb2314da5f71c6"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeButton[contains(@name,\"Сменить пароль\")] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "changePasswordPositive()",
-        "uid" : "666342e30038e088",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "uid" : "7d2486d93109ca85",
+        "parentUid" : "f836691646286e01fed1ec45ca75dd41",
         "status" : "broken",
         "time" : {
-          "start" : 1715629341518,
-          "stop" : 1715629398021,
-          "duration" : 56503
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAV()",
-        "uid" : "f85bb21eb0f712cd",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1715629448428,
-          "stop" : 1715629496262,
-          "duration" : 47834
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "8ba3be76e1fc55fe",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1715629496278,
-          "stop" : 1715629541662,
-          "duration" : 45384
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceCV()",
-        "uid" : "89393c62454cd366",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1715629541896,
-          "stop" : 1715629587564,
-          "duration" : 45668
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete()",
-        "uid" : "92ffe48e0e08bf8",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1715629587578,
-          "stop" : 1715629633440,
-          "duration" : 45862
+          "start" : 1715630000993,
+          "stop" : 1715630084151,
+          "duration" : 83158
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "90f53dfd111086032dd0191c38369f31"
+      "uid" : "f836691646286e01fed1ec45ca75dd41"
     }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: (//XCUIElementTypeSecureTextField)[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTextField (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "recoveryPass()",
-        "uid" : "f10ca7c34fd6eb59",
-        "parentUid" : "c520c79185636d8c426b198688307923",
+        "uid" : "7cff66ee1b3a8a7c",
+        "parentUid" : "396bc82be6538cf88cb29b5531c69680",
         "status" : "broken",
         "time" : {
-          "start" : 1715629398028,
-          "stop" : 1715629448412,
-          "duration" : 50384
+          "start" : 1715630084179,
+          "stop" : 1715630116732,
+          "duration" : 32553
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c520c79185636d8c426b198688307923"
+      "uid" : "396bc82be6538cf88cb29b5531c69680"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Добавить полис\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 53874419-dcc2-4c53-bbc0-0ec8e2ed9916",
+      "children" : [ {
+        "name" : "addInsuranceAV()",
+        "uid" : "5a9305abcd83e04d",
+        "parentUid" : "af6b7ada4462c333af93a8e96806e763",
+        "status" : "broken",
+        "time" : {
+          "start" : 1715630116754,
+          "stop" : 1715630188434,
+          "duration" : 71680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af6b7ada4462c333af93a8e96806e763"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Добавить полис\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 8bd44b59-5ca7-4f97-849e-22c6e0c39fdc",
+      "children" : [ {
+        "name" : "addInsuranceAM()",
+        "uid" : "4888112b07ac4cd7",
+        "parentUid" : "34154a99280dc1d201c5125bc8dc0624",
+        "status" : "broken",
+        "time" : {
+          "start" : 1715630188449,
+          "stop" : 1715630258885,
+          "duration" : 70436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34154a99280dc1d201c5125bc8dc0624"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Добавить полис\"] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 170a7302-c00a-43ad-87c5-12d659da83c5",
+      "children" : [ {
+        "name" : "addInsuranceCV()",
+        "uid" : "63ba0d411c5b8438",
+        "parentUid" : "8dd9d9d769004e592ed6c64d34eb5fe9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1715630258902,
+          "stop" : 1715630329502,
+          "duration" : 70600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8dd9d9d769004e592ed6c64d34eb5fe9"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
