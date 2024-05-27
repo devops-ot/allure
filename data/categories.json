@@ -2,91 +2,61 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"]",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"2 / 6\"] (tried for 60 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "registration()",
-        "uid" : "6b44b1dca713ca2",
-        "parentUid" : "24018004409f5f931541d9cc083017f8",
-        "status" : "failed",
+        "uid" : "684339939bf6d7b7",
+        "parentUid" : "a2cc584e72de1f246e6497fd91fb37fd",
+        "status" : "broken",
         "time" : {
-          "start" : 1716817978588,
-          "stop" : 1716818095626,
-          "duration" : 117038
+          "start" : 1716824409200,
+          "stop" : 1716824530077,
+          "duration" : 120877
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "24018004409f5f931541d9cc083017f8"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
+      "uid" : "a2cc584e72de1f246e6497fd91fb37fd"
+    }, {
       "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "changePassword()",
-        "uid" : "8517609cd934c123",
+        "uid" : "fe3decd06dc48ddb",
         "parentUid" : "90f53dfd111086032dd0191c38369f31",
         "status" : "broken",
         "time" : {
-          "start" : 1716818095699,
-          "stop" : 1716818136665,
-          "duration" : 40966
+          "start" : 1716824530298,
+          "stop" : 1716824571492,
+          "duration" : 41194
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceAV()",
-        "uid" : "f3b4013f12ba24a8",
+        "uid" : "a2db549ff672ba73",
         "parentUid" : "90f53dfd111086032dd0191c38369f31",
         "status" : "broken",
         "time" : {
-          "start" : 1716818186239,
-          "stop" : 1716818233928,
-          "duration" : 47689
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "f2f100b650100611",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1716818233942,
-          "stop" : 1716818280659,
-          "duration" : 46717
+          "start" : 1716824653606,
+          "stop" : 1716824702052,
+          "duration" : 48446
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceCV()",
-        "uid" : "1c7d94e9afcdcf22",
+        "uid" : "f10966c57fc54ae4",
         "parentUid" : "90f53dfd111086032dd0191c38369f31",
         "status" : "broken",
         "time" : {
-          "start" : 1716818280669,
-          "stop" : 1716818328810,
-          "duration" : 48141
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete()",
-        "uid" : "fd720fe8ad1cf57b",
-        "parentUid" : "90f53dfd111086032dd0191c38369f31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1716818328820,
-          "stop" : 1716818375997,
-          "duration" : 47177
+          "start" : 1716824723692,
+          "stop" : 1716824770223,
+          "duration" : 46531
         },
         "flaky" : false,
         "newFailed" : false,
@@ -97,19 +67,49 @@
       "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: (//XCUIElementTypeSecureTextField)[1] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "recoveryPass()",
-        "uid" : "e5b9d8705ea62602",
+        "uid" : "d50002bfe98045ca",
         "parentUid" : "c520c79185636d8c426b198688307923",
         "status" : "broken",
         "time" : {
-          "start" : 1716818136682,
-          "stop" : 1716818186226,
-          "duration" : 49544
+          "start" : 1716824571512,
+          "stop" : 1716824653410,
+          "duration" : 81898
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "c520c79185636d8c426b198688307923"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //XCUIElementTypeButton[@name=\"Войти\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "addInsuranceAM()",
+        "uid" : "9ec536da96c1f999",
+        "parentUid" : "add87b84395d1f73b808eb965195cd71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1716824702064,
+          "stop" : 1716824723678,
+          "duration" : 21614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "add194335ab657f5",
+        "parentUid" : "add87b84395d1f73b808eb965195cd71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1716824770237,
+          "stop" : 1716824791560,
+          "duration" : 21323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "add87b84395d1f73b808eb965195cd71"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
