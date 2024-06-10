@@ -1,0 +1,350 @@
+{
+  "uid" : "efbdcf9a62c2846e",
+  "name" : "geolocation()",
+  "fullName" : "MobileTesting.tests.SmokeTest.geolocation",
+  "historyId" : "b76a326bd49d768ca63850901cbb024d",
+  "time" : {
+    "start" : 1718026105773,
+    "stop" : 1718026244646,
+    "duration" : 138873
+  },
+  "description" : "Check location (access allowed, Мои данные->Полис подробно->Список клиник)",
+  "descriptionHtml" : "<p>Check location (access allowed, Мои данные-&gt;Полис подробно-&gt;Список клиник)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Check location (access allowed, Мои данные->Полис подробно->Список клиник)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check location through policies tab",
+      "time" : {
+        "start" : 1718026113064,
+        "stop" : 1718026243424,
+        "duration" : 130360
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set location",
+        "time" : {
+          "start" : 1718026113065,
+          "stop" : 1718026113137,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "coords",
+          "value" : "[55.7558, 37.6173]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Login",
+        "time" : {
+          "start" : 1718026113137,
+          "stop" : 1718026194101,
+          "duration" : 80964
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Fill and send login form",
+          "time" : {
+            "start" : 1718026113137,
+            "stop" : 1718026139494,
+            "duration" : 26357
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Click on authorization button",
+            "time" : {
+              "start" : 1718026113137,
+              "stop" : 1718026114217,
+              "duration" : 1080
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "3825169842f48484",
+              "name" : "Login form",
+              "source" : "3825169842f48484.png",
+              "type" : "image/png",
+              "size" : 440621
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Input email",
+            "time" : {
+              "start" : 1718026114217,
+              "stop" : 1718026117804,
+              "duration" : 3587
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "username",
+              "value" : "artur.antonov@overteam.ru"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Input password",
+            "time" : {
+              "start" : 1718026117805,
+              "stop" : 1718026120763,
+              "duration" : 2958
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "password",
+              "value" : "Artur.antonov@overteam.ru1101"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Click on login button",
+            "time" : {
+              "start" : 1718026120763,
+              "stop" : 1718026121673,
+              "duration" : 910
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "7c915ad980cff332",
+              "name" : "Login form filled",
+              "source" : "7c915ad980cff332.png",
+              "type" : "image/png",
+              "size" : 250841
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          }, {
+            "name" : "Confirm captcha",
+            "time" : {
+              "start" : 1718026136924,
+              "stop" : 1718026139494,
+              "duration" : 2570
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "96c3c8fefb8ca9f8",
+              "name" : "Captcha solved",
+              "source" : "96c3c8fefb8ca9f8.png",
+              "type" : "image/png",
+              "size" : 593055
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "username",
+            "value" : "artur.antonov@overteam.ru"
+          }, {
+            "name" : "password",
+            "value" : "Artur.antonov@overteam.ru1101"
+          } ],
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 5,
+          "hasContent" : true
+        }, {
+          "name" : "Enter PIN code",
+          "time" : {
+            "start" : 1718026139495,
+            "stop" : 1718026194101,
+            "duration" : 54606
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "69d30b4f3ff2cd35",
+            "name" : "Think of PIN screen",
+            "source" : "69d30b4f3ff2cd35.png",
+            "type" : "image/png",
+            "size" : 120647
+          }, {
+            "uid" : "e545b0555409e8eb",
+            "name" : "Confirm of PIN screen",
+            "source" : "e545b0555409e8eb.png",
+            "type" : "image/png",
+            "size" : 93900
+          }, {
+            "uid" : "7ed002cb59a27d9b",
+            "name" : "Health page",
+            "source" : "7ed002cb59a27d9b.png",
+            "type" : "image/png",
+            "size" : 565424
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "artur.antonov@overteam.ru"
+        }, {
+          "name" : "password",
+          "value" : "Artur.antonov@overteam.ru1101"
+        } ],
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 7,
+        "hasContent" : true
+      }, {
+        "name" : "Open map (Мои данные->Полис подробно->Список клиник)",
+        "time" : {
+          "start" : 1718026194101,
+          "stop" : 1718026243424,
+          "duration" : 49323
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1323b9210077cd26",
+          "name" : "Policies tab (hints)",
+          "source" : "1323b9210077cd26.png",
+          "type" : "image/png",
+          "size" : 232321
+        }, {
+          "uid" : "65e11050cee30c09",
+          "name" : "Policies tab",
+          "source" : "65e11050cee30c09.png",
+          "type" : "image/png",
+          "size" : 232321
+        }, {
+          "uid" : "d2edf5e7ae56c868",
+          "name" : "Police with clinics tab",
+          "source" : "d2edf5e7ae56c868.png",
+          "type" : "image/png",
+          "size" : 208244
+        }, {
+          "uid" : "5c205509eb4bcd9d",
+          "name" : "Map loaded",
+          "source" : "5c205509eb4bcd9d.png",
+          "type" : "image/png",
+          "size" : 178875
+        }, {
+          "uid" : "4afa85d00c53238c",
+          "name" : "Geolocation on map",
+          "source" : "4afa85d00c53238c.png",
+          "type" : "image/png",
+          "size" : 669047
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 11,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 10,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1debffd2c60c3a11",
+      "name" : "Final screenshot",
+      "source" : "1debffd2c60c3a11.png",
+      "type" : "image/png",
+      "size" : 669047
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Daniil Tarasenko"
+  }, {
+    "name" : "host",
+    "value" : "Mac-mini-1.local"
+  }, {
+    "name" : "thread",
+    "value" : "42406@Mac-mini-1.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "geolocation"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.SmokeTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Daniil Tarasenko",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e335e26ffcdbb2a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716801244389,
+          "stop" : 1716801389019,
+          "duration" : 144630
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "efbdcf9a62c2846e.json",
+  "parameterValues" : [ ]
+}
