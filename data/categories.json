@@ -2,24 +2,114 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "Element not found with accessibility ID: By.xpath: //XCUIElementTypeStaticText[@name=\"Неудаляемый Гаврила Иванович\"]",
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: XCUITest, browserName: , databaseEnabled: false, deviceName: iPhone 14, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, locationServicesEnabled: true, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 16.4, showXcodeLog: false, takesScreenshot: true, udid: 46106CB1-6A97-47B5-9D16-DC0..., webStorageEnabled: false}\nSession ID: 41d2aafd-6651-4ffe-8861-18073b6ea942\n*** Element info: {Using=xpath, value=//XCUIElementTypeApplication[@name=\"SOGAZ DEMO\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[4]/XCUIElementTypeTextField}",
       "children" : [ {
-        "name" : "register()",
-        "uid" : "8f03c41a0c701b37",
-        "parentUid" : "4044e6fda5ef3eecc6eba7afd1b0b20b",
-        "status" : "failed",
+        "name" : "registration()",
+        "uid" : "6d6248be2f026107",
+        "parentUid" : "3544cba4f0f551f196684e61f755dd8e",
+        "status" : "broken",
         "time" : {
-          "start" : 1718922950535,
-          "stop" : 1718923654882,
-          "duration" : 704347
+          "start" : 1718923724036,
+          "stop" : 1718923814920,
+          "duration" : 90884
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4044e6fda5ef3eecc6eba7afd1b0b20b"
+      "uid" : "3544cba4f0f551f196684e61f755dd8e"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "changePassword()",
+        "uid" : "50713201d54f6a67",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718923815149,
+          "stop" : 1718923863430,
+          "duration" : 48281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAV()",
+        "uid" : "3a143ca6b9bb9a73",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718923959370,
+          "stop" : 1718924012303,
+          "duration" : 52933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAM()",
+        "uid" : "96d03cea23404c7f",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718924012321,
+          "stop" : 1718924065827,
+          "duration" : 53506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceCV()",
+        "uid" : "1a0a9c7d17b49c2f",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718924065846,
+          "stop" : 1718924119792,
+          "duration" : 53946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "5018e501db724ba9",
+        "parentUid" : "90f53dfd111086032dd0191c38369f31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718924119807,
+          "stop" : 1718924173073,
+          "duration" : 53266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90f53dfd111086032dd0191c38369f31"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Сменить пароль от аккаунта\"]",
+      "children" : [ {
+        "name" : "recoveryPass()",
+        "uid" : "6e687196914b02cd",
+        "parentUid" : "54123765b018c43c03bfdd5ee1d9eae9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718923863449,
+          "stop" : 1718923959131,
+          "duration" : 95682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54123765b018c43c03bfdd5ee1d9eae9"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
