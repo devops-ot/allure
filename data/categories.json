@@ -2,108 +2,35 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -r --no-incremental /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk' exited with code 1'; Command output: adb: failed to install /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk: \nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -r --no-incremental /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk' exited with code 1'; Command output: adb: failed to install /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk: \n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
-      "children" : [ {
-        "name" : "registration()",
-        "uid" : "47cff7c75a90b2f9",
-        "parentUid" : "abfa2fb1d55eef1bfd8e2d3640962f6d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719226616628,
-          "stop" : 1719226630758,
-          "duration" : 14130
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "abfa2fb1d55eef1bfd8e2d3640962f6d"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "changePassword()",
-        "uid" : "4d9190db47b21f7a",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719226631179,
-          "stop" : 1719226697867,
-          "duration" : 66688
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAV()",
-        "uid" : "4c8b6edbb29eafff",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719226772883,
-          "stop" : 1719226847265,
-          "duration" : 74382
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceAM()",
-        "uid" : "e68fe31213cc8fb3",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719226847289,
-          "stop" : 1719226922014,
-          "duration" : 74725
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addInsuranceCV()",
-        "uid" : "b102303e4fa9c1e6",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719226922034,
-          "stop" : 1719226996079,
-          "duration" : 74045
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "delete()",
-        "uid" : "1aef963a043e4db6",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719226996262,
-          "stop" : 1719227071249,
-          "duration" : 74987
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
+      "name" : "Element not found: By.id: ru.sogaz.app.stage:id/register_btn_text",
+      "children" : [ {
+        "name" : "registration()",
+        "uid" : "e2ead52b19d73a51",
+        "parentUid" : "2d23700466357953179de23b43c8be11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1719240224949,
+          "stop" : 1719240257532,
+          "duration" : 32583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d23700466357953179de23b43c8be11"
+    }, {
       "name" : "Element not found: By.xpath: (//android.widget.EditText[contains(@resource-id, \"ru.sogaz.app.stage:id/input_password\")])[1]",
       "children" : [ {
         "name" : "recoveryPass()",
-        "uid" : "60ee3fb828de9acb",
+        "uid" : "4b28859306274b94",
         "parentUid" : "eef4d0da89e6150faf6bd6daeb849586",
         "status" : "failed",
         "time" : {
-          "start" : 1719226697899,
-          "stop" : 1719226772876,
-          "duration" : 74977
+          "start" : 1719240319622,
+          "stop" : 1719240393650,
+          "duration" : 74028
         },
         "flaky" : false,
         "newFailed" : false,
@@ -112,5 +39,78 @@
       "uid" : "eef4d0da89e6150faf6bd6daeb849586"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "changePassword()",
+        "uid" : "e91778ef51882f89",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719240257597,
+          "stop" : 1719240319393,
+          "duration" : 61796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAV()",
+        "uid" : "257fb51bc2abee99",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719240393663,
+          "stop" : 1719240467448,
+          "duration" : 73785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAM()",
+        "uid" : "13c57cb18530f83d",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719240467618,
+          "stop" : 1719240549362,
+          "duration" : 81744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceCV()",
+        "uid" : "8933353ce8597f59",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719240549440,
+          "stop" : 1719240626960,
+          "duration" : 77520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "ef4e1ad57fe101ce",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719240627151,
+          "stop" : 1719240700403,
+          "duration" : 73252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
