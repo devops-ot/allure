@@ -1,47 +1,61 @@
 {
-  "b76a326bd49d768ca63850901cbb024d" : {
+  "43654123208c6e7a3c356c0133360b1a" : {
     "statistic" : {
-      "failed" : 3,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5cdb82068d4b883",
-      "status" : "passed",
+      "uid" : "47cff7c75a90b2f9",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -r --no-incremental /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk' exited with code 1'; Command output: adb: failed to install /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk: \nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/Users/lmovsisyan/Library/Android/sdk/platform-tools/adb -P 5037 -s 8ALX0UWHU install -r --no-incremental /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk' exited with code 1'; Command output: adb: failed to install /Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.6.apk: \n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1719221654002,
-        "stop" : 1719221812684,
-        "duration" : 158682
+        "start" : 1719226616628,
+        "stop" : 1719226630758,
+        "duration" : 14130
       }
-    }, {
-      "uid" : "830eee483cde3c49",
-      "status" : "failed",
-      "statusDetails" : "Element not found: By.id: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
+    } ]
+  },
+  "196479d062f0019fa7abf131175caed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b102303e4fa9c1e6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1719221065594,
-        "stop" : 1719221093978,
-        "duration" : 28384
+        "start" : 1719226922034,
+        "stop" : 1719226996079,
+        "duration" : 74045
       }
-    }, {
-      "uid" : "30daebcf5d34f10f",
-      "status" : "failed",
-      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
+    } ]
+  },
+  "e9ea1acc5a05ef13141367b5be0fa5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d9190db47b21f7a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1719218995496,
-        "stop" : 1719219024426,
-        "duration" : 28930
-      }
-    }, {
-      "uid" : "8beff51537cac53e",
-      "status" : "failed",
-      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
-      "time" : {
-        "start" : 1719140501512,
-        "stop" : 1719140531341,
-        "duration" : 29829
+        "start" : 1719226631179,
+        "stop" : 1719226697867,
+        "duration" : 66688
       }
     } ]
   },
@@ -88,6 +102,138 @@
         "start" : 1719140418441,
         "stop" : 1719140471357,
         "duration" : 52916
+      }
+    } ]
+  },
+  "f7831b04c8295468701941be18dcd5d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c8b6edbb29eafff",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1719226772883,
+        "stop" : 1719226847265,
+        "duration" : 74382
+      }
+    } ]
+  },
+  "fc22756d4ffb455bde934fd0a795811d" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "6f7886199c7655bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1719221500912,
+        "stop" : 1719221653990,
+        "duration" : 153078
+      }
+    }, {
+      "uid" : "8cc2812fd06f68d5",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.id: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
+      "time" : {
+        "start" : 1719221036874,
+        "stop" : 1719221065585,
+        "duration" : 28711
+      }
+    }, {
+      "uid" : "92c04fac22c72912",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
+      "time" : {
+        "start" : 1719218966087,
+        "stop" : 1719218995459,
+        "duration" : 29372
+      }
+    }, {
+      "uid" : "7d53595120fe9d4",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
+      "time" : {
+        "start" : 1719140471451,
+        "stop" : 1719140501498,
+        "duration" : 30047
+      }
+    } ]
+  },
+  "31fef632ec4ee88d6e90966532bf9b1b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60ee3fb828de9acb",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: (//android.widget.EditText[contains(@resource-id, \"ru.sogaz.app.stage:id/input_password\")])[1]",
+      "time" : {
+        "start" : 1719226697899,
+        "stop" : 1719226772876,
+        "duration" : 74977
+      }
+    } ]
+  },
+  "b76a326bd49d768ca63850901cbb024d" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "5cdb82068d4b883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1719221654002,
+        "stop" : 1719221812684,
+        "duration" : 158682
+      }
+    }, {
+      "uid" : "830eee483cde3c49",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.id: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
+      "time" : {
+        "start" : 1719221065594,
+        "stop" : 1719221093978,
+        "duration" : 28384
+      }
+    }, {
+      "uid" : "30daebcf5d34f10f",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
+      "time" : {
+        "start" : 1719218995496,
+        "stop" : 1719219024426,
+        "duration" : 28930
+      }
+    }, {
+      "uid" : "8beff51537cac53e",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
+      "time" : {
+        "start" : 1719140501512,
+        "stop" : 1719140531341,
+        "duration" : 29829
       }
     } ]
   },
@@ -246,49 +392,23 @@
       }
     } ]
   },
-  "fc22756d4ffb455bde934fd0a795811d" : {
+  "1068dfde36f458b4b76be55e159487e0" : {
     "statistic" : {
-      "failed" : 3,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "6f7886199c7655bc",
-      "status" : "passed",
+      "uid" : "1aef963a043e4db6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1719221500912,
-        "stop" : 1719221653990,
-        "duration" : 153078
-      }
-    }, {
-      "uid" : "8cc2812fd06f68d5",
-      "status" : "failed",
-      "statusDetails" : "Element not found: By.id: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]",
-      "time" : {
-        "start" : 1719221036874,
-        "stop" : 1719221065585,
-        "duration" : 28711
-      }
-    }, {
-      "uid" : "92c04fac22c72912",
-      "status" : "failed",
-      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
-      "time" : {
-        "start" : 1719218966087,
-        "stop" : 1719218995459,
-        "duration" : 29372
-      }
-    }, {
-      "uid" : "7d53595120fe9d4",
-      "status" : "failed",
-      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/auth_btn_text",
-      "time" : {
-        "start" : 1719140471451,
-        "stop" : 1719140501498,
-        "duration" : 30047
+        "start" : 1719226996262,
+        "stop" : 1719227071249,
+        "duration" : 74987
       }
     } ]
   },
@@ -432,6 +552,26 @@
         "start" : 1713356711615,
         "stop" : 1713356926120,
         "duration" : 214505
+      }
+    } ]
+  },
+  "d839064510354c59ad3042a75e06a20e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e68fe31213cc8fb3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1719226847289,
+        "stop" : 1719226922014,
+        "duration" : 74725
       }
     } ]
   }
