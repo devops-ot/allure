@@ -4,471 +4,508 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/tvOnlineName\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "questionnaireOpensForAdultPatient()",
-        "uid" : "e650b8fb6e9e7597",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
+        "uid" : "300885acca06283",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719333375481,
-          "stop" : 1719333530751,
-          "duration" : 155270
+          "start" : 1719911740123,
+          "stop" : 1719911776380,
+          "duration" : 36257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
+        "uid" : "9a4e901cb33a2ad4",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719911776395,
+          "stop" : 1719911812577,
+          "duration" : 36182
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "symptomsPageOpensAfterAcceptingQuestionnaire()",
-        "uid" : "a916ab4e77bc3815",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
+        "uid" : "4f2ad25249ad5ccf",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719333545017,
-          "stop" : 1719333698380,
-          "duration" : 153363
+          "start" : 1719911812587,
+          "stop" : 1719911848811,
+          "duration" : 36224
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
-        "uid" : "627dc4796d224272",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
+        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
+        "uid" : "742ba74fb3692944",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719335084839,
-          "stop" : 1719335244118,
-          "duration" : 159279
+          "start" : 1719911848820,
+          "stop" : 1719911885104,
+          "duration" : 36284
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "specializationDeterminedForOnlineConsultation()",
-        "uid" : "2d8118b62c792598",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719335604667,
-          "stop" : 1719335762367,
-          "duration" : 157700
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzes()",
-        "uid" : "aeea8794f706489b",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719335988445,
-          "stop" : 1719336141608,
-          "duration" : 153163
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithAudio()",
-        "uid" : "728755a5d5c9df90",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719336141774,
-          "stop" : 1719336299729,
-          "duration" : 157955
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithVideo()",
-        "uid" : "e0a9adbc68d7cbb7",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719336299888,
-          "stop" : 1719336455616,
-          "duration" : 155728
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithChat()",
-        "uid" : "ad64408c79df7e8d",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719336455758,
-          "stop" : 1719336608876,
-          "duration" : 153118
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithVideo()",
-        "uid" : "a0587f5a274cf8",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719336609028,
-          "stop" : 1719336767847,
-          "duration" : 158819
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithVideo()",
-        "uid" : "6d398c9d11c3da21",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719336767983,
-          "stop" : 1719336924336,
-          "duration" : 156353
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingReadmissionWithChat()",
-        "uid" : "7683b66b712d8c45",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719336924524,
-          "stop" : 1719337079567,
-          "duration" : 155043
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithAudio()",
-        "uid" : "3877b9120ec6be16",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719337079766,
-          "stop" : 1719337237807,
-          "duration" : 158041
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingDecipheringAnalyzesWithAudio()",
-        "uid" : "5636e1ea270cb3eb",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719337237839,
-          "stop" : 1719337392836,
-          "duration" : 154997
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingOnlineConsultationWithChat()",
-        "uid" : "ce8f97368428e779",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719337393018,
-          "stop" : 1719337550423,
-          "duration" : 157405
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addingAnotherDoctorOpinion()",
-        "uid" : "e5548e8a19a126bc",
-        "parentUid" : "00c2c02eecffbf51cd2e1edbfa0be60f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719337550634,
-          "stop" : 1719337707145,
-          "duration" : 156511
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "00c2c02eecffbf51cd2e1edbfa0be60f"
-    }, {
-      "name" : "The driver is not executable: /Users/lmovsisyan/qa_emp_autotests_bins/chromedriver",
-      "children" : [ {
-        "name" : "chooseEnrollToSpecifiedDoctorOptionAfterQuestionnaire()",
-        "uid" : "98a27af0ba42ffab",
-        "parentUid" : "54c4f1b58beb119b892d24e993af5cb3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1719333530762,
-          "stop" : 1719333545011,
-          "duration" : 14249
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "54c4f1b58beb119b892d24e993af5cb3"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/title3\"] (tried for 60 second(s) with 500 milliseconds interval)",
-      "children" : [ {
         "name" : "needDayOffsFromOfflineConsultationQuestionnaire()",
-        "uid" : "674feaee34106dfb",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "8e3128023818f235",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719333956487,
-          "stop" : 1719334150596,
-          "duration" : 194109
+          "start" : 1719911885114,
+          "stop" : 1719911921321,
+          "duration" : 36207
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "exitFromQuestionnaire()",
-        "uid" : "27ea8e1955416387",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "8622b15bc52da77a",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719334150755,
-          "stop" : 1719334335594,
-          "duration" : 184839
+          "start" : 1719911921336,
+          "stop" : 1719911957914,
+          "duration" : 36578
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "goBackToSymptomsSelectionPage()",
-        "uid" : "fb06aa18ad0efc17",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "32a10d1cdd89f783",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719334335743,
-          "stop" : 1719334523339,
-          "duration" : 187596
+          "start" : 1719911957923,
+          "stop" : 1719911994286,
+          "duration" : 36363
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "exitOfflineConsultationQuestionnaireAfterAccepting()",
-        "uid" : "3af75517a8a8b3ce",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "cd345e602bc4208d",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719334523350,
-          "stop" : 1719334710497,
-          "duration" : 187147
+          "start" : 1719911994298,
+          "stop" : 1719912031470,
+          "duration" : 37172
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "refuseOfflineConsultationQuestionnaireForAdult()",
-        "uid" : "c836410c29a44c1",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "22bc4d06343a7394",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719334710508,
-          "stop" : 1719334897663,
-          "duration" : 187155
+          "start" : 1719912031485,
+          "stop" : 1719912067698,
+          "duration" : 36213
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "chooseEnrollToAnotherDoctorOptionAfterQuestionnaire()",
-        "uid" : "b11aa1be7ae75d60",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "97d8f57fbbf45951",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719334897671,
-          "stop" : 1719335084805,
-          "duration" : 187134
+          "start" : 1719912067710,
+          "stop" : 1719912104071,
+          "duration" : 36361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
+        "uid" : "8572b32d28c64201",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912104082,
+          "stop" : 1719912139829,
+          "duration" : 35747
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "chooseEnrollToClinicOptionAfterQuestionnaire()",
-        "uid" : "51d734c0e93797a2",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "d080045f3b45264",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719335244126,
-          "stop" : 1719335419931,
-          "duration" : 175805
+          "start" : 1719912139839,
+          "stop" : 1719912175896,
+          "duration" : 36057
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "navigatingThroughQuestionnaireScreens()",
-        "uid" : "210e87d0aed4db32",
-        "parentUid" : "65b441c8a57414b9983e0e86bde01e5f",
+        "uid" : "336660bd1b615ffe",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719335419939,
-          "stop" : 1719335604652,
-          "duration" : 184713
+          "start" : 1719912175907,
+          "stop" : 1719912211968,
+          "duration" : 36061
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "65b441c8a57414b9983e0e86bde01e5f"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "addInsuranceAV()",
-        "uid" : "bd9abf089c11dbeb",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+      }, {
+        "name" : "specializationDeterminedForOnlineConsultation()",
+        "uid" : "6db994094e32210f",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719335762386,
-          "stop" : 1719335837153,
-          "duration" : 74767
+          "start" : 1719912211987,
+          "stop" : 1719912248259,
+          "duration" : 36272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addInsuranceAV()",
+        "uid" : "4dd559fff46e87d9",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912248445,
+          "stop" : 1719912284818,
+          "duration" : 36373
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceAM()",
-        "uid" : "82a9b1171ca52f7e",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "uid" : "5430ece5d66b3d9",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719335837355,
-          "stop" : 1719335912758,
-          "duration" : 75403
+          "start" : 1719912284825,
+          "stop" : 1719912321069,
+          "duration" : 36244
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceCV()",
-        "uid" : "98b1a68695c35029",
-        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "uid" : "e78a6de72e286dc5",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
         "status" : "broken",
         "time" : {
-          "start" : 1719335912765,
-          "stop" : 1719335988219,
-          "duration" : 75454
+          "start" : 1719912321080,
+          "stop" : 1719912356904,
+          "duration" : 35824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePassword()",
+        "uid" : "366bb1f8ff316aca",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912356914,
+          "stop" : 1719912392930,
+          "duration" : 36016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "recoveryPass()",
+        "uid" : "22d738fb817b4d8e",
+        "parentUid" : "a907856eafb01f91aa0f8648c2644557",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912393108,
+          "stop" : 1719912429201,
+          "duration" : 36093
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
+      "uid" : "a907856eafb01f91aa0f8648c2644557"
     }, {
-      "name" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "sectionsAndModalsTests()",
-        "uid" : "428105449c6fd91f",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "name" : "delete()",
+        "uid" : "da039477d06c5954",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1719337823857,
-          "stop" : 1719337917276,
-          "duration" : 93419
+          "start" : 1719912429210,
+          "stop" : 1719912499792,
+          "duration" : 70582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "diseaseTests()",
+        "uid" : "42ba3d5d96d56e24",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912499800,
+          "stop" : 1719912583483,
+          "duration" : 83683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doctorConclusionTests()",
+        "uid" : "4fd5a2edcae7468e",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912583655,
+          "stop" : 1719912667009,
+          "duration" : 83354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzes()",
+        "uid" : "2c8917d7aa5b19a3",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912667018,
+          "stop" : 1719912750728,
+          "duration" : 83710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithAudio()",
+        "uid" : "641e90cf70a2d68b",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912750862,
+          "stop" : 1719912835240,
+          "duration" : 84378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithVideo()",
+        "uid" : "693c8db2df74960",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912835249,
+          "stop" : 1719912906282,
+          "duration" : 71033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithChat()",
+        "uid" : "31d04b76c066bdbb",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912906289,
+          "stop" : 1719912989987,
+          "duration" : 83698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithVideo()",
+        "uid" : "2fbb898ea30dfa8d",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719912990183,
+          "stop" : 1719913072923,
+          "duration" : 82740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithVideo()",
+        "uid" : "ef84d8f6253a6c06",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913072929,
+          "stop" : 1719913156928,
+          "duration" : 83999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingReadmissionWithChat()",
+        "uid" : "60bec3f35bdabf6a",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913157074,
+          "stop" : 1719913240320,
+          "duration" : 83246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithAudio()",
+        "uid" : "9c705625243d0404",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913240325,
+          "stop" : 1719913324017,
+          "duration" : 83692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingDecipheringAnalyzesWithAudio()",
+        "uid" : "64828f16ac84b90d",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913324203,
+          "stop" : 1719913407161,
+          "duration" : 82958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingOnlineConsultationWithChat()",
+        "uid" : "c55304728e0c630f",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913407170,
+          "stop" : 1719913489100,
+          "duration" : 81930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addingAnotherDoctorOpinion()",
+        "uid" : "4e362880626dc58c",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913489106,
+          "stop" : 1719913572234,
+          "duration" : 83128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "register()",
+        "uid" : "49144e95cab4e34",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913572244,
+          "stop" : 1719913656417,
+          "duration" : 84173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sectionsAndModalsTests()",
+        "uid" : "53b8bf43262e0ea5",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913656570,
+          "stop" : 1719913740157,
+          "duration" : 83587
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "sliderNavigationTests()",
-        "uid" : "83ac249cd8b3a9b",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "uid" : "1e51f3860bf5e97a",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1719337917284,
-          "stop" : 1719338009347,
-          "duration" : 92063
+          "start" : 1719913740162,
+          "stop" : 1719913823525,
+          "duration" : 83363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkup18()",
+        "uid" : "3042c1ba77992abd",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1719913823718,
+          "stop" : 1719913905951,
+          "duration" : 82233
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ednaChatTests()",
-        "uid" : "b0e0e487e13a7166",
-        "parentUid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3",
+        "uid" : "12963990e3b87c89",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1719338121906,
-          "stop" : 1719338214568,
-          "duration" : 92662
+          "start" : 1719913905959,
+          "stop" : 1719913988748,
+          "duration" : 82789
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8dbe2ff4ef1188b0ca846c1a94ad77a3"
+      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found with locator: By.id: ru.sogaz.app.stage:id/input_search",
-      "children" : [ {
-        "name" : "questionnaireDoesNotOpenForChildPatientOffline()",
-        "uid" : "f20bb6a6bdfb92a6",
-        "parentUid" : "d13366a4b35e9c816ee547e2370e9375",
-        "status" : "failed",
-        "time" : {
-          "start" : 1719333698402,
-          "stop" : 1719333956257,
-          "duration" : 257855
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d13366a4b35e9c816ee547e2370e9375"
-    }, {
-      "name" : "Element not found: By.xpath: //android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Не сейчас\"]",
-      "children" : [ {
-        "name" : "register()",
-        "uid" : "6d933e350b2b7d4c",
-        "parentUid" : "c774b6e32e10dea9a48eeb1442610b92",
-        "status" : "failed",
-        "time" : {
-          "start" : 1719337707339,
-          "stop" : 1719337823832,
-          "duration" : 116493
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c774b6e32e10dea9a48eeb1442610b92"
-    }, {
-      "name" : "Element not found: By.id: ru.sogaz.app.stage:id/btnCheckup",
-      "children" : [ {
-        "name" : "checkup18()",
-        "uid" : "c71cbdea96ca0e73",
-        "parentUid" : "04af7938ff673798b3b28a3014ee36c5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1719338009646,
-          "stop" : 1719338121885,
-          "duration" : 112239
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "04af7938ff673798b3b28a3014ee36c5"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
