@@ -2,54 +2,114 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found: By.id: ru.sogaz.app.stage:id/input_document",
+      "children" : [ {
+        "name" : "registration()",
+        "uid" : "b284fa4332e0a426",
+        "parentUid" : "41455ca6696ea6cfffaebb2ec8b87094",
+        "status" : "failed",
+        "time" : {
+          "start" : 1720086206184,
+          "stop" : 1720086334183,
+          "duration" : 127999
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41455ca6696ea6cfffaebb2ec8b87094"
+    }, {
+      "name" : "Element not found: By.xpath: (//android.widget.EditText[contains(@resource-id, \"ru.sogaz.app.stage:id/input_password\")])[1]",
+      "children" : [ {
+        "name" : "recoveryPass()",
+        "uid" : "d139de73256c317d",
+        "parentUid" : "eef4d0da89e6150faf6bd6daeb849586",
+        "status" : "failed",
+        "time" : {
+          "start" : 1720086668938,
+          "stop" : 1720086770136,
+          "duration" : 101198
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eef4d0da89e6150faf6bd6daeb849586"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/archive_policies (tried for 15 second(s) with 500 milliseconds interval)",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "addInsuranceAV()",
-        "uid" : "962f94553d961691",
-        "parentUid" : "e9b9c705b8b3220c2372dc282a6dc454",
+        "uid" : "606db37e0835a64c",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1720084075241,
-          "stop" : 1720084208043,
-          "duration" : 132802
+          "start" : 1720086334332,
+          "stop" : 1720086418449,
+          "duration" : 84117
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "e9b9c705b8b3220c2372dc282a6dc454"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: ru.sogaz.app.stage:id/buttonAdd (tried for 15 second(s) with 500 milliseconds interval)",
-      "children" : [ {
+      }, {
         "name" : "addInsuranceAM()",
-        "uid" : "b7711b37d6c3d471",
-        "parentUid" : "9e1f663ab9511ba9f47f62e2efa7ff7f",
+        "uid" : "3a2db4d60d944b82",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1720084208263,
-          "stop" : 1720084329136,
-          "duration" : 120873
+          "start" : 1720086418471,
+          "stop" : 1720086502274,
+          "duration" : 83803
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addInsuranceCV()",
-        "uid" : "309322d90d2c4fde",
-        "parentUid" : "9e1f663ab9511ba9f47f62e2efa7ff7f",
+        "uid" : "3b80447839d05715",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
         "status" : "broken",
         "time" : {
-          "start" : 1720084329288,
-          "stop" : 1720084448005,
-          "duration" : 118717
+          "start" : 1720086502307,
+          "stop" : 1720086585731,
+          "duration" : 83424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePassword()",
+        "uid" : "3f2165b3bf4f0ab",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1720086585757,
+          "stop" : 1720086668929,
+          "duration" : 83172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "39bbfc8e836fd7c5",
+        "parentUid" : "997dd05ff23a159914b2bc8efc3d1239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1720086770152,
+          "stop" : 1720086852778,
+          "duration" : 82626
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9e1f663ab9511ba9f47f62e2efa7ff7f"
+      "uid" : "997dd05ff23a159914b2bc8efc3d1239"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
