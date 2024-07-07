@@ -556,14 +556,23 @@
   },
   "43654123208c6e7a3c356c0133360b1a" : {
     "statistic" : {
-      "failed" : 6,
+      "failed" : 7,
       "broken" : 4,
       "skipped" : 0,
       "passed" : 6,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "a5ba85ba30654d4d",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.id: ru.sogaz.app.stage:id/input_document",
+      "time" : {
+        "start" : 1720381544152,
+        "stop" : 1720381663854,
+        "duration" : 119702
+      }
+    }, {
       "uid" : "67d75611721e8611",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: The session identified by f32cdf87-a96b-4e4f-94d6-b6612bf32be7 is not known\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: io.appium.uiautomator2.common.exceptions.NoSuchDriverException: The session identified by f32cdf87-a96b-4e4f-94d6-b6612bf32be7 is not known\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
@@ -849,14 +858,23 @@
   },
   "31fef632ec4ee88d6e90966532bf9b1b" : {
     "statistic" : {
-      "failed" : 10,
+      "failed" : 11,
       "broken" : 3,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "aba8782ba42deb51",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: (//android.widget.EditText[contains(@resource-id, \"ru.sogaz.app.stage:id/input_password\")])[1]",
+      "time" : {
+        "start" : 1720381997311,
+        "stop" : 1720382080867,
+        "duration" : 83556
+      }
+    }, {
       "uid" : "323bb60f5fd64a17",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
@@ -1148,13 +1166,22 @@
   "d839064510354c59ad3042a75e06a20e" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 14,
+      "broken" : 15,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "5b569be0e59a8349",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1720381747670,
+        "stop" : 1720381831140,
+        "duration" : 83470
+      }
+    }, {
       "uid" : "8be9c6bddf3f1d1",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (/Users/lmovsisyan/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:355:13)\n    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)\n    at AndroidUiautomator2Driver.fillDeviceDetails (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:256:28)\n    at AndroidUiautomator2Driver.createSession (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:242:7)\n    at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:717:35)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
@@ -1303,13 +1330,22 @@
   "e9ea1acc5a05ef13141367b5be0fa5" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 6,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "c6b7ca8474441339",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1720381914208,
+        "stop" : 1720381997290,
+        "duration" : 83082
+      }
+    }, {
       "uid" : "db49fec47b34e602",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
@@ -1800,13 +1836,22 @@
   "f7831b04c8295468701941be18dcd5d5" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "98c9918be32bc6fa",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1720381663938,
+        "stop" : 1720381747518,
+        "duration" : 83580
+      }
+    }, {
       "uid" : "c80c7730143d18cc",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /appium/device/pixel_ratio' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (/Users/lmovsisyan/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:355:13)\n    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)\n    at AndroidUiautomator2Driver.fillDeviceDetails (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:256:28)\n    at AndroidUiautomator2Driver.createSession (/Users/lmovsisyan/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:242:7)\n    at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:717:35)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
@@ -2070,13 +2115,22 @@
   "1068dfde36f458b4b76be55e159487e0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 14,
+      "broken" : 15,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "bf88e30a6409e015",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1720382081020,
+        "stop" : 1720382164142,
+        "duration" : 83122
+      }
+    }, {
       "uid" : "2c3b51247748411c",
       "status" : "broken",
       "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/lmovsisyan/qa_emp_au..., appPackage: ru.sogaz.app.stage, appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, databaseEnabled: false, desired: {app: /Users/lmovsisyan/qa_emp_au..., appWaitActivity: ru.sogaz.app.ui.main.MainAc..., autoAcceptAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, avdArgs: -no-window, deviceName: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, platformName: android, uiautomator2ServerLaunchTimeout: 300000}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 8ALX0UWHU, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 8ALX0UWHU, fullReset: false, gpsEnabled: true, isHeadless: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 77, takesScreenshot: true, uiautomator2ServerLaunchTimeout: 300000, viewportRect: {height: 1951, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 778b22e4-3502-478e-82bb-18dd00b1c9b9\n*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=\"ru.sogaz.app.stage:id/button_text\" and @text=\"Войти\"]}",
@@ -2627,13 +2681,22 @@
   "196479d062f0019fa7abf131175caed" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "f24d585bb992c388",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[contains(@text, 'Придумайте ПИН-код')] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1720381831184,
+        "stop" : 1720381913990,
+        "duration" : 82806
+      }
+    }, {
       "uid" : "222fbc90ccda7124",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'ru.sogaz.app.stage' application. Consider checking the driver's troubleshooting documentation. Original error: 'ru.sogaz.app.ui.main.MainActivity' or 'ru.sogaz.app.stage.ru.sogaz.app.ui.main.MainActivity' never started. Consider checking the driver's troubleshooting documentation.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1118:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:491:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-mini-1.local', ip: 'fe80:0:0:0:1c0a:fa39:bdd5:6468%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '21'\nDriver info: driver.version: AndroidDriver",
