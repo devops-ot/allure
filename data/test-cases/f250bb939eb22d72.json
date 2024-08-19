@@ -1,0 +1,255 @@
+{
+  "uid" : "f250bb939eb22d72",
+  "name" : "questionnaireDoesNotOpenForChildPatientOnline()",
+  "fullName" : "MobileTesting.tests.QuestionnaireTest.questionnaireDoesNotOpenForChildPatientOnline",
+  "historyId" : "560ede97c4c2afdae332f33b4e3d1494",
+  "time" : {
+    "start" : 1724061894216,
+    "stop" : 1724061894218,
+    "duration" : 2
+  },
+  "description" : "Questionnaire doesn't open for child patient during registration to online-consultation",
+  "descriptionHtml" : "<p>Questionnaire doesn't open for child patient during registration to online-consultation</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Connection refused\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
+  "statusTrace" : "org.openqa.selenium.WebDriverException: Connection refused\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\n\tat io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:262)\n\tat java.base/java.util.Optional.orElseGet(Optional.java:364)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:261)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)\n\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)\n\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)\n\tat io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:90)\n\tat MobileTesting.robots.Setup.setDriver(Setup.java:78)\n\tat MobileTesting.robots.Setup.setUp(Setup.java:47)\n\tat jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:128)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:78)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\tat org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:520)\n\tat org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$23(ClassBasedTestDescriptor.java:505)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$3(TestMethodTestDescriptor.java:174)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$6(TestMethodTestDescriptor.java:202)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:202)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:171)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:134)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:165)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\tSuppressed: java.lang.NullPointerException: Cannot invoke \"MobileTesting.robots.RobotHelper.screenshot(String)\" because \"MobileTesting.robots.BaseRobot.robot\" is null\n\t\tat MobileTesting.robots.Setup.tearDown(Setup.java:63)\n\t\tat jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)\n\t\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\t\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\t\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)\n\t\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\t\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\t\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)\n\t\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:128)\n\t\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptAfterEachMethod(TimeoutExtension.java:110)\n\t\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)\n\t\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)\n\t\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\t\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\t\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\t\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\t\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)\n\t\tat org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)\n\t\tat org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:520)\n\t\tat org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeAfterEachMethodAdapter$24(ClassBasedTestDescriptor.java:510)\n\t\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachMethods$10(TestMethodTestDescriptor.java:243)\n\t\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:276)\n\t\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\t\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:276)\n\t\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\t\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:275)\n\t\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachMethods(TestMethodTestDescriptor.java:241)\n\t\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:142)\n\t\t... 43 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.base/sun.nio.ch.Net.pollConnect(Native Method)\n\tat java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)\n\tat java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)\n\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n\tat java.base/java.net.Socket.connect(Socket.java:633)\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:130)\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:263)\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:183)\n\tat okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224)\n\tat okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108)\n\tat okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88)\n\tat okhttp3.internal.connection.Transmitter.newExchange(Transmitter.java:169)\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)\n\tat okhttp3.RealCall.execute(RealCall.java:81)\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)\n\tat jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\t... 81 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "53120@mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "questionnaireDoesNotOpenForChildPatientOnline"
+  }, {
+    "name" : "suite",
+    "value" : "MobileTesting.tests.QuestionnaireTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 27,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "6b7826cbf2a137c9",
+        "status" : "broken",
+        "statusDetails" : "Connection refused\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1724061558063,
+          "stop" : 1724061558065,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "ea8f4fa23aaace08",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The IPHONE_SIMULATOR_ROOT environment variable value cannot be retrieved\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The IPHONE_SIMULATOR_ROOT environment variable value cannot be retrieved\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723537601361,
+          "stop" : 1723537602675,
+          "duration" : 1314
+        }
+      }, {
+        "uid" : "b8a9278a53dc9fdf",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723536244205,
+          "stop" : 1723536244212,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "376dec7c51d7312d",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723536182094,
+          "stop" : 1723536182102,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "1fb903f57755ad19",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723536076075,
+          "stop" : 1723536076112,
+          "duration" : 37
+        }
+      }, {
+        "uid" : "fedbd3e2642566b9",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723536019970,
+          "stop" : 1723536019978,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "f98cb60c1caf46f6",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723535757878,
+          "stop" : 1723535757886,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "ac55aea41d72133a",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not determine iOS SDK version: Command 'xcrun --sdk iphonesimulator --show-sdk-version' exited with code 1: xcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: SDK \"iphonesimulator\" cannot be located\nxcrun: error: unable to lookup item 'SDKVersion' in SDK 'iphonesimulator'\n\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723535567186,
+          "stop" : 1723535567194,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "997c470832223fc9",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error running 'list': xcrun: error: unable to find utility \"simctl\", not a developer tool or in PATH\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error running 'list': xcrun: error: unable to find utility \"simctl\", not a developer tool or in PATH\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723534799384,
+          "stop" : 1723534799404,
+          "duration" : 20
+        }
+      }, {
+        "uid" : "d4848cf3e5968ef2",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Simulator architecture is not supported by the ru.overteam.SogazEMPDemo application. Make sure the correct deployment target has been selected for its compilation in Xcode.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Simulator architecture is not supported by the ru.overteam.SogazEMPDemo application. Make sure the correct deployment target has been selected for its compilation in Xcode.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723534575500,
+          "stop" : 1723534576092,
+          "duration" : 592
+        }
+      }, {
+        "uid" : "d7919395edbb331a",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Simulator architecture is not supported by the ru.overteam.SogazEMPDemo application. Make sure the correct deployment target has been selected for its compilation in Xcode.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Simulator architecture is not supported by the ru.overteam.SogazEMPDemo application. Make sure the correct deployment target has been selected for its compilation in Xcode.\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723461717225,
+          "stop" : 1723461717711,
+          "duration" : 486
+        }
+      }, {
+        "uid" : "ac461c9ac6add58c",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723461431346,
+          "stop" : 1723461431425,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "b56c4e33a3779824",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723460398905,
+          "stop" : 1723460398983,
+          "duration" : 78
+        }
+      }, {
+        "uid" : "51aeb4ffb75deede",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723459729328,
+          "stop" : 1723459729408,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "8d6f11cf82c0558c",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723458159556,
+          "stop" : 1723458159634,
+          "duration" : 78
+        }
+      }, {
+        "uid" : "62d526ffeb748277",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723457986477,
+          "stop" : 1723457986561,
+          "duration" : 84
+        }
+      }, {
+        "uid" : "660588a8b6bb2778",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723457676415,
+          "stop" : 1723457676494,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "369e2acc0b406408",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723457377522,
+          "stop" : 1723457377601,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "ce6194664ee1c4b9",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723457135594,
+          "stop" : 1723457135674,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "4d83752e0e53015e",
+        "status" : "broken",
+        "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/lmovsisyan/qa_emp_autotests_bins/app-stage.app' does not exist or is not accessible\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:60:d1cd:93d1:cb26%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '22.0.2'\nDriver info: driver.version: IOSDriver",
+        "time" : {
+          "start" : 1723457099971,
+          "stop" : 1723457100050,
+          "duration" : 79
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f250bb939eb22d72.json",
+  "parameterValues" : [ ]
+}
