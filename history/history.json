@@ -2,13 +2,22 @@
   "b9c2a3d2f8f0960d733fe9e0e6ba0092" : {
     "statistic" : {
       "failed" : 4,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "362a1cbf1790b94c",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1724447685193,
+        "stop" : 1724447887743,
+        "duration" : 202550
+      }
+    }, {
       "uid" : "a18b17b8eafb44da",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -120,14 +129,23 @@
   },
   "60ad711f96ae91af8fa840af672238e2" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "577a66a0d2a5e774",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Онлайн-диагностика\"]",
+      "time" : {
+        "start" : 1724450778232,
+        "stop" : 1724450866588,
+        "duration" : 88356
+      }
+    }, {
       "uid" : "e81c4d446995d3a6",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -241,12 +259,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e31ef9e6865b3373",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() is @Disabled",
+      "time" : {
+        "start" : 1724435944860,
+        "stop" : 1724435944860,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5921007aba7fdebd",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.ElregTest.cancelReg() is @Disabled",
@@ -358,14 +385,23 @@
   },
   "877d2ccb612b12db0f1a13f2fbef2991" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "dd7c89b01ed07556",
+      "status" : "failed",
+      "statusDetails" : "Element is visible: By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+      "time" : {
+        "start" : 1724445606572,
+        "stop" : 1724445821318,
+        "duration" : 214746
+      }
+    }, {
       "uid" : "eb8df7c5cf304741",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -479,12 +515,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 5,
-      "skipped" : 7,
+      "skipped" : 8,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "9b56793c8f40ed9",
+      "status" : "skipped",
+      "statusDetails" : "@DisabledIf(\"isIOS\") evaluated to true",
+      "time" : {
+        "start" : 1724431525930,
+        "stop" : 1724431525930,
+        "duration" : 0
+      }
+    }, {
       "uid" : "43d49e4bf628a0df",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -752,13 +797,22 @@
   "f24ac06a2b25b7ce2178878d0b1a9ac4" : {
     "statistic" : {
       "failed" : 4,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "a46533b7ac71ce1c",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"java.util.Map.get(Object)\" because \"element\" is null",
+      "time" : {
+        "start" : 1724447421725,
+        "stop" : 1724447530656,
+        "duration" : 108931
+      }
+    }, {
       "uid" : "2f85983b0f03877e",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1015,12 +1069,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "b97fda90bd262ed",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() is @Disabled",
+      "time" : {
+        "start" : 1724436046794,
+        "stop" : 1724436046794,
+        "duration" : 0
+      }
+    }, {
       "uid" : "de55448ab12343cb",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup28() is @Disabled",
@@ -1135,11 +1198,19 @@
       "failed" : 4,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "345548d28db30e79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724430045651,
+        "stop" : 1724430251817,
+        "duration" : 206166
+      }
+    }, {
       "uid" : "4ea93d2314bd6bfb",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1252,13 +1323,22 @@
   "f806401a4fe5145ec0e282970490ec1" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e64cb20481c88cf7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724448588199,
+        "stop" : 1724448723598,
+        "duration" : 135399
+      }
+    }, {
       "uid" : "d003261994e687c6",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1373,11 +1453,19 @@
       "failed" : 1,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "c0c18ea3abf7df35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724446754237,
+        "stop" : 1724446852630,
+        "duration" : 98393
+      }
+    }, {
       "uid" : "25df4b486ea6177d",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1477,13 +1565,22 @@
   "18ec24184790bbd2571b088796ff69b0" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ea5082385783fb6c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724449240603,
+        "stop" : 1724449400215,
+        "duration" : 159612
+      }
+    }, {
       "uid" : "67fd0a9e6b39073c",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1595,14 +1692,23 @@
   },
   "75d4b60cd5c57d88e7622405baf8befb" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "edf22846bbe61a3a",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.IosNsPredicate: type == \"XCUIElementTypeTextField\"",
+      "time" : {
+        "start" : 1724450866601,
+        "stop" : 1724450901776,
+        "duration" : 35175
+      }
+    }, {
       "uid" : "fa7d358bd0f9ca57",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1714,14 +1820,23 @@
   },
   "d7a09ac00e6080db4671a69b7f8f8d8b" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 8,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "5d80b6760bc22b97",
+      "status" : "failed",
+      "statusDetails" : "Element is visible: By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+      "time" : {
+        "start" : 1724445364896,
+        "stop" : 1724445606559,
+        "duration" : 241663
+      }
+    }, {
       "uid" : "77a49ce2dc299d9",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1832,13 +1947,22 @@
   "26bac62248ca4bd68ebe8c33827f49f7" : {
     "statistic" : {
       "failed" : 4,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f4e3c7b8a4883ae8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x=-1 and @y=112] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724447530664,
+        "stop" : 1724447685182,
+        "duration" : 154518
+      }
+    }, {
       "uid" : "ed218cd6da2f6fc2",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -1950,14 +2074,23 @@
   },
   "31fef632ec4ee88d6e90966532bf9b1b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 7,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "b6293f65c466ebca",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeButton[@name=\"Подтвердить\"]",
+      "time" : {
+        "start" : 1724447315157,
+        "stop" : 1724447360842,
+        "duration" : 45685
+      }
+    }, {
       "uid" : "9e0d4a8cab0f8b2d",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2065,14 +2198,23 @@
   },
   "3456ff090bb6eaaf81ffe6abf3d31071" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "127659ec68155c13",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeButton[@name=\"Не сейчас\"]",
+      "time" : {
+        "start" : 1724450013488,
+        "stop" : 1724450276690,
+        "duration" : 263202
+      }
+    }, {
       "uid" : "956c27f34ab695d",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2187,11 +2329,19 @@
       "failed" : 4,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "795758589605141b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724430442922,
+        "stop" : 1724430656437,
+        "duration" : 213515
+      }
+    }, {
       "uid" : "743f12d9178dd7a5",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2306,11 +2456,19 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "624d2846c8a50af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724450276702,
+        "stop" : 1724450465151,
+        "duration" : 188449
+      }
+    }, {
       "uid" : "34ac6bbf495ad2b0",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2417,13 +2575,22 @@
   "5e94fe62b62986319f169be63613673" : {
     "statistic" : {
       "failed" : 4,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "1556c8f4eb1636e0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x=-1 and @y=112] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724448090694,
+        "stop" : 1724448361597,
+        "duration" : 270903
+      }
+    }, {
       "uid" : "2d74bcf020004f77",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2536,13 +2703,22 @@
   "171f22ce60306c9f366a7b5a1d834ae4" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "58f45786a1e40eab",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: type == \"XCUIElementTypeTextField\" (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724444513958,
+        "stop" : 1724444598246,
+        "duration" : 84288
+      }
+    }, {
       "uid" : "538dbc94d468da9d",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2653,14 +2829,23 @@
   },
   "d839064510354c59ad3042a75e06a20e" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e76bc9bb8e9f7b29",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //*[contains(@name,'Мохов Денис Александрович')]",
+      "time" : {
+        "start" : 1724446952061,
+        "stop" : 1724447052723,
+        "duration" : 100662
+      }
+    }, {
       "uid" : "af4d65ecbd2b5fda",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2775,11 +2960,19 @@
       "failed" : 3,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "4c2ac371995ff8be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724447160087,
+        "stop" : 1724447315147,
+        "duration" : 155060
+      }
+    }, {
       "uid" : "19ba14cbe5aeb21",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -2891,11 +3084,19 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7a1246431e38e1f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724450696887,
+        "stop" : 1724450778220,
+        "duration" : 81333
+      }
+    }, {
       "uid" : "85468ee70e908d1e",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3003,12 +3204,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "24cdb00eaf3f05ff",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() is @Disabled",
+      "time" : {
+        "start" : 1724436046795,
+        "stop" : 1724436046795,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ca1bbb69b95a1fee",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup50() is @Disabled",
@@ -3121,13 +3331,22 @@
   "52cb1388c27fcb104d3bf655780ca1b1" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "17e85479b6b8c338",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.IosNsPredicate: type == \"XCUIElementTypeTextField\" (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724448506912,
+        "stop" : 1724448588191,
+        "duration" : 81279
+      }
+    }, {
       "uid" : "16751087217272a0",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3242,11 +3461,19 @@
       "failed" : 4,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c3583b399b31c375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724429604259,
+        "stop" : 1724429814477,
+        "duration" : 210218
+      }
+    }, {
       "uid" : "515096a83222a7ed",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3359,13 +3586,22 @@
   "fe81c9de9a3b137531503ead196a3e40" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f459bd12d4585120",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724449544958,
+        "stop" : 1724449692981,
+        "duration" : 148023
+      }
+    }, {
       "uid" : "1624264eb37f8066",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3479,12 +3715,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 5,
-      "skipped" : 7,
+      "skipped" : 8,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "656b6a4b9fadccb9",
+      "status" : "skipped",
+      "statusDetails" : "@DisabledIf(\"isIOS\") evaluated to true",
+      "time" : {
+        "start" : 1724431525929,
+        "stop" : 1724431525930,
+        "duration" : 1
+      }
+    }, {
       "uid" : "4935b82f093a20ef",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3597,13 +3842,22 @@
   "2ebd030ead2202f2de6f1bad7e5cfed6" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e2eb8126374f6344",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Здоровье\"]/following-sibling::XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724444598252,
+        "stop" : 1724444706023,
+        "duration" : 107771
+      }
+    }, {
       "uid" : "8d836015c0eb94ca",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3716,13 +3970,22 @@
   "560ede97c4c2afdae332f33b4e3d1494" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "59e30237c713003f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724445821326,
+        "stop" : 1724446033308,
+        "duration" : 211982
+      }
+    }, {
       "uid" : "7a48bc63ff623562",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3834,13 +4097,22 @@
   "3b75c42caae7b8bda70cb5b50052d65" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 12,
+      "broken" : 13,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "650b7f50861b7f76",
+      "status" : "broken",
+      "statusDetails" : "The driver executable does not exist: /Users/lmovsisyan/qa_emp_autotests_bins/chromedriver",
+      "time" : {
+        "start" : 1724444284818,
+        "stop" : 1724444305988,
+        "duration" : 21170
+      }
+    }, {
       "uid" : "d371cc76d6756ff9",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -3953,13 +4225,22 @@
   "2898282340b486d23243848ed9820086" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c2fec966193c79e1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724449874182,
+        "stop" : 1724450013473,
+        "duration" : 139291
+      }
+    }, {
       "uid" : "9c107d990283f5cd",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -4072,13 +4353,22 @@
   "ba6a924fce26128c6ee2510e73e8a21d" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "245db9770aa9e2b3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724444305994,
+        "stop" : 1724444513946,
+        "duration" : 207952
+      }
+    }, {
       "uid" : "20fe348e5e245f84",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -4190,13 +4480,22 @@
   "f7831b04c8295468701941be18dcd5d5" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "8a17ba76c8cd4f96",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Архив\"])[2] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724446852640,
+        "stop" : 1724446952053,
+        "duration" : 99413
+      }
+    }, {
       "uid" : "f81cc06a8a00f2b4",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -4308,14 +4607,23 @@
   },
   "1861d2113478472056474c95422ed11b" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 9,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e6c5bf463f7cfafe",
+      "status" : "failed",
+      "statusDetails" : "Element is visible: By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+      "time" : {
+        "start" : 1724444930830,
+        "stop" : 1724445149021,
+        "duration" : 218191
+      }
+    }, {
       "uid" : "152d05d76e52878f",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -4427,13 +4735,22 @@
   "66c70b389e0fbbe16e554a89f0fb1684" : {
     "statistic" : {
       "failed" : 4,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f8c3289ad37ca1e1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x=-1 and @y=112] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724447887750,
+        "stop" : 1724448090683,
+        "duration" : 202933
+      }
+    }, {
       "uid" : "45f729e043fd7a80",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -4547,12 +4864,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e4b022000c9c6e77",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() is @Disabled",
+      "time" : {
+        "start" : 1724436046797,
+        "stop" : 1724436046797,
+        "duration" : 0
+      }
+    }, {
       "uid" : "c9f187106b96a279",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup59() is @Disabled",
@@ -4665,13 +4991,22 @@
   "1068dfde36f458b4b76be55e159487e0" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "78c3680b34dc0af",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeStaticText[@name=\"Придумайте ПИН-код\"] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724447360854,
+        "stop" : 1724447421689,
+        "duration" : 60835
+      }
+    }, {
       "uid" : "1a5f121295a4d656",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -4781,13 +5116,22 @@
   "601799a9efc28408ce8bde27845aca08" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f36335e965922b8f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724448908629,
+        "stop" : 1724449095128,
+        "duration" : 186499
+      }
+    }, {
       "uid" : "5f52339af8a21715",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -4900,13 +5244,22 @@
   "4d7588b6ca974609f15c061aa465fe80" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d353ce6e8c3286fd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724446521170,
+        "stop" : 1724446754215,
+        "duration" : 233045
+      }
+    }, {
       "uid" : "1b84cca7ed8d9835",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5019,13 +5372,22 @@
   "784bb5000701054f526ae1e00939cbfd" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "2432e4e89faf68a6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724449692993,
+        "stop" : 1724449874169,
+        "duration" : 181176
+      }
+    }, {
       "uid" : "db811854e195724e",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5137,14 +5499,23 @@
   },
   "91a94f66aeb0558dc939814d48ff7247" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 9,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "4430fcb732478af7",
+      "status" : "failed",
+      "statusDetails" : "Element is visible: By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+      "time" : {
+        "start" : 1724445149037,
+        "stop" : 1724445364883,
+        "duration" : 215846
+      }
+    }, {
       "uid" : "248b08c673efa75f",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5258,11 +5629,19 @@
       "failed" : 4,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7a8eaba1189bc4a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724430656450,
+        "stop" : 1724430822664,
+        "duration" : 166214
+      }
+    }, {
       "uid" : "e07a6fa9d8ec8516",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5376,12 +5755,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "cb3db887cd95ae51",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() is @Disabled",
+      "time" : {
+        "start" : 1724436046793,
+        "stop" : 1724436046793,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b834b7b507d057bd",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup27() is @Disabled",
@@ -5494,13 +5882,22 @@
   "e5afd0724e8caa80e4cfe53484cc03c6" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "54e4329bdde38cf5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724448361621,
+        "stop" : 1724448506887,
+        "duration" : 145266
+      }
+    }, {
       "uid" : "e8d4d735a568834f",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5613,13 +6010,22 @@
   "e03e9d43e0d47c51e5c1200eee81632f" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "3ec578981673633",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724448723615,
+        "stop" : 1724448908619,
+        "duration" : 185004
+      }
+    }, {
       "uid" : "10e2f846065e4898",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5731,14 +6137,23 @@
   },
   "10c432b313dbf8f39c2d405907abdbdb" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 7,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "b9dddffacc6e6598",
+      "status" : "failed",
+      "statusDetails" : "Element is visible: By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+      "time" : {
+        "start" : 1724444706033,
+        "stop" : 1724444930811,
+        "duration" : 224778
+      }
+    }, {
       "uid" : "cf6a2e3e6b1885f0",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5849,14 +6264,23 @@
   },
   "1b75182e7b1e73cf5ae6d416e279d785" : {
     "statistic" : {
-      "failed" : 3,
+      "failed" : 4,
       "broken" : 8,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e5e829d27e273eef",
+      "status" : "failed",
+      "statusDetails" : "Element is visible: By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+      "time" : {
+        "start" : 1724446275013,
+        "stop" : 1724446521157,
+        "duration" : 246144
+      }
+    }, {
       "uid" : "c8b365a7b8e7d5cf",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -5967,14 +6391,23 @@
   },
   "4286382df6cd5e81a6cfd8becf94837c" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 7,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e1a7d4a5f0bcdb2e",
+      "status" : "failed",
+      "statusDetails" : "Element is visible: By.xpath: //XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeStaticText",
+      "time" : {
+        "start" : 1724446033324,
+        "stop" : 1724446274999,
+        "duration" : 241675
+      }
+    }, {
       "uid" : "a5cae252f760d523",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -6085,14 +6518,23 @@
   },
   "fc22756d4ffb455bde934fd0a795811d" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 5,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "9c7939cf46493408",
+      "status" : "failed",
+      "statusDetails" : "Element not found: By.xpath: //XCUIElementTypeStaticText[@name=\"Ваша медкарта\"]",
+      "time" : {
+        "start" : 1724450465162,
+        "stop" : 1724450696877,
+        "duration" : 231715
+      }
+    }, {
       "uid" : "8c99ef4f1910f75",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -6199,12 +6641,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "fd42fc49b1a5dc5f",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() is @Disabled",
+      "time" : {
+        "start" : 1724436046794,
+        "stop" : 1724436046794,
+        "duration" : 0
+      }
+    }, {
       "uid" : "a3160f79265063ab",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup40() is @Disabled",
@@ -6318,12 +6769,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "b17988c71bff890",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() is @Disabled",
+      "time" : {
+        "start" : 1724436046796,
+        "stop" : 1724436046796,
+        "duration" : 0
+      }
+    }, {
       "uid" : "592c93ed21277f31",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup51() is @Disabled",
@@ -6436,13 +6896,22 @@
   "196479d062f0019fa7abf131175caed" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "5eaec184aa24fc9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//XCUIElementTypeStaticText[@name=\"Архив\"])[2] (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724447052737,
+        "stop" : 1724447160074,
+        "duration" : 107337
+      }
+    }, {
       "uid" : "aed26ce8421c0298",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -6556,12 +7025,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f8a9cc8ad8818b7c",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.ElregTest.conclusion() is @Disabled",
+      "time" : {
+        "start" : 1724435768339,
+        "stop" : 1724435768339,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b78fac49fe970519",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.ElregTest.conclusion() is @Disabled",
@@ -6675,12 +7153,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 12,
+      "skipped" : 13,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "594fcddec642288",
+      "status" : "skipped",
+      "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() is @Disabled",
+      "time" : {
+        "start" : 1724436046795,
+        "stop" : 1724436046795,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f2e7a951f7cee7fc",
       "status" : "skipped",
       "statusDetails" : "public void MobileTesting.tests.CheckupTest.checkup41() is @Disabled",
@@ -6793,13 +7280,22 @@
   "6c013786e546045f008ddc8f54b14c10" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e97b681b21d048c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724449095141,
+        "stop" : 1724449240590,
+        "duration" : 145449
+      }
+    }, {
       "uid" : "abc5a7e7aff617a1",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -6912,13 +7408,22 @@
   "493f4f9d6566967d28d36f973e930190" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "bdf7b95d8d0ff353",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724449400221,
+        "stop" : 1724449544941,
+        "duration" : 144720
+      }
+    }, {
       "uid" : "2a6ae41a68519a33",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
@@ -7031,13 +7536,22 @@
   "68b47b537cfcf9d4ef3daef0137ef71f" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7787bc9943a1e345",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //XCUIElementTypeCell[@name=\"kAICellConsultFirsVisit\"] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1724444073564,
+        "stop" : 1724444284806,
+        "duration" : 211242
+      }
+    }, {
       "uid" : "fab9061f21467ca6",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'XCUITest' and platformName 'ios'. Have you installed a driver that supports those capabilities? Run 'appium driver list --installed' to see. (Lower-level error: Could not find installed driver to support given caps)\n    at getResponseForW3CError (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/errors.js:1145:9)\n    at asyncHandler (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:485:57)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'mini.local', ip: 'fe80:0:0:0:c77:e844:67b8:c96f%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '17.0.12'\nDriver info: driver.version: IOSDriver",
